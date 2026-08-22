@@ -1,0 +1,28 @@
+# Credentials
+API_keys.txt
+config.py
+.env
+
+# Generated files
+applications.json
+jobs_*.csv
+jobs_*.html
+
+# Python
+jobspy-env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup
+bck_*.py
