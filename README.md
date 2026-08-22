@@ -177,16 +177,24 @@ The server automatically redirects to the most recent dashboard file.
 
 ## 📁 Project Structure
 
+```text
+job-radar/
+├── job_radar.py           # Main scraping and scoring script
+├── dashboard_server.py    # Local web server for dashboard
+├── apply.py               # CLI to track submitted applications
+├── config.py              # Configuration (API keys, email) - NOT committed
+├── config.example.py      # Configuration template
+├── applications.json      # Persistent application tracking - NOT committed
+├── jobs_*.csv             # Generated CSV exports - NOT committed
+├── jobs_*.html            # Generated HTML dashboards - NOT committed
+├── docs/
+│   └── Dashboard.png      # Dashboard preview screenshot
+├── requirements.txt       # Python dependencies
+├── LICENSE                # MIT License
+├── .gitignore             # Excludes credentials and generated files
+└── README.md              # This file
+```
 
-job-market-intelligence/
-├── job_radar.py              # Main scraping and scoring script
-├── dashboard_server.py       # Local web server for dashboard
-├── applications.json         # Persistent application tracking
-├── config.py                 # Configuration (API keys, email)
-├── config.example.py         # Configuration template
-├── jobs_*.csv               # Generated CSV exports
-├── jobs_*.html              # Generated HTML dashboards
-└── README.md                # This file
 
 ## 🔐 Configuration
 
