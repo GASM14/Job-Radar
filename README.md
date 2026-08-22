@@ -2,7 +2,7 @@
 
 An automated job market monitoring and analysis system for cybersecurity/IAM opportunities in Portugal. This tool scrapes multiple job boards, enriches job descriptions, applies intelligent scoring, and delivers a weekly HTML dashboard with actionable insights.
 
-![Dashboard Preview](docs/dashboard-preview.png)
+![Dashboard Preview](docs/Dashboard.png)
 
 ## 🚀 Features
 
@@ -125,8 +125,8 @@ The scoring algorithm evaluates jobs based on:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/job-market-intelligence.git
-cd job-market-intelligence
+git clone https://github.com/GASM14/Job-Radar.git
+cd Job-Radar
 ```
 
 
