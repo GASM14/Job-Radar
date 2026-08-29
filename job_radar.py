@@ -12,17 +12,11 @@ import glob
 import time  # ⭐ ADICIONAR AQUI
 import hashlib # ⭐ ADICIONA NO TOPO DO FICHEIRO (junto aos outros imports)
 
-try:
-    import config
-except ImportError:
-    print("❌ config.py não encontrado! Copia config.example.py para config.py")
-    exit(1)
-
 # ========================================
 # APPLICATION TRACKING
 # ========================================
 
-APPLICATIONS_FILE = config.APPLICATIONS_FILE
+APPLICATIONS_FILE = 'applications.json'
 
 def load_applications():
     """Carrega lista de candidaturas já enviadas"""
@@ -50,6 +44,76 @@ def get_application_status(job_id):
         if app['job_id'] == job_id:
             return app.get('status', 'applied')
     return None
+
+# ========================================
+# SEEN JOBS TRACKING (DEDUPLICATION)
+# ========================================
+
+SEEN_JOBS_FILE = 'seen_jobs.json'
+SEEN_WINDOW_DAYS = 7  # Considerar "repetida" se vista nos últimos 7 dias
+MAX_SEEN_AGE_DAYS = 30  # Limpar entradas mais antigas que 30 dias
+
+def load_seen_jobs():
+    """Carrega histórico de vagas vistas"""
+    try:
+        with open(SEEN_JOBS_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('seen_jobs', [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_seen_jobs(seen_jobs):
+    """Guarda histórico de vagas vistas"""
+    with open(SEEN_JOBS_FILE, 'w', encoding='utf-8') as f:
+        json.dump({'seen_jobs': seen_jobs}, f, indent=2, ensure_ascii=False)
+
+def compute_job_hash(title, company):
+    """Hash único baseado em título + empresa (normalizado)"""
+    import re
+    # Normalizar: lowercase, strip, remover pontuação extra
+    title_norm = re.sub(r'[^a-z0-9\s]', '', str(title).lower().strip())
+    company_norm = re.sub(r'[^a-z0-9\s]', '', str(company).lower().strip())
+    raw = f"{title_norm}|{company_norm}"
+    return hashlib.md5(raw.encode('utf-8')).hexdigest()
+
+def is_recently_seen(job_hash, seen_jobs):
+    """Verifica se vaga foi vista nos últimos SEEN_WINDOW_DAYS"""
+    from datetime import timedelta
+    cutoff = datetime.now() - timedelta(days=SEEN_WINDOW_DAYS)
+    for entry in seen_jobs:
+        if entry['hash'] == job_hash:
+            last_seen = datetime.fromisoformat(entry['last_seen'])
+            if last_seen > cutoff:
+                return entry
+    return None
+
+def mark_job_seen(job_hash, title, company, seen_jobs):
+    """Marca vaga como vista (nova ou atualiza existente)"""
+    now = datetime.now().isoformat()
+    for entry in seen_jobs:
+        if entry['hash'] == job_hash:
+            entry['last_seen'] = now
+            entry['times_seen'] = entry.get('times_seen', 1) + 1
+            return seen_jobs
+    # Nova entrada
+    seen_jobs.append({
+        'hash': job_hash,
+        'title': title,
+        'company': company,
+        'first_seen': now,
+        'last_seen': now,
+        'times_seen': 1
+    })
+    return seen_jobs
+
+def cleanup_old_seen_jobs(seen_jobs):
+    """Remove entradas mais antigas que MAX_SEEN_AGE_DAYS"""
+    from datetime import timedelta
+    cutoff = datetime.now() - timedelta(days=MAX_SEEN_AGE_DAYS)
+    return [
+        entry for entry in seen_jobs
+        if datetime.fromisoformat(entry['first_seen']) > cutoff
+    ]
 
 # ========================================
 # ITJOBS.PT SCRAPER (VERSÃO CORRIGIDA)
@@ -470,7 +534,10 @@ def enrich_itjobs_descriptions(jobs_df, max_enrich=25, delay=1.5):
 # ========================================
 
 def send_email_notification(jobs_csv_path, html_dashboard_path, jobs_df):
-    resend.api_key = config.RESEND_API_KEY
+    resend.api_key = os.environ.get("RESEND_API_KEY")
+    if not resend.api_key:
+        print("⚠️  RESEND_API_KEY não definida!")
+        return
     
     top_jobs = jobs_df.head(15)
     html_table = top_jobs[["priority", "score", "title", "company", "ips_contact", "action"]].to_html(index=False)
@@ -515,7 +582,7 @@ def send_email_notification(jobs_csv_path, html_dashboard_path, jobs_df):
     try:
         resend.Emails.send({
             "from": "Job Radar <onboarding@resend.dev>",
-            "to": ["config.EMAIL_RECIPIENT"],
+            "to": ["gonsaloam@outlook.pt"],
             "subject": f"🎯 Job Radar - {len(jobs_df)} vagas - {datetime.now().strftime('%d/%m/%Y')}",
             "html": html_content,
             "attachments": [
@@ -531,25 +598,178 @@ def send_email_notification(jobs_csv_path, html_dashboard_path, jobs_df):
 # ========================================
 # SCORING SYSTEM
 # ========================================
-def calculate_job_score(job_row, applied_ids=None):
+    
+def calculate_all_penalties(title, description, your_cv_keywords=None, your_years=4.5):
+    """
+    Penalizações baseadas em análise de 22+ vagas reais.
+    Retorna penalização total (0-100).
+    """
+    title_lower = str(title).lower()
+    desc_lower = str(description).lower()
+    your_cv_keywords = your_cv_keywords or []
+    penalty = 0
+
+    # 1. SENIORIDADE (gap de anos)
+    year_patterns = re.findall(r'(\d+)\+?\s*(?:anos|years|anos de)', desc_lower)
+    if year_patterns:
+        try:
+            max_y = max(int(y) for y in year_patterns)
+            gap = max_y - your_years
+            if gap > 1:
+                penalty += min(gap * 10, 50)  # Até 50 pts
+        except ValueError:
+            pass
+
+    # 2. ROLES DE LIDERANÇA (Principal/Staff/Architect/Director)
+    leadership = ['principal', 'staff engineer', 'lead engineer',
+                  'architect', 'director', 'head of', 'ciso', 'vp ']
+    if any(kw in title_lower for kw in leadership):
+        penalty += 40
+
+    # 3. GRC / RISK / COMPLIANCE / AUDIT puro (carreira diferente)
+    grc_keywords = ['governance', 'risk management', 'risk analyst',
+                    'compliance officer', 'audit', 'iso 27001 lead',
+                    'iso 27005', 'pcidss', 'soc type 2', 'cobit', 'coso',
+                    'dpo', 'data protection officer']
+    grc_matches = sum(1 for kw in grc_keywords if kw in desc_lower)
+    if grc_matches >= 3:
+        penalty += 50  # GRC puro = forte rejeição
+    elif grc_matches >= 2:
+        penalty += 30
+
+    # 4. APPLICATION SECURITY / DEVSECOPS / PRODUCT SECURITY
+    appsec_titles = ['application security', 'appsec', 'devsecops',
+                     'product security', 'secure sdlc']
+    if any(kw in title_lower for kw in appsec_titles):
+        penalty += 40
+
+    # Ferramentas SAST/DAST obrigatórias (sem experiência)
+    sast_dast = ['sonarqube', 'checkmarx', 'fortify', 'veracode',
+                 'snyk', 'dependabot', 'owasp zap', 'burp suite', 'trivy']
+    if sum(1 for t in sast_dast if t in desc_lower) >= 2:
+        penalty += 25
+
+    # 5. NETWORK SECURITY enterprise (firewalls)
+    network_titles = ['network security engineer', 'firewall engineer']
+    if any(kw in title_lower for kw in network_titles):
+        penalty += 35
+
+    network_tools = ['fortinet', 'fortios', 'palo alto', 'check point',
+                     'ccnp security', 'ccie']
+    if any(kw in desc_lower for kw in network_tools):
+        penalty += 25
+
+    # 6. SOFTWARE ENGINEERING puro
+    pure_dev = ['software engineer', 'fullstack', 'full-stack',
+                'backend developer', 'frontend developer',
+                'c++ developer', 'java developer', '.net developer',
+                'mobile developer', 'typescript', 'react developer']
+    if any(kw in title_lower for kw in pure_dev):
+        penalty += 45
+
+    # 7. FERRAMENTAS CORE obrigatórias que NÃO tens
+    missing_core = {
+        'terraform': 20, 'ansible': 15, 'kubernetes': 20,
+        'sailpoint': 25, 'ibm iam': 30, 'ibm security verify': 30,
+        'intune': 15, 'autopilot': 15,
+    }
+    for tool, pts in missing_core.items():
+        if tool in desc_lower and tool not in your_cv_keywords:
+            # Só penaliza forte se for "mandatory/required/experiência"
+            if any(w in desc_lower for w in ['mandatory', 'required', 'must have',
+                                              'proven experience', 'experiência']):
+                penalty += pts
+
+    # 8. CERTIFICAÇÕES mandatórias que não tens
+    missing_certs = {
+        'ccnp': 30, 'ccie': 35, 'oscp': 30,
+        'az-500': 20, 'sc-200': 15,
+    }
+    for cert, pts in missing_certs.items():
+        if cert in desc_lower and cert not in your_cv_keywords:
+            if any(w in desc_lower for w in ['mandatory', 'required', 'must have']):
+                penalty += pts
+
+    # 9. DOMÍNIOS especializados sem experiência
+    if 'ai security' in title_lower or 'llm security' in title_lower:
+        if not any(kw in your_cv_keywords for kw in ['ai/ml', 'llm', 'machine learning']):
+            penalty += 30
+
+    # 10. Banking/Financial sector (gap de experiência)
+    banking = ['banking sector', 'financial institution', 'investment bank',
+               'banca', 'seguros', 'insurance company']
+    if any(kw in desc_lower for kw in banking):
+        penalty += 15  # Penalização moderada (não é eliminatório)
+
+    # 11. PROJECT MANAGER / CONSULTOR GRC (não engineering)
+    if any(kw in title_lower for kw in ['project manager', 'program manager',
+                                         'portfolio manager', 'scrum master']):
+        penalty += 35
+
+    # 12. SYSADMIN sem security context
+    text_to_search = f"{title_lower} {desc_lower}"
+    if 'sysadmin' in title_lower or 'system administrator' in title_lower:
+        if not any(kw in text_to_search for kw in ['security', 'cyber', 'iam', 'soc']):
+            penalty += 40
+
+    return min(penalty, 100)
+
+
+def whitelist_boost(title, description):
+    """Boost para vagas realmente alinhadas"""
+    title_lower = str(title).lower()
+    desc_lower = str(description).lower()
+    boost = 0
+
+    # Títulos core alinhados com o teu perfil
+    good_titles = {
+        'soc analyst': 20, 'security operations': 18,
+        'iam engineer': 22, 'iam specialist': 22, 'iam consultant': 18,
+        'cybersecurity engineer': 15, 'cybersecurity analyst': 15,
+        'junior cybersecurity': 18, 'security engineer': 15,
+        'incident response': 18, 'incident coordination': 18,
+        'm365 security': 18, 'it infrastructure': 15,
+        'information security technician': 15,
+        'security consultant': 10,  # Pode ser GRC, boost menor
+    }
+    for title_kw, pts in good_titles.items():
+        if title_kw in title_lower:
+            boost += pts
+            break
+
+    # Senioridade adequada (0-4 anos ou não especificada)
+    if not re.search(r'(\d+)\+?\s*(?:anos|years)', desc_lower, re.IGNORECASE):
+        boost += 8  # Sem requisito de anos = bom sinal
+
+    return min(boost, 40)
+
+
+def calculate_job_score(job_row, applied_ids=None, seen_jobs=None):
+    """Scoring v2 com penalizações + whitelist + dedup"""
     if applied_ids is None:
         applied_ids = set()
-    
-    score = 0
-    title = str(job_row.get('title', '')).lower()
-    description = str(job_row.get('description', '')).lower()
-    text_to_search = f"{title} {description}"
-    
-    # ⭐ PENALIZAÇÃO FORTE se já candidata
-    job_id = str(job_row.get('id', ''))
-    if job_id in applied_ids:
-        score -= 100  # Praticamente remove da lista
-    
-    description_weight = 1 if len(description) > 100 else 2
-    
-    # ... (resto do código de scoring mantém-se igual)
+    if seen_jobs is None:
+        seen_jobs = []
 
-    # IAM keywords - agora com peso condicional
+    score = 0
+    title = str(job_row.get('title', ''))
+    description = str(job_row.get('description', ''))
+    title_lower = title.lower()
+    desc_lower = description.lower()
+    text_to_search = f"{title_lower} {desc_lower}"
+    job_id = str(job_row.get('id', ''))
+
+    # ⭐ PENALIZAÇÃO FORTE se já candidata
+    if job_id in applied_ids:
+        return -100  # Remove da lista
+
+    # ⭐ PENALIZAÇÃO se vista recentemente (deduplicação)
+    job_hash = compute_job_hash(title, job_row.get('company', ''))
+    seen_entry = is_recently_seen(job_hash, seen_jobs)
+    if seen_entry:
+        score -= 30  # Penalização forte para repetidas
+
+    # ========== KEYWORD MATCHING (mantido do original, refinado) ==========
     iam_keywords = {
         'identity and access management': 25, 'iam': 20, 'saml': 15,
         'oidc': 15, 'oauth': 12, 'single sign-on': 20, 'sso': 15,
@@ -557,80 +777,109 @@ def calculate_job_score(job_row, applied_ids=None):
         'okta': 12, 'ping identity': 20, 'cyberark': 15,
         'privileged access': 18, 'pam': 12, 'identity governance': 18,
     }
-    
+
     secops_keywords = {
-        'incident response': 15, 'security operations': 12, 'soc': 10,
-        'siem': 12, 'sentinel': 15, 'splunk': 12, 'threat detection': 12,
-        'vulnerability management': 10, 'security engineer': 15,
-        'cybersecurity': 12, 'information security': 12,
+        'incident response': 18, 'security operations': 15, 'soc': 12,
+        'siem': 14, 'sentinel': 16, 'splunk': 14, 'threat detection': 14,
+        'vulnerability management': 12, 'security engineer': 16,
+        'cybersecurity': 14, 'information security': 12,
+        'threat hunting': 14, 'detection engineering': 16,
     }
-    
+
     automation_keywords = {
         'python': 10, 'powershell': 10, 'bash': 10, 'automation': 8,
         'rest api': 8, 'scripting': 8,
     }
-    
+
     all_keywords = {**iam_keywords, **secops_keywords, **automation_keywords}
-    
-    # Se keyword está SÓ no título, dá peso dobrado
+
     for keyword, points in all_keywords.items():
-        if keyword in title:
-            score += points * 1.5  # Bónus de título
-        elif keyword in description:
+        if keyword in title_lower:
+            score += points * 1.5  # Bónus título
+        elif keyword in desc_lower:
             score += points
-    
+
     # Bónus por título conter "IAM" explicitamente
-    if 'iam' in title:
+    if 'iam' in title_lower:
         score += 15
-    
-    # Bónus estruturais
+
+    # ========== BÓNUS ESTRUTURAIS ==========
     if job_row.get('is_remote') == True or 'remote' in text_to_search or 'remoto' in text_to_search:
         score += 15
     if 'hybrid' in text_to_search or 'híbrido' in text_to_search:
         score += 8
-    
+
     location = str(job_row.get('location', '')).lower()
-    if 'portugal' in location or 'lisbon' in location or 'porto' in location:
+    if 'portugal' in location or 'lisbon' in location or 'porto' in location or 'lisboa' in location:
         score += 10
-    
-    # Penalizações
-    if any(x in text_to_search for x in ['7 years', '8 years', '10 years', 'director', 'vp ', 'head of']):
-        score -= 20
-    if any(x in title for x in ['junior', 'intern', 'trainee']):
-        score -= 15
-    
+    elif 'covilhã' in location or 'castelo branco' in location:  # Muito perto de ti
+        score += 20
+
+    # ========== PENALIZAÇÕES ANTIGAS (mantidas) ==========
     negative_keywords = ['aml', 'kyc', 'sap', 'mainframe', 'help desk', 'service desk']
     for keyword in negative_keywords:
         if keyword in text_to_search:
             score -= 30
-    
+
+    if any(x in title_lower for x in ['intern', 'trainee']):
+        score -= 15
+
+    # ========== ⭐ PENALIZAÇÕES NOVAS (v2) ==========
+    # Lista de keywords que TU tens no CV
+    your_cv_keywords = [
+        'ping identity', 'siteminder', 'saml', 'oidc', 'oauth', 'sso',
+        'azure', 'aws', 'iam', 'entra id', 'active directory',
+        'python', 'bash', 'powershell', 'rest api',
+        'linux', 'windows', 'docker', 'git',
+        'mysql', 'sql', 'splunk', 'siem',
+        'incident response', 'vulnerability', 'suricata', 'sigma',
+    ]
+
+    penalties = calculate_all_penalties(title, description, your_cv_keywords)
+    score -= penalties
+
+    # ========== ⭐ WHITELIST BOOST (v2) ==========
+    boost = whitelist_boost(title, description)
+    score += boost
+
     return max(0, min(100, score))
 
+
 def should_exclude_job(job_row):
+    """Hard excludes — vagas que NUNCA devem aparecer"""
     title = str(job_row.get('title', '')).lower()
     description = str(job_row.get('description', '')).lower()
     text = f"{title} {description}"
-    
+
     hard_excludes = [
         'aml', 'kyc', 'anti-money laundering', 'transaction monitoring',
         'sap security', 'mainframe', 'reverse engineer', 'malware analyst',
         'help desk', 'service desk', 'data center security', 'physical security',
+        'call center', 'telemarketing', 'data entry',
     ]
-    
+
     for exclude in hard_excludes:
         if exclude in text:
             return True
-    
+
+    # Excluir vagas claramente fora de Portugal (se location conhecida)
     location = str(job_row.get('location', '')).lower()
-    if location:
-        if not any(x in location for x in ['portugal', 'lisbon', 'lisboa', 'porto', 'remote', '']):
-            return True
-        if any(x in location for x in ['us', 'usa', 'united states', 'uk', 'united kingdom', 'germany', 'france', 'maine']):
-            return True
+    if location and location not in ['', 'portugal', 'remote']:
+        # Lista de localizações aceites
+        accepted = ['portugal', 'lisbon', 'lisboa', 'porto', 'coimbra',
+                    'braga', 'aveiro', 'setúbal', 'covilhã', 'castelo branco',
+                    'leiria', 'viseu', 'faro', 'remote', 'remoto']
+        if not any(x in location for x in accepted):
+            # Verifica se é país estrangeiro
+            foreign = ['us', 'usa', 'united states', 'uk', 'united kingdom',
+                       'germany', 'france', 'spain', 'netherlands', 'ireland',
+                       'canada', 'australia', 'india', 'singapore', 'dubai',
+                       'suíça', 'switzerland', 'bélgica', 'belgium']
+            if any(x in location for x in foreign):
+                return True
+
+    return False   
     
-    return False
-
-
 def check_ips_connection(company_name):
     ips_companies = {
         'adentis': 'Sérgio Antunes (Head of People)',
@@ -911,65 +1160,142 @@ if not landingjobs_df.empty:
 if all_dfs:
     combined = pd.concat(all_dfs, ignore_index=True)
     unique_jobs = combined.drop_duplicates(subset=['id'])
-    
+
     print(f"\n🧹 A filtrar e classificar {len(unique_jobs)} vagas...")
-    
+
     # ⭐ Carregar candidaturas previas
     applied_ids = set(app['job_id'] for app in load_applications())
     print(f"📋 {len(applied_ids)} candidaturas previas registadas")
-    
+
+    # ⭐ Carregar seen jobs (deduplicação)
+    seen_jobs = load_seen_jobs()
+    seen_jobs_before = len(seen_jobs)
+    print(f"🔄 {seen_jobs_before} vagas no histórico (últimos {MAX_SEEN_AGE_DAYS} dias)")
+
+    # Stats de deduplicação
+    stats = {
+        'new': 0,
+        'repeated': 0,
+        'applied': 0,
+        'excluded': 0,
+    }
+
     filtered_jobs = []
     for _, job in unique_jobs.iterrows():
-        if not should_exclude_job(job):
-            job_dict = job.to_dict()
-            job_dict['score'] = calculate_job_score(job, applied_ids)
-            job_dict['applied'] = '✅ JÁ CANDIDATA' if job.get('id') in applied_ids else ''
-            job_dict['ips_contact'] = check_ips_connection(job.get('company', ''))
-            job_dict['priority'] = get_priority_category(job_dict['score'], job_dict['ips_contact'])
-            job_dict['action'] = get_action_recommendation(job_dict['score'], job_dict['ips_contact'])
-            filtered_jobs.append(job_dict)
-    
+        if should_exclude_job(job):
+            stats['excluded'] += 1
+            continue
+
+        job_dict = job.to_dict()
+        job_id = job_dict.get('id', '')
+
+        # Verificar status
+        is_applied = job_id in applied_ids
+        job_hash = compute_job_hash(job_dict.get('title', ''), job_dict.get('company', ''))
+        seen_entry = is_recently_seen(job_hash, seen_jobs)
+
+        # Calcular score
+        job_dict['score'] = calculate_job_score(job, applied_ids, seen_jobs)
+
+        # Marcar status
+        if is_applied:
+            job_dict['applied'] = '✅ JÁ CANDIDATA'
+            stats['applied'] += 1
+        elif seen_entry:
+            job_dict['applied'] = f'🔄 VISTA {seen_entry["times_seen"]}x'
+            stats['repeated'] += 1
+        else:
+            job_dict['applied'] = '🆕 NOVA'
+            stats['new'] += 1
+
+        # Marcar como vista (atualizar seen_jobs)
+        seen_jobs = mark_job_seen(
+            job_hash,
+            job_dict.get('title', ''),
+            job_dict.get('company', ''),
+            seen_jobs
+        )
+
+        job_dict['ips_contact'] = check_ips_connection(job_dict.get('company', ''))
+        job_dict['priority'] = get_priority_category(job_dict['score'], job_dict['ips_contact'])
+        job_dict['action'] = get_action_recommendation(job_dict['score'], job_dict['ips_contact'])
+
+        # Debug: razões do score
+        reasons = []
+        if seen_entry:
+            reasons.append(f"repetida {seen_entry['times_seen']}x")
+        
+        # Recalcular penalties e boost para debug
+        your_cv_keywords = [
+            'ping identity', 'siteminder', 'saml', 'oidc', 'oauth', 'sso',
+            'azure', 'aws', 'iam', 'entra id', 'active directory',
+            'python', 'bash', 'powershell', 'rest api',
+            'linux', 'windows', 'docker', 'git',
+            'mysql', 'sql', 'splunk', 'siem',
+            'incident response', 'vulnerability', 'suricata', 'sigma',
+        ]
+        debug_title = job_dict.get('title', '')
+        debug_description = job_dict.get('description', '')
+        debug_penalties = calculate_all_penalties(debug_title, debug_description, your_cv_keywords)
+        debug_boost = whitelist_boost(debug_title, debug_description)
+        
+        if debug_penalties > 30:
+            reasons.append(f"penalty -{debug_penalties}")
+        if debug_boost > 15:
+            reasons.append(f"boost +{debug_boost}")
+        
+        job_dict['reason'] = '; '.join(reasons) if reasons else 'OK'
+
+        filtered_jobs.append(job_dict)
+
+    # ⭐ Guardar seen jobs atualizados + cleanup
+    seen_jobs = cleanup_old_seen_jobs(seen_jobs)
+    save_seen_jobs(seen_jobs)
+
     scored_jobs = pd.DataFrame(filtered_jobs)
     scored_jobs = scored_jobs.sort_values('score', ascending=False)
-    
-    columns_order = ['priority', 'score', 'applied', 'action','site', 'id', 'title', 'company',
-                 'location', 'date_posted', 'ips_contact', 'job_url']
+
+    columns_order = ['priority', 'score', 'applied', 'reason', 'action', 'site', 'id', 'title', 'company',
+                     'location', 'date_posted', 'ips_contact', 'job_url']
     existing_columns = [col for col in columns_order if col in scored_jobs.columns]
     scored_jobs_export = scored_jobs[existing_columns]
-    
+
     filename = f"jobs_{datetime.now().strftime('%Y%m%d_%H%M')}.csv"
     scored_jobs_export.to_csv(filename, index=False, sep=';', encoding='utf-8-sig')
-    
-    print(f"\n📊 Total: {len(scored_jobs)} vagas relevantes")
+
+    # ⭐ Stats finais melhorados
+    print(f"\n📊 Resumo:")
+    print(f"   🆕 Novas: {stats['new']} | 🔄 Repetidas: {stats['repeated']} | ✅ Já candidatas: {stats['applied']} | ❌ Excluídas: {stats['excluded']}")
+    print(f"   📈 Total relevante: {len(scored_jobs)} vagas")
     print(f"💾 CSV: {filename}")
-    
+
     print("\n🎨 A gerar dashboard HTML...")
     html_filename = generate_html_dashboard(scored_jobs, filename)
     print(f"🌐 Dashboard: {html_filename}")
-    
+
     print("\n🔝 Top 10 vagas:\n")
-    top_10 = scored_jobs.head(10)[['priority', 'score', 'title', 'company', 'ips_contact']]
+    top_10 = scored_jobs.head(10)[['priority', 'score', 'applied', 'title', 'company', 'ips_contact']]
     print(top_10.to_string(index=False))
-    
-    # Estatísticas
+
+    # ⭐ Calcular distribuição
     high = len(scored_jobs[scored_jobs['priority'] == '🟢 ALTA'])
     medium = len(scored_jobs[scored_jobs['priority'] == '🟡 MÉDIA'])
     low = len(scored_jobs[scored_jobs['priority'] == '🔴 BAIXA'])
-    
+
     print(f"\n📈 Distribuição:")
     print(f"   🟢 Alta: {high} | 🟡 Média: {medium} | 🔴 Baixa: {low}")
-    
+
     # Enviar email com CSV + HTML
     send_email_notification(filename, html_filename, scored_jobs)
 else:
     print("❌ Nenhuma vaga encontrada")
-
-# Adicionar ao fim do job_radar.py
-import os
-import glob
 
 # Manter só últimos 30 dias
 old_files = glob.glob('jobs_*.csv') + glob.glob('jobs_*.html')
 for f in old_files:
     if os.path.getmtime(f) < datetime.now().timestamp() - 30*24*3600:
         os.remove(f)
+
+
+
+

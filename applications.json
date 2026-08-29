@@ -1,0 +1,28 @@
+{
+  "applied_jobs": [
+    {
+      "job_id": "li-4377432384",
+      "title": "IAM Engineer (Python)",
+      "company": "Inetum",
+      "applied_date": "2026-08-22",
+      "status": "applied",
+      "notes": ""
+    },
+    {
+      "job_id": "li-4436526821",
+      "title": "Cybersecurity Specialist – Incident Response & Threat Detection",
+      "company": "DXC Technology",
+      "applied_date": "2026-08-22",
+      "status": "applied",
+      "notes": ""
+    },
+    {
+      "job_id": "li-4455464389",
+      "title": "IAM Specialist",
+      "company": "Nimber",
+      "applied_date": "2026-08-22",
+      "status": "applied",
+      "notes": ""
+    }
+  ]
+}

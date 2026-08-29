@@ -1,28 +1,34 @@
-# Credentials
-API_keys.txt
-config.py
-.env
+# Estado local (muda a cada execução)
+seen_jobs.json
+*.log
+*.pyc
+__pycache__/
 
-# Generated files
-applications.json
+# Backups
+*.bck_*
+bck_*
+
+# Outputs gerados (não versionar)
 jobs_*.csv
 jobs_*.html
 
-# Python
+# Virtual environment
 jobspy-env/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+.venv/
+venv/
+
+# Secrets (NUNCA versionar)
+config.py
+.env
+API_keys.txt
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
-*~
-.DS_Store
-
-# Backup
-bck_*.py
