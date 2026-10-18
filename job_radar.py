@@ -11,6 +11,8 @@ import os
 import glob
 import time  # ⭐ ADICIONAR AQUI
 import hashlib # ⭐ ADICIONA NO TOPO DO FICHEIRO (junto aos outros imports)
+import config
+active_profile = config.PROFILES[config.ACTIVE_PROFILE]
 
 # ========================================
 # APPLICATION TRACKING
@@ -582,8 +584,8 @@ def send_email_notification(jobs_csv_path, html_dashboard_path, jobs_df):
     try:
         resend.Emails.send({
             "from": "Job Radar <onboarding@resend.dev>",
-            "to": ["gonsaloam@outlook.pt"],
-            "subject": f"🎯 Job Radar - {len(jobs_df)} vagas - {datetime.now().strftime('%d/%m/%Y')}",
+			"to": [active_profile.get("email_recipient", config.EMAIL_RECIPIENT)],
+			"subject": f"🎯 Job Radar: {active_profile['name']} - {len(jobs_df)} vagas - {datetime.now().strftime('%d/%m/%Y')}",
             "html": html_content,
             "attachments": [
                 {"content": csv_base64, "filename": csv_filename},
@@ -743,9 +745,8 @@ def whitelist_boost(title, description):
 
     return min(boost, 40)
 
-
 def calculate_job_score(job_row, applied_ids=None, seen_jobs=None):
-    """Scoring v2 com penalizações + whitelist + dedup"""
+    """Scoring v3 - profile-aware scoring system"""
     if applied_ids is None:
         applied_ids = set()
     if seen_jobs is None:
@@ -754,95 +755,75 @@ def calculate_job_score(job_row, applied_ids=None, seen_jobs=None):
     score = 0
     title = str(job_row.get('title', ''))
     description = str(job_row.get('description', ''))
+    company = str(job_row.get('company', ''))
+    location = str(job_row.get('location', ''))
     title_lower = title.lower()
     desc_lower = description.lower()
+    company_lower = company.lower()
+    location_lower = location.lower()
     text_to_search = f"{title_lower} {desc_lower}"
     job_id = str(job_row.get('id', ''))
 
     # ⭐ PENALIZAÇÃO FORTE se já candidata
     if job_id in applied_ids:
-        return -100  # Remove da lista
+        return -100
 
     # ⭐ PENALIZAÇÃO se vista recentemente (deduplicação)
     job_hash = compute_job_hash(title, job_row.get('company', ''))
     seen_entry = is_recently_seen(job_hash, seen_jobs)
     if seen_entry:
-        score -= 30  # Penalização forte para repetidas
+        score -= 30
 
-    # ========== KEYWORD MATCHING (mantido do original, refinado) ==========
-    iam_keywords = {
-        'identity and access management': 25, 'iam': 20, 'saml': 15,
-        'oidc': 15, 'oauth': 12, 'single sign-on': 20, 'sso': 15,
-        'active directory': 12, 'azure ad': 15, 'entra id': 15,
-        'okta': 12, 'ping identity': 20, 'cyberark': 15,
-        'privileged access': 18, 'pam': 12, 'identity governance': 18,
-    }
+    # ========== PROFILE-AWARE SCORING ==========
+    scoring = active_profile.get("scoring", {})
+    positive_keywords = scoring.get("positive_keywords", {})
+    negative_keywords = scoring.get("negative_keywords", {})
+    structural_bonuses = active_profile.get("structural_bonuses", {})
 
-    secops_keywords = {
-        'incident response': 18, 'security operations': 15, 'soc': 12,
-        'siem': 14, 'sentinel': 16, 'splunk': 14, 'threat detection': 14,
-        'vulnerability management': 12, 'security engineer': 16,
-        'cybersecurity': 14, 'information security': 12,
-        'threat hunting': 14, 'detection engineering': 16,
-    }
+    # Positive keywords
+    matched_keywords = []
+    for keyword, points in positive_keywords.items():
+        kw_lower = keyword.lower()
+        in_title = kw_lower in title_lower
+        in_description = kw_lower in desc_lower
+        
+        if in_title or in_description:
+            effective_points = points
+            if in_title:
+                effective_points = int(points * structural_bonuses.get("keyword_in_title", 1.5))
+            score += effective_points
+            matched_keywords.append(f"{keyword} (+{effective_points})")
 
-    automation_keywords = {
-        'python': 10, 'powershell': 10, 'bash': 10, 'automation': 8,
-        'rest api': 8, 'scripting': 8,
-    }
+    # Negative keywords
+    for keyword, points in negative_keywords.items():
+        kw_lower = keyword.lower()
+        if kw_lower in title_lower or kw_lower in desc_lower:
+            score += points  # points are already negative
+            matched_keywords.append(f"{keyword} ({points})")
 
-    all_keywords = {**iam_keywords, **secops_keywords, **automation_keywords}
+    # ========== STRUCTURAL BONUSES ==========
+    if 'remote' in location_lower or 'remoto' in location_lower:
+        score += structural_bonuses.get("remote", 0)
+    
+    if 'hybrid' in location_lower or 'híbrido' in location_lower:
+        score += structural_bonuses.get("hybrid", 0)
+    
+    # Portugal location bonus
+    portugal_locations = ['portugal', 'lisbon', 'lisboa', 'porto', 'oeiras', 'cascais', 'amadora']
+    if any(loc in location_lower for loc in portugal_locations):
+        score += structural_bonuses.get("portugal", 0)
 
-    for keyword, points in all_keywords.items():
-        if keyword in title_lower:
-            score += points * 1.5  # Bónus título
-        elif keyword in desc_lower:
-            score += points
+    # Target company bonus
+    target_companies = active_profile.get("target_companies", [])
+    if target_companies:
+        if any(tc.lower() in company_lower for tc in target_companies):
+            score += structural_bonuses.get("target_company", 0)
+            matched_keywords.append(f"Target Company (+{structural_bonuses.get('target_company', 0)})")
 
-    # Bónus por título conter "IAM" explicitamente
-    if 'iam' in title_lower:
-        score += 15
+    # Clamp score
+    score = max(0, min(100, score))
 
-    # ========== BÓNUS ESTRUTURAIS ==========
-    if job_row.get('is_remote') == True or 'remote' in text_to_search or 'remoto' in text_to_search:
-        score += 15
-    if 'hybrid' in text_to_search or 'híbrido' in text_to_search:
-        score += 8
-
-    location = str(job_row.get('location', '')).lower()
-    if 'portugal' in location or 'lisbon' in location or 'porto' in location or 'lisboa' in location:
-        score += 10
-    elif 'covilhã' in location or 'castelo branco' in location:  # Muito perto de ti
-        score += 20
-
-    # ========== PENALIZAÇÕES ANTIGAS (mantidas) ==========
-    negative_keywords = ['aml', 'kyc', 'sap', 'mainframe', 'help desk', 'service desk']
-    for keyword in negative_keywords:
-        if keyword in text_to_search:
-            score -= 30
-
-    if any(x in title_lower for x in ['intern', 'trainee']):
-        score -= 15
-
-    # ========== ⭐ PENALIZAÇÕES NOVAS (v2) ==========
-    # Lista de keywords que TU tens no CV
-    your_cv_keywords = [
-        'ping identity', 'siteminder', 'saml', 'oidc', 'oauth', 'sso',
-        'azure', 'aws', 'iam', 'entra id', 'active directory',
-        'python', 'bash', 'powershell', 'rest api',
-        'linux', 'windows', 'docker', 'git',
-        'mysql', 'sql', 'splunk', 'siem',
-        'incident response', 'vulnerability', 'suricata', 'sigma',
-    ]
-
-    penalties = calculate_all_penalties(title, description, your_cv_keywords)
-    score -= penalties
-
-    # ========== ⭐ WHITELIST BOOST (v2) ==========
-    boost = whitelist_boost(title, description)
-    score += boost
-
-    return max(0, min(100, score))
+    return score
 
 
 def should_exclude_job(job_row):
@@ -857,6 +838,10 @@ def should_exclude_job(job_row):
         'help desk', 'service desk', 'data center security', 'physical security',
         'call center', 'telemarketing', 'data entry',
     ]
+
+    # ⭐ ADICIONAR: Hard excludes do perfil ativo (com lowercase para comparar)
+    profile_hard_excludes = active_profile.get("hard_excludes", [])
+    hard_excludes.extend([ex.lower() for ex in profile_hard_excludes])  # ← FIX: .lower()
 
     for exclude in hard_excludes:
         if exclude in text:
@@ -1096,16 +1081,14 @@ def generate_html_dashboard(jobs_df, filename):
 # MAIN SCRIPT
 # ========================================
 
-print("🔍 A procurar vagas...\n")
-
 # 1. JobSpy (LinkedIn + Indeed)
-jobspy_searches = [
-    {"term": "identity access management", "location": "Portugal"},
-    {"term": "IAM engineer", "location": "Portugal"},
-    {"term": "cybersecurity analyst", "location": "Lisbon"},
-    {"term": "security operations", "location": "Portugal"},
-    {"term": "SAML OIDC", "location": "Portugal"},
-]
+print("\n🔍 A procurar no JobSpy (LinkedIn + Indeed)...")
+jobspy_searches = []
+for term in active_profile["search_terms"][:5]:  # Limit to 5 terms
+    jobspy_searches.append({
+        "term": term, 
+        "location": active_profile["locations"][0] if active_profile["locations"] else "Portugal"
+    })
 
 jobspy_jobs = []
 for search in jobspy_searches:
@@ -1126,20 +1109,20 @@ for search in jobspy_searches:
 
 # 2. ITJobs.pt (Custom scraper)
 print("\n🔍 A procurar no ITJobs.pt...")
-itjobs_search_terms = ["IAM", "cybersecurity", "security", "identity"]
+itjobs_search_terms = active_profile["search_terms"][:4]  # Limit to 4 terms
 itjobs_df = scrape_itjobs_pt(itjobs_search_terms, max_results=30)
 
-# ⭐ NOVO: Enriquecer descrições antes de combinar
+# ⭐ Enriquecer descrições antes de combinar
 itjobs_df = enrich_itjobs_descriptions(itjobs_df, max_enrich=25)
 
-# ⭐ NOVO 3. Net-Empregos.com
+# 3. Net-Empregos.com
 print("\n🔍 A procurar no Net-Empregos...")
-netempregos_search_terms = ["IAM", "Cybersecurity", "Cibersegurança", "SOC", "Information Security"]
+netempregos_search_terms = active_profile["search_terms"][:5]  # Limit to 5 terms
 netempregos_df = scrape_net_empregos(netempregos_search_terms, max_results=30)
 
-# ⭐ NOVO 4. Landing.jobs
+# 4. Landing.jobs
 print("\n🔍 A procurar no Landing.jobs...")
-landingjobs_search_terms = ["IAM", "cybersecurity", "security", "identity"]
+landingjobs_search_terms = active_profile["search_terms"][:4]  # Limit to 4 terms
 landingjobs_df = scrape_landing_jobs(landingjobs_search_terms, max_results=30)
 
 # Combinar resultados

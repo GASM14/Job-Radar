@@ -1,0 +1,4828 @@
+{
+  "seen_jobs": [
+    {
+      "hash": "507adc93d88b1833d49c05a8027fb850",
+      "title": "Hybrid Iam Specialist For Finance Tech, Lisbon",
+      "company": "Dellent",
+      "first_seen": "2026-09-21T09:35:22.024420",
+      "last_seen": "2026-09-25T19:05:21.133235",
+      "times_seen": 2
+    },
+    {
+      "hash": "4daa853462048a58185ec99c0db3b234",
+      "title": "PAM Consultant",
+      "company": "IDW",
+      "first_seen": "2026-09-21T09:35:22.027417",
+      "last_seen": "2026-09-21T09:35:22.027417",
+      "times_seen": 1
+    },
+    {
+      "hash": "2111fb761d9a96cce71fee9784cf3ae3",
+      "title": "AI Platform Engineer, Enablement and Governance Operations",
+      "company": "Kraken",
+      "first_seen": "2026-09-21T09:35:22.028647",
+      "last_seen": "2026-09-21T09:35:22.028647",
+      "times_seen": 1
+    },
+    {
+      "hash": "9db0617b0e89a180101aa3c5947b6868",
+      "title": "Identity Governance and Administration (IGA) Engineer (F/M/X)",
+      "company": "Solvay",
+      "first_seen": "2026-09-21T09:35:22.029292",
+      "last_seen": "2026-09-21T09:35:22.029292",
+      "times_seen": 1
+    },
+    {
+      "hash": "f8a44b5f5915dc509a3151ceb3cfeb7a",
+      "title": "Oracle IAM Consultant",
+      "company": "Alpineo Consulting",
+      "first_seen": "2026-09-21T09:35:22.029865",
+      "last_seen": "2026-09-21T09:35:22.029865",
+      "times_seen": 1
+    },
+    {
+      "hash": "589d3af640cecb2dae97f803fe1822b4",
+      "title": "Senior SailPoint Engineer",
+      "company": "Alpineo Consulting",
+      "first_seen": "2026-09-21T09:35:22.030347",
+      "last_seen": "2026-09-21T09:35:22.030347",
+      "times_seen": 1
+    },
+    {
+      "hash": "b681d513b847ce18b42034923818c5b9",
+      "title": "IAM Project Manager",
+      "company": "Decskill",
+      "first_seen": "2026-09-21T09:35:22.030972",
+      "last_seen": "2026-09-21T09:35:22.031447",
+      "times_seen": 2
+    },
+    {
+      "hash": "963778cf0410d0c48231cbc21647619b",
+      "title": "Senior IAM Engineer",
+      "company": "Inetum",
+      "first_seen": "2026-09-21T09:35:22.031991",
+      "last_seen": "2026-09-21T09:35:22.031991",
+      "times_seen": 1
+    },
+    {
+      "hash": "1845b0a0d2d53e9397c2761e20c4e386",
+      "title": "Identity Security Engineer",
+      "company": "Claranet Portugal",
+      "first_seen": "2026-09-21T09:35:22.032436",
+      "last_seen": "2026-09-21T09:35:22.032436",
+      "times_seen": 1
+    },
+    {
+      "hash": "8f15c95e9dc2f0941fc566c5b1ca1383",
+      "title": "IT - IAM Specialist",
+      "company": "CGD",
+      "first_seen": "2026-09-21T09:35:22.033663",
+      "last_seen": "2026-09-21T09:35:22.033663",
+      "times_seen": 1
+    },
+    {
+      "hash": "9e2dd6fc55a5d04e5ef33672a7025368",
+      "title": "40 - Senior System Engineer",
+      "company": "PPM Coachers",
+      "first_seen": "2026-09-21T09:35:22.034578",
+      "last_seen": "2026-09-21T09:35:22.034578",
+      "times_seen": 1
+    },
+    {
+      "hash": "b7040d69856195c8417c5790c0674fd3",
+      "title": "Systems Engineer, MCP Portals",
+      "company": "Cloudflare",
+      "first_seen": "2026-09-21T09:35:22.035442",
+      "last_seen": "2026-09-21T09:35:22.035442",
+      "times_seen": 1
+    },
+    {
+      "hash": "3530555f882db8a463432318f5bfe1bf",
+      "title": "Information Technology System Engineer - Cloud",
+      "company": "River Advice",
+      "first_seen": "2026-09-21T09:35:22.035929",
+      "last_seen": "2026-09-21T09:35:22.035929",
+      "times_seen": 1
+    },
+    {
+      "hash": "b3eb777228b7ee49bfce976a17024368",
+      "title": "Google Workspace Deployment Engineer - Hybrid - Lisbon",
+      "company": "BITIL",
+      "first_seen": "2026-09-21T09:35:22.036386",
+      "last_seen": "2026-09-21T09:35:22.036386",
+      "times_seen": 1
+    },
+    {
+      "hash": "cb7dd305a6c62067616e960447f7080a",
+      "title": "Google Workspace Deployment Engineer",
+      "company": "emagine",
+      "first_seen": "2026-09-21T09:35:22.036857",
+      "last_seen": "2026-09-21T09:35:22.036857",
+      "times_seen": 1
+    },
+    {
+      "hash": "d7869a9f24d9d4f020896f5f6ed30419",
+      "title": "Security Consultant",
+      "company": "83zero",
+      "first_seen": "2026-09-21T09:35:22.037351",
+      "last_seen": "2026-09-21T09:35:22.037351",
+      "times_seen": 1
+    },
+    {
+      "hash": "d9e2ecc7c632fab5fb18a664db86715a",
+      "title": "Network Security Engineer Multivendor – Perimeter & Policy Management",
+      "company": "IRIUM Portugal",
+      "first_seen": "2026-09-21T09:35:22.039317",
+      "last_seen": "2026-09-25T19:05:21.142583",
+      "times_seen": 2
+    },
+    {
+      "hash": "272be19a4d1acd68973b28e05417b6a9",
+      "title": "Network Security Engineer Multivendor – NAC, DNS, SASE & Zero Trust",
+      "company": "IRIUM Portugal",
+      "first_seen": "2026-09-21T09:35:22.039832",
+      "last_seen": "2026-09-25T19:05:21.143101",
+      "times_seen": 2
+    },
+    {
+      "hash": "921761fd883812e369018f76a26d68e9",
+      "title": "AI Security Engineer",
+      "company": "Amgen",
+      "first_seen": "2026-09-21T09:35:22.040325",
+      "last_seen": "2026-09-21T09:35:22.040325",
+      "times_seen": 1
+    },
+    {
+      "hash": "bdabb02cbcc957cb2a0bad7732bd079f",
+      "title": "Detection Engineer",
+      "company": "Vodafone",
+      "first_seen": "2026-09-21T09:35:22.041268",
+      "last_seen": "2026-09-25T19:05:21.140626",
+      "times_seen": 3
+    },
+    {
+      "hash": "b9b5997c56a78d90472a9b5dfcfff9d3",
+      "title": "Consultor(a) de IT Compliance & Governance",
+      "company": "BDO Portugal",
+      "first_seen": "2026-09-21T09:35:22.041715",
+      "last_seen": "2026-09-21T09:35:22.041715",
+      "times_seen": 1
+    },
+    {
+      "hash": "61570de7006fdc6b52fc53a98dacc102",
+      "title": "Senior Network Security Consultant | Telecom Engineering CoE",
+      "company": "Deloitte",
+      "first_seen": "2026-09-21T09:35:22.042725",
+      "last_seen": "2026-09-21T09:35:22.042725",
+      "times_seen": 1
+    },
+    {
+      "hash": "971845680d7bbb3308940815482a9ba5",
+      "title": "Cryptography Cybersecurity Expert",
+      "company": "Consort Group",
+      "first_seen": "2026-09-21T09:35:22.043624",
+      "last_seen": "2026-09-21T09:35:22.043624",
+      "times_seen": 1
+    },
+    {
+      "hash": "a9ba48a7dda7eec6653e1d6baa420b77",
+      "title": "Senior Software Engineer",
+      "company": "Inetum",
+      "first_seen": "2026-09-21T09:35:22.047700",
+      "last_seen": "2026-09-21T09:35:22.047700",
+      "times_seen": 1
+    },
+    {
+      "hash": "9d9bd505a9b7776673f7e53782daca90",
+      "title": "Security Operations Center Analyst",
+      "company": "ITDS",
+      "first_seen": "2026-09-21T09:35:22.048202",
+      "last_seen": "2026-10-03T13:29:51.493797",
+      "times_seen": 4
+    },
+    {
+      "hash": "ef1372cf03f8ec4123a0e24620027dcf",
+      "title": "Cloud Security Operations Analyst",
+      "company": "Accenture Portugal",
+      "first_seen": "2026-09-21T09:35:22.048650",
+      "last_seen": "2026-09-21T09:35:22.048650",
+      "times_seen": 1
+    },
+    {
+      "hash": "d9a433a748123d098c01bd8e268907c4",
+      "title": "Security Engineer (Elastic Stack)",
+      "company": "Neotalent Conclusion",
+      "first_seen": "2026-09-21T09:35:22.049160",
+      "last_seen": "2026-09-21T09:35:22.049160",
+      "times_seen": 1
+    },
+    {
+      "hash": "69c4d192a4f6399e869796c54da3fae5",
+      "title": "Regional Security Manager, EMEA",
+      "company": "Discord",
+      "first_seen": "2026-09-21T09:35:22.049851",
+      "last_seen": "2026-10-03T13:29:51.488465",
+      "times_seen": 2
+    },
+    {
+      "hash": "34a867d83b1384e37d96741306fbf110",
+      "title": "Operador/a Central de Alarmes",
+      "company": "Verisure",
+      "first_seen": "2026-09-21T09:35:22.050333",
+      "last_seen": "2026-09-21T09:35:22.050333",
+      "times_seen": 1
+    },
+    {
+      "hash": "a875ebb7f8db523f0a660db8c44b768b",
+      "title": "SOC Senior (M/F)",
+      "company": "Sysmatch",
+      "first_seen": "2026-09-21T09:35:22.050808",
+      "last_seen": "2026-09-21T09:35:22.050808",
+      "times_seen": 1
+    },
+    {
+      "hash": "c223d699ef7d8cd5b7d5a6c05e425464",
+      "title": "Cibersecurity Specialist (m/f/d)",
+      "company": "Nordex Group",
+      "first_seen": "2026-09-21T09:35:22.051756",
+      "last_seen": "2026-09-21T09:35:22.051756",
+      "times_seen": 1
+    },
+    {
+      "hash": "1952b2110f12f9c5460dde96a29e4969",
+      "title": "SOC Engineer / Detection Engineer",
+      "company": "Talkdesk",
+      "first_seen": "2026-09-21T09:35:22.052262",
+      "last_seen": "2026-10-03T13:29:51.486657",
+      "times_seen": 2
+    },
+    {
+      "hash": "dea1b089c64581981dde0ee4abbebf91",
+      "title": "Security Engineer",
+      "company": "JUMO",
+      "first_seen": "2026-09-21T09:35:22.053502",
+      "last_seen": "2026-09-21T09:35:22.053502",
+      "times_seen": 1
+    },
+    {
+      "hash": "55339a5e0d540c3cbe4f27c86e412ea8",
+      "title": "Cybersecurity Analyst",
+      "company": "Komodo Consulting",
+      "first_seen": "2026-09-21T09:35:22.053985",
+      "last_seen": "2026-09-21T09:35:22.053985",
+      "times_seen": 1
+    },
+    {
+      "hash": "6a8482ad2d67652f29c633619701f3a1",
+      "title": "CSIRT Analyst",
+      "company": "PrimeIT",
+      "first_seen": "2026-09-21T09:35:22.054503",
+      "last_seen": "2026-09-25T19:05:21.150073",
+      "times_seen": 2
+    },
+    {
+      "hash": "7c335f71dfd980f1d898efdb53871e06",
+      "title": "Graduate Programme 2027: Information Security Engineer (Operations)",
+      "company": "Revolut",
+      "first_seen": "2026-09-21T09:35:22.056017",
+      "last_seen": "2026-09-21T09:35:22.056017",
+      "times_seen": 1
+    },
+    {
+      "hash": "bb6113fd8d8d8460fde820fd2b05a502",
+      "title": "Assistant Director of Costaterra Community of Safety and Security",
+      "company": "CostaTerra Golf & Ocean Club",
+      "first_seen": "2026-09-21T09:35:22.056656",
+      "last_seen": "2026-09-21T09:35:22.056656",
+      "times_seen": 1
+    },
+    {
+      "hash": "ce0c1d2568ede52b7d3184db0c884130",
+      "title": "Settlement Processing Analyst",
+      "company": "BNP Paribas CIB",
+      "first_seen": "2026-09-21T09:35:22.058268",
+      "last_seen": "2026-09-21T09:35:22.058268",
+      "times_seen": 1
+    },
+    {
+      "hash": "5950dea8a6dcb702faff2c9dc1215428",
+      "title": "Settlement Processing Analyst",
+      "company": "BNP Paribas",
+      "first_seen": "2026-09-21T09:35:22.059308",
+      "last_seen": "2026-09-21T09:35:22.059308",
+      "times_seen": 1
+    },
+    {
+      "hash": "2f39d23997583bb58efa6b4079e24fc4",
+      "title": "Analyste de Sécurité Financière – M/F/X – Lisbonne ou Porto – CDI – Hybride - Spontanée",
+      "company": "BNP Paribas Cardif",
+      "first_seen": "2026-09-21T09:35:22.060526",
+      "last_seen": "2026-09-21T09:35:22.060526",
+      "times_seen": 1
+    },
+    {
+      "hash": "87451b6ee843876af10dfe4f51974d6e",
+      "title": "Training Officer",
+      "company": "Smart Consulting",
+      "first_seen": "2026-09-21T09:35:22.061288",
+      "last_seen": "2026-09-21T09:35:22.061288",
+      "times_seen": 1
+    },
+    {
+      "hash": "05f374f790e26979258136134b427f71",
+      "title": "Bonds Trade Support Analyst",
+      "company": "BNP Paribas",
+      "first_seen": "2026-09-21T09:35:22.062237",
+      "last_seen": "2026-09-21T09:35:22.062237",
+      "times_seen": 1
+    },
+    {
+      "hash": "fe538803b87b51befe356e47c7d3686b",
+      "title": "Financial Crime Investigations Expert (EU Bank) - Portugal",
+      "company": "Revolut",
+      "first_seen": "2026-09-21T09:35:22.062765",
+      "last_seen": "2026-09-21T09:35:22.062765",
+      "times_seen": 1
+    },
+    {
+      "hash": "1758a840bb2b04507cea46f724100754",
+      "title": "Salesforce Developer (Core, Marketing Cloud, Data Cloud, Mulesoft)",
+      "company": "Decision Portugal",
+      "first_seen": "2026-09-21T09:35:22.063306",
+      "last_seen": "2026-09-21T09:35:22.063306",
+      "times_seen": 1
+    },
+    {
+      "hash": "aaea3e03b20464881d261f29f1fbefcb",
+      "title": "Senior Platform Developer",
+      "company": "Aubay",
+      "first_seen": "2026-09-21T09:35:22.066084",
+      "last_seen": "2026-10-03T13:29:51.500634",
+      "times_seen": 3
+    },
+    {
+      "hash": "1b52bcc715e6a1a4690b2b117e08f4b5",
+      "title": "AI Security Architect",
+      "company": "ITSector - Sistemas de Informação, SA",
+      "first_seen": "2026-09-21T09:35:22.068572",
+      "last_seen": "2026-10-03T13:29:51.502461",
+      "times_seen": 3
+    },
+    {
+      "hash": "a3cd70c7154ec939ac2f1ad7e01f7e09",
+      "title": "Junior Java Backend Developer",
+      "company": "Dellent",
+      "first_seen": "2026-09-21T09:35:22.070323",
+      "last_seen": "2026-10-03T13:29:51.503721",
+      "times_seen": 3
+    },
+    {
+      "hash": "bee88964eed6047e9afa9939cc500250",
+      "title": "AI Senior Engineer",
+      "company": "ITSector - Sistemas de Informação, SA",
+      "first_seen": "2026-09-21T09:35:22.072322",
+      "last_seen": "2026-10-03T13:29:51.505135",
+      "times_seen": 3
+    },
+    {
+      "hash": "4e4be6f4010b796ee66296ee52795114",
+      "title": "Senior GCP & Python Data Engineer – Cloud Data Platform",
+      "company": "ITDS Portugal",
+      "first_seen": "2026-09-21T09:35:22.074368",
+      "last_seen": "2026-10-03T13:29:51.506640",
+      "times_seen": 3
+    },
+    {
+      "hash": "f78c508c006b461c5bfa86e631b1dbb4",
+      "title": "DevOps Engineer",
+      "company": "Dellent",
+      "first_seen": "2026-09-21T09:35:22.083769",
+      "last_seen": "2026-10-03T13:29:51.512310",
+      "times_seen": 3
+    },
+    {
+      "hash": "0d26e89e256ea6cb75d8736302a9e758",
+      "title": "Senior Cloud DevSecOps Engineer",
+      "company": "YellowIpe",
+      "first_seen": "2026-09-21T09:35:22.088969",
+      "last_seen": "2026-10-03T13:29:51.517668",
+      "times_seen": 3
+    },
+    {
+      "hash": "7e88718d5ae40b7c6020bacfda3993e1",
+      "title": "Mid-Level Network Security Engineer – Firewall, Load Balancer & Proxy Expertise",
+      "company": "ITDS Portugal",
+      "first_seen": "2026-09-21T09:35:22.103595",
+      "last_seen": "2026-10-03T13:29:51.531522",
+      "times_seen": 3
+    },
+    {
+      "hash": "b11f57af22e8135587a3210d09ce6e11",
+      "title": "Sales Director, IT Contracting & Body Shopping",
+      "company": "Madiff",
+      "first_seen": "2026-09-21T09:35:22.105259",
+      "last_seen": "2026-09-25T19:05:21.203568",
+      "times_seen": 2
+    },
+    {
+      "hash": "fb2c666c8c76b10ff859ac66f41fee43",
+      "title": "Information Security Consultant",
+      "company": "Neotalent Conclusion",
+      "first_seen": "2026-09-21T09:35:22.107084",
+      "last_seen": "2026-09-21T09:35:22.107084",
+      "times_seen": 1
+    },
+    {
+      "hash": "264075eca222e742cc859f2c35296df7",
+      "title": "Network Security Engineer",
+      "company": "KWAN",
+      "first_seen": "2026-09-21T09:35:22.107954",
+      "last_seen": "2026-10-03T13:29:51.532616",
+      "times_seen": 3
+    },
+    {
+      "hash": "400343bc96b77f8a77990ee590eca56b",
+      "title": "Senior Linux Infrastructure Engineer – Virtualization & Security",
+      "company": "ITDS Portugal",
+      "first_seen": "2026-09-21T09:35:22.108339",
+      "last_seen": "2026-10-03T13:29:51.533043",
+      "times_seen": 3
+    },
+    {
+      "hash": "71fe2e99cce8a2778019d9979b3bd948",
+      "title": "Junior Firewall/Network Security Engineer",
+      "company": "Dellent",
+      "first_seen": "2026-09-21T09:35:22.108666",
+      "last_seen": "2026-10-03T13:29:51.533390",
+      "times_seen": 4
+    },
+    {
+      "hash": "edb210e11470e3e66c43eb5dd00bdf9a",
+      "title": "Mid-Level Backup Security Monitoring Engineer",
+      "company": "Olisipo",
+      "first_seen": "2026-09-21T09:35:22.112022",
+      "last_seen": "2026-09-25T19:05:21.208678",
+      "times_seen": 2
+    },
+    {
+      "hash": "303d32f653821d63df676e6e35396b86",
+      "title": "Site Reliability Engineer",
+      "company": "Neotalent Conclusion",
+      "first_seen": "2026-09-21T09:35:22.115615",
+      "last_seen": "2026-10-03T13:29:51.538056",
+      "times_seen": 3
+    },
+    {
+      "hash": "670c96909609f84fedb4a9012a84113c",
+      "title": "M365 Engineer",
+      "company": "Neotalent Conclusion",
+      "first_seen": "2026-09-21T09:35:22.116147",
+      "last_seen": "2026-10-03T13:29:51.538375",
+      "times_seen": 3
+    },
+    {
+      "hash": "3758e3cf72eeaf81764fd5cde91b1941",
+      "title": "ServiceNow L3 Developer",
+      "company": "YellowIpe",
+      "first_seen": "2026-09-21T09:35:22.116685",
+      "last_seen": "2026-09-21T09:35:22.116685",
+      "times_seen": 1
+    },
+    {
+      "hash": "2b41e937c5a25c45ab27c9c4460cfd25",
+      "title": "DevSecOps Engineer",
+      "company": "agap2IT",
+      "first_seen": "2026-09-21T09:35:22.117222",
+      "last_seen": "2026-09-21T09:35:22.117222",
+      "times_seen": 1
+    },
+    {
+      "hash": "859387fb322a161457605d21d9bd4df4",
+      "title": "Assistente de Direção Comercial",
+      "company": "Workview",
+      "first_seen": "2026-09-21T09:35:22.117704",
+      "last_seen": "2026-09-25T19:05:21.219335",
+      "times_seen": 2
+    },
+    {
+      "hash": "a9a79eba301613612e9e84ed7594d30b",
+      "title": "Técnico de Controle de Pragas",
+      "company": "Centro Técnico de Desinfecções",
+      "first_seen": "2026-09-21T09:35:22.120177",
+      "last_seen": "2026-10-03T13:29:51.543073",
+      "times_seen": 3
+    },
+    {
+      "hash": "2db539a97630ed2bc2739b201680b0b7",
+      "title": "Consultor(a) Imobiliário(a) - Peniche",
+      "company": "ERA Imobiliária",
+      "first_seen": "2026-09-21T09:35:22.121422",
+      "last_seen": "2026-10-03T13:29:51.541488",
+      "times_seen": 2
+    },
+    {
+      "hash": "762a2a6cb4c29813d18c562d521c9111",
+      "title": "Candidatura vendedor/comercial B2B",
+      "company": "MARIAMENTA, LDA.",
+      "first_seen": "2026-09-21T09:35:22.122097",
+      "last_seen": "2026-09-21T09:35:22.122097",
+      "times_seen": 1
+    },
+    {
+      "hash": "52bf2f3f7d705d8c42b7ff9a9800cbd1",
+      "title": "Territory Manager (M/F)",
+      "company": "MAXIFAR, LDA",
+      "first_seen": "2026-09-21T09:35:22.122614",
+      "last_seen": "2026-09-21T09:35:22.122614",
+      "times_seen": 1
+    },
+    {
+      "hash": "d3f4d7d5a98f924cf79950d744f70675",
+      "title": "Assistente Executivo(a) e de Gestão Operacional",
+      "company": "Vitóriassertiva, Lda.",
+      "first_seen": "2026-09-21T09:35:22.122980",
+      "last_seen": "2026-09-25T19:05:21.221661",
+      "times_seen": 2
+    },
+    {
+      "hash": "e0435378dacf0bbf0217d25d2a5d8a32",
+      "title": "Procuramos Cozinheiro para Hotel em Almada",
+      "company": "Mercure Lisboa Almada",
+      "first_seen": "2026-09-21T09:35:22.123376",
+      "last_seen": "2026-09-21T09:35:22.123376",
+      "times_seen": 1
+    },
+    {
+      "hash": "966064870192e6349834e2b47d84b299",
+      "title": "Entregadores de encomendas / motoristas / estafetas empenhados (m/f/d) Alemanha",
+      "company": "Bihl Logistics UG",
+      "first_seen": "2026-09-21T09:35:22.123868",
+      "last_seen": "2026-10-03T13:29:51.542315",
+      "times_seen": 2
+    },
+    {
+      "hash": "6c32bab2645bd5eefe876b12d8cc8aa3",
+      "title": "Rececionista, Rent a Car. Carnaxide.",
+      "company": "Avis Budget Group",
+      "first_seen": "2026-09-21T09:35:22.124801",
+      "last_seen": "2026-09-21T09:35:22.124801",
+      "times_seen": 1
+    },
+    {
+      "hash": "53dee3b80b6a3e273cc6240732f6a4d2",
+      "title": "Rececionista, Rent a Car. Faro Aerporto. Full Time.",
+      "company": "Avis Budget Group",
+      "first_seen": "2026-09-21T09:35:22.125338",
+      "last_seen": "2026-09-21T09:35:22.125338",
+      "times_seen": 1
+    },
+    {
+      "hash": "21c352fb27ecb129af18a9e95a280066",
+      "title": "Enfermeiros Hospital Universitário Liège: Condições Atrativas; Diversos Serviços; Curso Francês",
+      "company": "AMPLIA",
+      "first_seen": "2026-09-21T09:35:22.126426",
+      "last_seen": "2026-09-21T09:35:22.126426",
+      "times_seen": 1
+    },
+    {
+      "hash": "248a1d95b610c39cc60092786909e450",
+      "title": "Lavador/preparador automóvel polivalente (M/F)",
+      "company": "APG",
+      "first_seen": "2026-09-21T09:35:22.127090",
+      "last_seen": "2026-09-21T09:35:22.127090",
+      "times_seen": 1
+    },
+    {
+      "hash": "d381b1f57686ae12e0faf8c311f50ca5",
+      "title": "Precisa-se de Lavador de Vidros",
+      "company": "Hiperclean II Outsourcing, Lda",
+      "first_seen": "2026-09-21T09:35:22.127990",
+      "last_seen": "2026-09-21T09:35:22.127990",
+      "times_seen": 1
+    },
+    {
+      "hash": "849f756374fd9d425037989def024d0f",
+      "title": "Operador Produção Industrial CNC",
+      "company": "M GUERRA - METAL SOLUTIONS, LDA",
+      "first_seen": "2026-09-21T09:35:22.128668",
+      "last_seen": "2026-09-21T09:35:22.128668",
+      "times_seen": 1
+    },
+    {
+      "hash": "e3691d819ef8a69716c7d276d9cf5ad3",
+      "title": "Cozinheiro",
+      "company": "Enigma Nature & Water Hotel****",
+      "first_seen": "2026-09-21T09:35:22.129309",
+      "last_seen": "2026-09-21T09:35:22.129309",
+      "times_seen": 1
+    },
+    {
+      "hash": "d51cbdc7877e34668aafc7f7b01ef1c0",
+      "title": "Profissional de Maquilhagem & Penteados - Torres Vedras",
+      "company": "INSTANTONDULADO UNIPESSOAL LDA",
+      "first_seen": "2026-09-21T09:35:22.129802",
+      "last_seen": "2026-09-25T19:05:21.226443",
+      "times_seen": 2
+    },
+    {
+      "hash": "7042ec69d5bdeb57d65ad6538af8ecc2",
+      "title": "Detailer automóvel a Seco - Seg a Quin. 40/DIA",
+      "company": "Brio AUTO Detailing",
+      "first_seen": "2026-09-21T09:35:22.130819",
+      "last_seen": "2026-09-21T09:35:22.130819",
+      "times_seen": 1
+    },
+    {
+      "hash": "5fee5da9a27bcc746dad80f0439311ad",
+      "title": "Cozinheira / Ajudante de Cozinha (M/F) - Braga",
+      "company": "Fundação Bomfim",
+      "first_seen": "2026-09-21T09:35:22.131236",
+      "last_seen": "2026-09-21T09:35:22.131236",
+      "times_seen": 1
+    },
+    {
+      "hash": "d5956b727085a44669b4b7191a72ebd7",
+      "title": "Fisioterapeuta Futebol (início Outubro)",
+      "company": "PHISIO ATHLETIC LDA",
+      "first_seen": "2026-09-21T09:35:22.131686",
+      "last_seen": "2026-09-25T19:05:21.227540",
+      "times_seen": 2
+    },
+    {
+      "hash": "ae51f268d41499e42b9821cc52545fdf",
+      "title": "Enfermeiros/as para um hospital universitário",
+      "company": "Team Talent",
+      "first_seen": "2026-09-21T09:35:22.132258",
+      "last_seen": "2026-09-21T09:35:22.132258",
+      "times_seen": 1
+    },
+    {
+      "hash": "9748bd8aa47a7687654a9fe2e6e3fa3d",
+      "title": "Programador / Operador de CNC (m/f)",
+      "company": "MECHANORMA LDA",
+      "first_seen": "2026-09-21T09:35:22.132854",
+      "last_seen": "2026-09-25T19:05:21.228652",
+      "times_seen": 2
+    },
+    {
+      "hash": "13ef2fecb1353cdc0056e52d4271d8ef",
+      "title": "Cyber Resilience Architect Lead (M/F)",
+      "company": "PROMANEC - ENGINEERING & CONSTRUCTION, LDA",
+      "first_seen": "2026-09-21T09:35:22.133417",
+      "last_seen": "2026-09-25T19:05:21.235445",
+      "times_seen": 2
+    },
+    {
+      "hash": "5c9ffc094e2d82d766c125c2c30d7945",
+      "title": "Web Application Security Engineer",
+      "company": "PRAGMASOFT",
+      "first_seen": "2026-09-21T09:35:22.133996",
+      "last_seen": "2026-10-03T13:29:51.550378",
+      "times_seen": 4
+    },
+    {
+      "hash": "7aa12f53e74febe2449250fbd4665132",
+      "title": "Robotics QA Engineer",
+      "company": "Kwan",
+      "first_seen": "2026-09-21T09:35:22.134468",
+      "last_seen": "2026-09-25T19:05:21.240442",
+      "times_seen": 2
+    },
+    {
+      "hash": "a1b832b0ba9526205011ffd43719cd3e",
+      "title": "CyberArk Consultant",
+      "company": "Dellent",
+      "first_seen": "2026-09-21T09:35:22.135063",
+      "last_seen": "2026-10-03T13:29:51.559314",
+      "times_seen": 5
+    },
+    {
+      "hash": "be6163e9ba5fac76405de01c55ef2275",
+      "title": "IT Project Manager (f/m)",
+      "company": "Pestana Hotel Group",
+      "first_seen": "2026-09-21T09:35:22.135621",
+      "last_seen": "2026-09-25T19:05:21.240974",
+      "times_seen": 2
+    },
+    {
+      "hash": "62eca4849eeb7a83d3f6daee6bb01b2d",
+      "title": "Junior Security Engineer",
+      "company": "Noesis Portugal S.A.",
+      "first_seen": "2026-09-21T09:35:22.136221",
+      "last_seen": "2026-09-25T19:05:21.241481",
+      "times_seen": 2
+    },
+    {
+      "hash": "41a2425d701391cc634f0c0da8bd5489",
+      "title": "Application Security Engineer (M/F/D)  Porto",
+      "company": "TRIANGLE II OUTSOURCING UNIPESSOAL LIMITADA",
+      "first_seen": "2026-09-21T09:35:22.138943",
+      "last_seen": "2026-09-25T19:05:21.244240",
+      "times_seen": 3
+    },
+    {
+      "hash": "57742dfedf76455d21bebcbd66523547",
+      "title": "Application Technical Manager",
+      "company": "Interlog Group",
+      "first_seen": "2026-09-21T09:35:22.139475",
+      "last_seen": "2026-09-21T09:35:22.139475",
+      "times_seen": 1
+    },
+    {
+      "hash": "7bd6c656fa456128887e88491f487fad",
+      "title": "IT Cloud Infrastructure Administrator",
+      "company": "We are META",
+      "first_seen": "2026-09-21T09:35:22.140446",
+      "last_seen": "2026-10-03T13:29:51.558977",
+      "times_seen": 2
+    },
+    {
+      "hash": "1c79b0b2eb7b19bea1c046f432bad481",
+      "title": "Systems Administrator",
+      "company": "Dellent",
+      "first_seen": "2026-09-21T09:35:22.140933",
+      "last_seen": "2026-10-03T13:29:51.559638",
+      "times_seen": 2
+    },
+    {
+      "hash": "bd3b350895e3707abc58627a75387bc8",
+      "title": "Systems Administrator ? Backup & Data Protection",
+      "company": "Dellent",
+      "first_seen": "2026-09-21T09:35:22.141384",
+      "last_seen": "2026-10-03T13:29:51.559991",
+      "times_seen": 2
+    },
+    {
+      "hash": "532f8b142e656927c4c34232c725766f",
+      "title": "ITSM Incident & Problem | Pharma | Hybrid",
+      "company": "Michael Page",
+      "first_seen": "2026-09-21T09:35:22.142531",
+      "last_seen": "2026-09-25T19:05:21.238946",
+      "times_seen": 2
+    },
+    {
+      "hash": "9305cf269f5e76b7aff47ddaa1bba6ee",
+      "title": "ITSM Asset & Configuration Management | Pharma | Hybrid",
+      "company": "Michael Page",
+      "first_seen": "2026-09-21T09:35:22.143230",
+      "last_seen": "2026-09-25T19:05:21.239444",
+      "times_seen": 2
+    },
+    {
+      "hash": "e488e8658def10f308ea7c04970c279f",
+      "title": "Application Security Engineer - Lisbon",
+      "company": "TRIANGLE II OUTSOURCING UNIPESSOAL LIMITADA",
+      "first_seen": "2026-09-21T09:35:22.144717",
+      "last_seen": "2026-09-21T09:35:22.145235",
+      "times_seen": 2
+    },
+    {
+      "hash": "f21b2486f377c98373cef858c6db8a60",
+      "title": "ITSM Enterprise Process Owner - Change | Pharma | Hybrid",
+      "company": "Michael Page",
+      "first_seen": "2026-09-21T09:35:22.145724",
+      "last_seen": "2026-09-25T19:05:21.239941",
+      "times_seen": 2
+    },
+    {
+      "hash": "abce2a2cd05f1254103153c9277bfe4d",
+      "title": "Head of ITSM | Pharma | Hybrid",
+      "company": "Michael Page",
+      "first_seen": "2026-09-21T09:35:22.146255",
+      "last_seen": "2026-09-21T09:35:22.146255",
+      "times_seen": 1
+    },
+    {
+      "hash": "946850be463cb9f5e23a19b8df4fde65",
+      "title": "Empregado de Mesa 1ª e 2ª M/F",
+      "company": "Sociedade Restaurantes SA",
+      "first_seen": "2026-09-21T09:35:22.148399",
+      "last_seen": "2026-10-03T13:29:51.560330",
+      "times_seen": 2
+    },
+    {
+      "hash": "8c7f1cae0dde3e5c3f3fe7b10a3c0bda",
+      "title": "Operadores de Máquinas (Armazém) (m/f)",
+      "company": "Sociedade dos Vinhos Borges, S.A.",
+      "first_seen": "2026-09-21T09:35:22.148958",
+      "last_seen": "2026-09-21T09:35:22.148958",
+      "times_seen": 1
+    },
+    {
+      "hash": "2dec96046261b3895b593c94a3f33f63",
+      "title": "Preparador de Obra_Tekla (M/F) - Socidias, SA",
+      "company": "Socidias, Lda",
+      "first_seen": "2026-09-21T09:35:22.149615",
+      "last_seen": "2026-09-21T09:35:22.149615",
+      "times_seen": 1
+    },
+    {
+      "hash": "cd98eee7a32e0d54b3f5fe5b97473f7a",
+      "title": "Empregado de Armazém",
+      "company": "SOCILUX, LDA",
+      "first_seen": "2026-09-21T09:35:22.150246",
+      "last_seen": "2026-09-21T09:35:22.150246",
+      "times_seen": 1
+    },
+    {
+      "hash": "fa91ab1ef1c81b8da6ad8be8b85a0d4c",
+      "title": "Ajudante de ação direta (m/f)",
+      "company": "SOCIEDADE PORTUGUESA DE ESCLEROSE MULTIPLA",
+      "first_seen": "2026-09-21T09:35:22.150647",
+      "last_seen": "2026-09-21T09:35:22.150647",
+      "times_seen": 1
+    },
+    {
+      "hash": "18ad448711b4e5f5d7fd58e76dce3e86",
+      "title": "Sales Assistant - Part Time 30h - Reforço de Férias - Rotativo entre lojas de Oeiras e Lisboa",
+      "company": "SOC PERFUMARIAS NALLY LDA",
+      "first_seen": "2026-09-21T09:35:22.151132",
+      "last_seen": "2026-09-21T09:35:22.151132",
+      "times_seen": 1
+    },
+    {
+      "hash": "3615f27a98ba8d57d9a763fe661a3ffd",
+      "title": "Cozinheiro(a) Polivalente",
+      "company": "SOCIEDADE AGRICOLA FAJA DOS PADRES LDA",
+      "first_seen": "2026-09-21T09:35:22.151461",
+      "last_seen": "2026-09-21T09:35:22.151461",
+      "times_seen": 1
+    },
+    {
+      "hash": "3ee7fece40ade0d68ff425ba2e653118",
+      "title": "Night Auditor (M/F) - Hotel centro de Lisboa",
+      "company": "SOC LUSITANA HOTEIS LDA",
+      "first_seen": "2026-09-21T09:35:22.151773",
+      "last_seen": "2026-09-21T09:35:22.151773",
+      "times_seen": 1
+    },
+    {
+      "hash": "26deb38649ff981ca90a4bab569be449",
+      "title": "Operador de Lagar",
+      "company": "Sociedade Agrícola Encosta do Guadiana, lda.",
+      "first_seen": "2026-09-21T09:35:22.152199",
+      "last_seen": "2026-09-21T09:35:22.152199",
+      "times_seen": 1
+    },
+    {
+      "hash": "3c85061323099fa899fd82d101951af2",
+      "title": "Suporte Network Security - 2ª Linha",
+      "company": "WARPCOM SERVICES S A",
+      "first_seen": "2026-09-21T09:35:22.152651",
+      "last_seen": "2026-10-03T13:29:51.568797",
+      "times_seen": 2
+    },
+    {
+      "hash": "951b46029fd160ce77c8f6ba1052de26",
+      "title": "Senior Marketing Operations",
+      "company": "WARPCOM SERVICES S A",
+      "first_seen": "2026-09-21T09:35:22.153167",
+      "last_seen": "2026-09-21T09:35:22.153167",
+      "times_seen": 1
+    },
+    {
+      "hash": "7ccf34c6549fa17625f72537b3bd1d22",
+      "title": "Talent Acquisition Lead",
+      "company": "WARPCOM SERVICES S A",
+      "first_seen": "2026-09-21T09:35:22.153599",
+      "last_seen": "2026-09-21T09:35:22.153599",
+      "times_seen": 1
+    },
+    {
+      "hash": "7427a545ea192b5b152c5baaafef9f1a",
+      "title": "Senior Solutions Architect - Networking & Infrastructure",
+      "company": "WARPCOM SERVICES S A",
+      "first_seen": "2026-09-21T09:35:22.154103",
+      "last_seen": "2026-10-03T13:29:51.569168",
+      "times_seen": 2
+    },
+    {
+      "hash": "555daafe1656d65f2263e8f06ddd98ab",
+      "title": "Systems Engineer  Networking & Infrastructure",
+      "company": "WARPCOM SERVICES S A",
+      "first_seen": "2026-09-21T09:35:22.154561",
+      "last_seen": "2026-10-03T13:29:51.569977",
+      "times_seen": 2
+    },
+    {
+      "hash": "16b92d6727c366813fde2b9901ef9fb1",
+      "title": "Responsável para Mercearia Biológica",
+      "company": "SOC POMILCULTORA QUINTA ABELHEIRA LDA",
+      "first_seen": "2026-09-21T09:35:22.155500",
+      "last_seen": "2026-09-21T09:35:22.155500",
+      "times_seen": 1
+    },
+    {
+      "hash": "ed405dd62480b4c455d7b3e6145c7b54",
+      "title": "Administrativo(a) Back-Office - Lisboa",
+      "company": "Sociedade de Advogados",
+      "first_seen": "2026-09-21T09:35:22.156007",
+      "last_seen": "2026-09-21T09:35:22.156007",
+      "times_seen": 1
+    },
+    {
+      "hash": "32e9dc503addd995484311868db22a65",
+      "title": "Técnico de Manutenção Polivalente - Hotelaria  Matosinhos",
+      "company": "Sociedade Empreendimentos Tur. Central Mat. Lda",
+      "first_seen": "2026-09-21T09:35:22.156612",
+      "last_seen": "2026-09-21T09:35:22.156612",
+      "times_seen": 1
+    },
+    {
+      "hash": "657d38d210d032884f2509275b3d6bdc",
+      "title": "Operador de Armazem para Marl regime noturno",
+      "company": "SOC LUSO ESPANHOLA PESCADO LDA",
+      "first_seen": "2026-09-21T09:35:22.157267",
+      "last_seen": "2026-09-21T09:35:22.157267",
+      "times_seen": 1
+    },
+    {
+      "hash": "4775cd0480ce9d2a2d074b120b7af3d3",
+      "title": "SOC Consultant",
+      "company": "Dellent",
+      "first_seen": "2026-09-21T09:35:22.158484",
+      "last_seen": "2026-09-21T09:35:22.158484",
+      "times_seen": 1
+    },
+    {
+      "hash": "2b28c807716e755dc713775b393d99ed",
+      "title": "SOC Analyst",
+      "company": "We are META",
+      "first_seen": "2026-09-21T09:35:22.158791",
+      "last_seen": "2026-09-25T19:05:21.152521",
+      "times_seen": 2
+    },
+    {
+      "hash": "94248bac78463ce043ae024417b85903",
+      "title": "Comercial (M/F)",
+      "company": "SOCIEDADE TEXTIL VITAL MARQUES RODRIGUES",
+      "first_seen": "2026-09-21T09:35:22.159160",
+      "last_seen": "2026-09-21T09:35:22.159160",
+      "times_seen": 1
+    },
+    {
+      "hash": "ceb20dda5faac01afc1f72a5fce090c0",
+      "title": "Estamos a contratar Empregada(o) de Limpezas para M'AR de AR Hotels - Lisboa",
+      "company": "Sociedade Hoteleira do Arez SA",
+      "first_seen": "2026-09-21T09:35:22.160229",
+      "last_seen": "2026-09-21T09:35:22.160229",
+      "times_seen": 1
+    },
+    {
+      "hash": "3de8d39d9939a3617fbc25e13e69e867",
+      "title": "Motorista para Entregas de Materiais de Construção - Aveiras de Cima",
+      "company": "L O S SOC DE MATERIAIS DE CONSTRUÇÃO LDA",
+      "first_seen": "2026-09-21T09:35:22.160939",
+      "last_seen": "2026-09-21T09:35:22.160939",
+      "times_seen": 1
+    },
+    {
+      "hash": "b41178f259c59b995863e5dc1b5611c4",
+      "title": "Técnico de Manutenção (M/F) - Hotel centro de Lisboa",
+      "company": "SOC LUSITANA HOTEIS LDA",
+      "first_seen": "2026-09-21T09:35:22.161648",
+      "last_seen": "2026-09-21T09:35:22.161648",
+      "times_seen": 1
+    },
+    {
+      "hash": "369e847cbec3c4e2112a12f28743f683",
+      "title": "Estamos a contratar Cozinheiro(a) para Hotel de referência em Évora.",
+      "company": "Sociedade Hoteleira do Arez SA",
+      "first_seen": "2026-09-21T09:35:22.162219",
+      "last_seen": "2026-09-21T09:35:22.162219",
+      "times_seen": 1
+    },
+    {
+      "hash": "3a852ee7db6be88e6f811ed080b80c5b",
+      "title": "Finance & HR Officer",
+      "company": "British School of Lisbon",
+      "first_seen": "2026-09-21T09:35:22.162695",
+      "last_seen": "2026-09-25T19:05:21.263930",
+      "times_seen": 2
+    },
+    {
+      "hash": "2f5cb8f344b2c14d80f44d253d48e4d6",
+      "title": "SAP SuccessFactors Administrator",
+      "company": "Grupo Logoplaste",
+      "first_seen": "2026-09-21T09:35:22.163758",
+      "last_seen": "2026-09-25T19:05:21.270640",
+      "times_seen": 2
+    },
+    {
+      "hash": "d762972072d4a5566758d1d6d000bcae",
+      "title": "DevSecOps Engineer",
+      "company": "HIQ consulting",
+      "first_seen": "2026-09-21T09:35:22.165800",
+      "last_seen": "2026-09-21T09:35:22.165800",
+      "times_seen": 1
+    },
+    {
+      "hash": "84f381233bbcd6e30a179956b05f6291",
+      "title": "Senior Data & Analytics Engineer (m/f)",
+      "company": "Pestana Hotel Group",
+      "first_seen": "2026-09-21T09:35:22.166190",
+      "last_seen": "2026-09-21T09:35:22.166190",
+      "times_seen": 1
+    },
+    {
+      "hash": "b53a086551b913ce4739fec7f74d08e9",
+      "title": "URGENT 10.09 & 8.10! Spanish Customer Support: Payments - Office in Lisbon Oriente",
+      "company": "ProRekruter",
+      "first_seen": "2026-09-21T09:35:22.166683",
+      "last_seen": "2026-09-21T09:35:22.166683",
+      "times_seen": 1
+    },
+    {
+      "hash": "0b5c116bc3576390db56b5cbc1213680",
+      "title": "¡URGENTE!: 10.09 & 8.10! Español / SPANISH Customer Advisor: Payment Service, Office- Lisbon",
+      "company": "ProRekruter",
+      "first_seen": "2026-09-21T09:35:22.167221",
+      "last_seen": "2026-09-21T09:35:22.167221",
+      "times_seen": 1
+    },
+    {
+      "hash": "ad97c605ac0d63e38b98bb98627e5d9c",
+      "title": "Data Engineer",
+      "company": "KCS IT",
+      "first_seen": "2026-09-21T09:35:22.167673",
+      "last_seen": "2026-09-21T09:35:22.167673",
+      "times_seen": 1
+    },
+    {
+      "hash": "8c629b07591b37775093ee5cd9e1b41b",
+      "title": "French Customer Care Advisor: Payment Service, Office- Lisbon Oriente / 8.10",
+      "company": "ProRekruter",
+      "first_seen": "2026-09-21T09:35:22.168203",
+      "last_seen": "2026-09-21T09:35:22.168203",
+      "times_seen": 1
+    },
+    {
+      "hash": "7771102d59b329c96358841764994f5f",
+      "title": "Conseiller clientèle français : Service des paiements, Lisbonne Oriente, début : 8.10",
+      "company": "ProRekruter",
+      "first_seen": "2026-09-21T09:35:22.168676",
+      "last_seen": "2026-09-21T09:35:22.168676",
+      "times_seen": 1
+    },
+    {
+      "hash": "754ba9207a74a1b4702f9a077d00044b",
+      "title": "Banking & Payments Specialist",
+      "company": "TGG - GLOBAL MANAGEMENT LDA ZONA FRANCA DA MADEIRA",
+      "first_seen": "2026-09-21T09:35:22.169653",
+      "last_seen": "2026-09-25T19:05:21.268308",
+      "times_seen": 2
+    },
+    {
+      "hash": "8270be110a6b1aa0150068839b977151",
+      "title": "Solutions Architect (API Management Platforms) - 1x/week in office",
+      "company": "Integer Consulting",
+      "first_seen": "2026-09-21T09:35:22.170169",
+      "last_seen": "2026-10-03T13:29:51.573992",
+      "times_seen": 3
+    },
+    {
+      "hash": "364e7ebf472ffa11fcd27ef87c4639f9",
+      "title": "Corporate Lawyer",
+      "company": "Universalkraft, lda",
+      "first_seen": "2026-09-21T09:35:22.173412",
+      "last_seen": "2026-09-25T19:05:21.271123",
+      "times_seen": 2
+    },
+    {
+      "hash": "7fbb6b58fb1fcbdc23cf3556b1ed25b3",
+      "title": "Senior Quality Engineer Architect",
+      "company": "Movilges Lda.",
+      "first_seen": "2026-09-21T09:35:22.173933",
+      "last_seen": "2026-09-25T19:05:21.271658",
+      "times_seen": 2
+    },
+    {
+      "hash": "ca09a27647415390cf27b03ceff8603e",
+      "title": "French Customer Advisor (Français) | Lisbon Oriente | Payment Services | Start 8.10",
+      "company": "ProRekruter",
+      "first_seen": "2026-09-21T09:35:22.174426",
+      "last_seen": "2026-09-21T09:35:22.174426",
+      "times_seen": 1
+    },
+    {
+      "hash": "fa77648f5e44029c301d65c720c38cf3",
+      "title": "Spanish Customer Advisor (Español) | Lisbon Oriente | Payment Services | Start 21.09 / 8.10",
+      "company": "ProRekruter",
+      "first_seen": "2026-09-21T09:35:22.174973",
+      "last_seen": "2026-09-21T09:35:22.174973",
+      "times_seen": 1
+    },
+    {
+      "hash": "c80ba27c81c2744066d051e20b3eba9a",
+      "title": "Senior Fullstack Developer",
+      "company": "Accenture",
+      "first_seen": "2026-09-21T09:35:22.175424",
+      "last_seen": "2026-10-18T17:48:19.138666",
+      "times_seen": 12
+    },
+    {
+      "hash": "8b1951c9c3f434f2c830c739d986513d",
+      "title": "Full-Stack / Generalist Software Engineer (f/m/x)",
+      "company": "ANNEA",
+      "first_seen": "2026-09-21T09:35:22.175903",
+      "last_seen": "2026-10-18T17:48:19.138272",
+      "times_seen": 12
+    },
+    {
+      "hash": "bbada7612b5c0cd5f40a5d8d764557f5",
+      "title": "Senior Backend Developer",
+      "company": "Wyden",
+      "first_seen": "2026-09-21T09:35:22.176376",
+      "last_seen": "2026-10-06T18:39:05.775293",
+      "times_seen": 8
+    },
+    {
+      "hash": "64f72fb8ddc4266e69311052adb30ff9",
+      "title": "Data Scientist",
+      "company": "Damia",
+      "first_seen": "2026-09-21T09:35:22.178017",
+      "last_seen": "2026-10-18T17:48:19.144614",
+      "times_seen": 5
+    },
+    {
+      "hash": "22254e6aa63f537e79c77d6cca31f7fa",
+      "title": "Platform Engineer",
+      "company": "Damia",
+      "first_seen": "2026-09-21T09:35:22.183683",
+      "last_seen": "2026-10-18T17:48:19.146969",
+      "times_seen": 12
+    },
+    {
+      "hash": "c834e065582338ff656c38e3c4a5e543",
+      "title": "Lead AI Engineer",
+      "company": "Indicium AI",
+      "first_seen": "2026-09-21T09:35:22.186382",
+      "last_seen": "2026-10-18T17:48:19.140622",
+      "times_seen": 12
+    },
+    {
+      "hash": "b24daa6cf28a7551bc37d0b724d97655",
+      "title": "Senior Modernization Engineer (FDE)",
+      "company": "Kyndryl",
+      "first_seen": "2026-09-21T09:35:22.187159",
+      "last_seen": "2026-10-03T13:29:51.588281",
+      "times_seen": 3
+    },
+    {
+      "hash": "377f435a0a413bd68bc9cf37c5913f4f",
+      "title": "Senior Data Engineer",
+      "company": "INSCALE",
+      "first_seen": "2026-09-21T09:35:22.187840",
+      "last_seen": "2026-09-21T09:35:22.187840",
+      "times_seen": 1
+    },
+    {
+      "hash": "3c98958f542cf8236223de01375d55ed",
+      "title": "ServiceNow Engineer",
+      "company": "Volkswagen Group Digital Solutions [Portugal]",
+      "first_seen": "2026-09-21T09:35:22.189157",
+      "last_seen": "2026-10-09T21:48:02.745864",
+      "times_seen": 7
+    },
+    {
+      "hash": "5140533b6b77896506bf8259a6a2d644",
+      "title": "IAM Analyst",
+      "company": "Dauch",
+      "first_seen": "2026-09-25T19:05:21.124905",
+      "last_seen": "2026-09-25T19:05:21.124905",
+      "times_seen": 1
+    },
+    {
+      "hash": "9c3f410c9d238e8d5db3e8d1e3fc7145",
+      "title": "IDAM Specialist",
+      "company": "Michael Page",
+      "first_seen": "2026-09-25T19:05:21.125450",
+      "last_seen": "2026-09-25T19:05:21.125450",
+      "times_seen": 1
+    },
+    {
+      "hash": "4989c8965c1ba94376aebf866b829435",
+      "title": "Consultor IAM",
+      "company": "Integer Consulting",
+      "first_seen": "2026-09-25T19:05:21.125987",
+      "last_seen": "2026-10-03T13:29:51.478304",
+      "times_seen": 3
+    },
+    {
+      "hash": "85868218129dd8316c199287aaa50010",
+      "title": "Senior Consultant / Technology Architect – Identity & Access Management (IAM)",
+      "company": "BearingPoint",
+      "first_seen": "2026-09-25T19:05:21.127114",
+      "last_seen": "2026-09-25T19:05:21.127114",
+      "times_seen": 1
+    },
+    {
+      "hash": "2a984a4463f51ea20dcd1480b1abd04c",
+      "title": "Business Support Analyst",
+      "company": "Inetum",
+      "first_seen": "2026-09-25T19:05:21.128787",
+      "last_seen": "2026-09-25T19:05:21.128787",
+      "times_seen": 1
+    },
+    {
+      "hash": "c8d2876fd5e55e762e8b25686144d5a0",
+      "title": "Global Project Manager",
+      "company": "PrimeIT",
+      "first_seen": "2026-09-25T19:05:21.129341",
+      "last_seen": "2026-09-25T19:05:21.129341",
+      "times_seen": 1
+    },
+    {
+      "hash": "defee477cde3c705cdd81509d68031e7",
+      "title": "Information Security Solution Architect - Identity & Access Management (m/f/d)",
+      "company": "Allianz Services",
+      "first_seen": "2026-09-25T19:05:21.130298",
+      "last_seen": "2026-09-25T19:05:21.130298",
+      "times_seen": 1
+    },
+    {
+      "hash": "0485edaf249f79918e5b90692f78cc94",
+      "title": "Arquiteto Especialista IAM",
+      "company": "IRIUM Portugal",
+      "first_seen": "2026-09-25T19:05:21.130830",
+      "last_seen": "2026-09-25T19:05:21.130830",
+      "times_seen": 1
+    },
+    {
+      "hash": "67b138709d72c0e95b45aa523235d917",
+      "title": "Consultor Sénior IAM",
+      "company": "IRIUM Portugal",
+      "first_seen": "2026-09-25T19:05:21.131786",
+      "last_seen": "2026-09-25T19:05:21.131786",
+      "times_seen": 1
+    },
+    {
+      "hash": "ab2732ba21f1ad60c7123ddc5bbfc145",
+      "title": "Active Directory and Entra ID Engineer (F/M/X)",
+      "company": "Solvay",
+      "first_seen": "2026-09-25T19:05:21.132316",
+      "last_seen": "2026-09-25T19:05:21.132316",
+      "times_seen": 1
+    },
+    {
+      "hash": "f62148b53e3a03175d2f4905ab693dd1",
+      "title": "CyberArk Administrator",
+      "company": "knowmad mood Portugal",
+      "first_seen": "2026-09-25T19:05:21.134202",
+      "last_seen": "2026-09-25T19:05:21.134202",
+      "times_seen": 1
+    },
+    {
+      "hash": "7485e53f791cd92d92ad939fe53f71db",
+      "title": "Workplace Engineer",
+      "company": "Dellent",
+      "first_seen": "2026-09-25T19:05:21.134730",
+      "last_seen": "2026-10-03T13:29:51.554167",
+      "times_seen": 3
+    },
+    {
+      "hash": "b102ab5d16fa355e5af71f7ce406a295",
+      "title": "Microsoft 365 & Azure (Security) Expert (m/f/d)",
+      "company": "Testo",
+      "first_seen": "2026-09-25T19:05:21.135233",
+      "last_seen": "2026-09-25T19:05:21.135233",
+      "times_seen": 1
+    },
+    {
+      "hash": "3deb32e9c153ab127f6f83bdfd62b064",
+      "title": "Cybersecurity specialist",
+      "company": "Greenvolt Group",
+      "first_seen": "2026-09-25T19:05:21.137082",
+      "last_seen": "2026-09-25T19:05:21.137082",
+      "times_seen": 1
+    },
+    {
+      "hash": "6aff6c87bbabc13743f40884ec42322c",
+      "title": "SIEM Content Development Specialist",
+      "company": "Vodafone",
+      "first_seen": "2026-09-25T19:05:21.137588",
+      "last_seen": "2026-09-25T19:05:21.137588",
+      "times_seen": 1
+    },
+    {
+      "hash": "bea761248845088dcf5fb6c1be33c2ee",
+      "title": "IT Risk Analyst",
+      "company": "Consort Group",
+      "first_seen": "2026-09-25T19:05:21.138067",
+      "last_seen": "2026-09-25T19:05:21.138067",
+      "times_seen": 1
+    },
+    {
+      "hash": "3815b87f44ce484fa57639d6a01bed54",
+      "title": "Customer Technical Advisor",
+      "company": "Kyndryl",
+      "first_seen": "2026-09-25T19:05:21.139068",
+      "last_seen": "2026-09-25T19:05:21.139068",
+      "times_seen": 1
+    },
+    {
+      "hash": "6e3bd9a854f41f205e17f144596c5528",
+      "title": "Application Security Engineer",
+      "company": "Thought Machine",
+      "first_seen": "2026-09-25T19:05:21.139621",
+      "last_seen": "2026-09-25T19:05:21.139621",
+      "times_seen": 1
+    },
+    {
+      "hash": "08c25fabd61abb3b67a8100d6bd8ce88",
+      "title": "CSIRT Engineer",
+      "company": "Inetum",
+      "first_seen": "2026-09-25T19:05:21.140150",
+      "last_seen": "2026-09-25T19:05:21.140150",
+      "times_seen": 1
+    },
+    {
+      "hash": "4aa77e4dcb551fec447ca76b15ccd8bc",
+      "title": "IT Data Protection Trainee",
+      "company": "BNP Paribas CIB",
+      "first_seen": "2026-09-25T19:05:21.141101",
+      "last_seen": "2026-09-25T19:05:21.141101",
+      "times_seen": 1
+    },
+    {
+      "hash": "ee4d39ea79129bb684f28752d8169a49",
+      "title": "Analista de Cibersegurança Júnior",
+      "company": "Luz Saúde",
+      "first_seen": "2026-09-25T19:05:21.143617",
+      "last_seen": "2026-09-25T19:05:21.143617",
+      "times_seen": 1
+    },
+    {
+      "hash": "8ab5fd3f42d2aea92b2f919656e696e7",
+      "title": "Senior Cybersecurity Analyst - (Cyber Defense Operations)",
+      "company": "Talan",
+      "first_seen": "2026-09-25T19:05:21.144133",
+      "last_seen": "2026-09-25T19:05:21.144133",
+      "times_seen": 1
+    },
+    {
+      "hash": "645dbf2f0c0e7d81d8489ec88fb2b6a4",
+      "title": "IT Risk analyst",
+      "company": "KCS iT",
+      "first_seen": "2026-09-25T19:05:21.144687",
+      "last_seen": "2026-10-03T13:29:51.572238",
+      "times_seen": 3
+    },
+    {
+      "hash": "769560d12f690deb25f062ee01aa4a8d",
+      "title": "AI Security Specialist - Microsoft Copilot Backend & 3rd Level Support",
+      "company": "Axians Portugal",
+      "first_seen": "2026-09-25T19:05:21.145180",
+      "last_seen": "2026-09-25T19:05:21.145180",
+      "times_seen": 1
+    },
+    {
+      "hash": "42a4e2dd5d803577bc6db6288b3e9385",
+      "title": "Devoteam Cyber Trust | Operation Resilient Analyst | Insurance Sector",
+      "company": "Devoteam | Cyber Trust",
+      "first_seen": "2026-09-25T19:05:21.145711",
+      "last_seen": "2026-09-25T19:05:21.145711",
+      "times_seen": 1
+    },
+    {
+      "hash": "8a7b423458de4d1a8b67322b0a5fbc7a",
+      "title": "Global Cybersecurity Analyst- Cloud Security",
+      "company": "Boston Consulting Group (BCG)",
+      "first_seen": "2026-09-25T19:05:21.146712",
+      "last_seen": "2026-09-25T19:05:21.146712",
+      "times_seen": 1
+    },
+    {
+      "hash": "f239e607d7971b7cc3306e01aff6285d",
+      "title": "Cyber Defense Lead - EMEA",
+      "company": "Randstad Enterprise",
+      "first_seen": "2026-09-25T19:05:21.148165",
+      "last_seen": "2026-09-25T19:05:21.148165",
+      "times_seen": 1
+    },
+    {
+      "hash": "a389f369318802cdca21ea852f353c34",
+      "title": "NetCyberOps Consultant",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-09-25T19:05:21.148683",
+      "last_seen": "2026-09-25T19:05:21.148683",
+      "times_seen": 1
+    },
+    {
+      "hash": "8189a9317ba59739af3449cf90c3b359",
+      "title": "Security Engineer",
+      "company": "Conclusion Lifecycle",
+      "first_seen": "2026-09-25T19:05:21.150571",
+      "last_seen": "2026-09-25T19:05:21.150571",
+      "times_seen": 1
+    },
+    {
+      "hash": "f91d8b3cc85a2eb2007d3f3f7b5cedd7",
+      "title": "Cyber Defense Engineer",
+      "company": "Randstad Enterprise",
+      "first_seen": "2026-09-25T19:05:21.151063",
+      "last_seen": "2026-09-25T19:05:21.151063",
+      "times_seen": 1
+    },
+    {
+      "hash": "8ecd9289c5f8beb3f292563e8c15855a",
+      "title": "Devoteam Cyber Trust | Vulnerability Analyst | Telecom Sector",
+      "company": "Devoteam | Cyber Trust",
+      "first_seen": "2026-09-25T19:05:21.153086",
+      "last_seen": "2026-09-25T19:05:21.153086",
+      "times_seen": 1
+    },
+    {
+      "hash": "745cdf855859a5c04a43e8161865b6dc",
+      "title": "FinCrime Escalations Officer - German and English (Portugal)",
+      "company": "Revolut",
+      "first_seen": "2026-09-25T19:05:21.153655",
+      "last_seen": "2026-09-25T19:05:21.153655",
+      "times_seen": 1
+    },
+    {
+      "hash": "8b3d186c74bc556b8f3eabb56a3e9e8b",
+      "title": "Sales Development Representative - POLISH - Remote within Northern Portugal",
+      "company": "Ayming",
+      "first_seen": "2026-09-25T19:05:21.154183",
+      "last_seen": "2026-09-25T19:05:21.154183",
+      "times_seen": 1
+    },
+    {
+      "hash": "78d751230661a3d1ddc8426807ed1ab2",
+      "title": "Sales Development Representative - POLISH",
+      "company": "Ayming",
+      "first_seen": "2026-09-25T19:05:21.154714",
+      "last_seen": "2026-09-25T19:05:21.154714",
+      "times_seen": 1
+    },
+    {
+      "hash": "d288f96ed8a3b69334841c62060dfaa0",
+      "title": "Senior Financial Crimes Analyst - EEA",
+      "company": "Uphold",
+      "first_seen": "2026-09-25T19:05:21.155681",
+      "last_seen": "2026-09-25T19:05:21.155681",
+      "times_seen": 1
+    },
+    {
+      "hash": "b187a383b5872564866a3a43a1045e6c",
+      "title": "Regulatory Officer for the Post-Onboarding Team",
+      "company": "BNP Paribas CIB",
+      "first_seen": "2026-09-25T19:05:21.156220",
+      "last_seen": "2026-09-25T19:05:21.156220",
+      "times_seen": 1
+    },
+    {
+      "hash": "88de437355655f9094af15bcce341d8b",
+      "title": "Forensic Services New Joiner",
+      "company": "PwC Portugal",
+      "first_seen": "2026-09-25T19:05:21.156846",
+      "last_seen": "2026-09-25T19:05:21.156846",
+      "times_seen": 1
+    },
+    {
+      "hash": "161c95b75bc1314eb43d681df2c3a0b2",
+      "title": "FinCrime Escalations Officer - German",
+      "company": "Revolut",
+      "first_seen": "2026-09-25T19:05:21.157444",
+      "last_seen": "2026-09-25T19:05:21.157444",
+      "times_seen": 1
+    },
+    {
+      "hash": "886fed7f7e0d4550cdfeea942e56b59e",
+      "title": "Técnico de Monitorização e Controlo de Compliance",
+      "company": "Crédito Agrícola",
+      "first_seen": "2026-09-25T19:05:21.158198",
+      "last_seen": "2026-09-25T19:05:21.158198",
+      "times_seen": 1
+    },
+    {
+      "hash": "0857d707d409dab337d19100838531cc",
+      "title": "Sales/Business Development Representative - Tech/Software",
+      "company": "Algomarketing",
+      "first_seen": "2026-09-25T19:05:21.158743",
+      "last_seen": "2026-09-25T19:05:21.158743",
+      "times_seen": 1
+    },
+    {
+      "hash": "0d4817c013bc55c771252a9f7597a40b",
+      "title": "DevOps Engineer",
+      "company": "team.it",
+      "first_seen": "2026-09-25T19:05:21.181889",
+      "last_seen": "2026-10-03T13:29:51.514937",
+      "times_seen": 2
+    },
+    {
+      "hash": "4cd3068a96e592b88332603df90d1183",
+      "title": "Junior Project Manager – Healthcare and Cybersecurity",
+      "company": "ITDS Portugal",
+      "first_seen": "2026-09-25T19:05:21.190791",
+      "last_seen": "2026-10-03T13:29:51.525145",
+      "times_seen": 2
+    },
+    {
+      "hash": "580a6bae416a70abcb6f22eb9677a0a7",
+      "title": "Senior Healthcare IT Project Manager – Cybersecurity & Compliance",
+      "company": "ITDS Portugal",
+      "first_seen": "2026-09-25T19:05:21.192394",
+      "last_seen": "2026-10-03T13:29:51.526265",
+      "times_seen": 2
+    },
+    {
+      "hash": "66244c44e3fa3e83e3d8d5ddcd694cc0",
+      "title": "Junior SecDevOps",
+      "company": "PDMFC",
+      "first_seen": "2026-09-25T19:05:21.194234",
+      "last_seen": "2026-10-03T13:29:51.528995",
+      "times_seen": 2
+    },
+    {
+      "hash": "a7e83219a4ab8686c7ea1e4ee1ec036e",
+      "title": "Senior SecDevOps",
+      "company": "PDMFC",
+      "first_seen": "2026-09-25T19:05:21.196138",
+      "last_seen": "2026-10-03T13:29:51.529734",
+      "times_seen": 2
+    },
+    {
+      "hash": "b1d90a37db9af83b4109203c8642a0af",
+      "title": "Global Technology Project Manager",
+      "company": "Proman",
+      "first_seen": "2026-09-25T19:05:21.197808",
+      "last_seen": "2026-10-03T13:29:51.530116",
+      "times_seen": 2
+    },
+    {
+      "hash": "eb79eef257a8d221782ca4cb88b92fd5",
+      "title": "Senior Network Security Automation Engineer – API & Firewall Integration",
+      "company": "ITDS Portugal",
+      "first_seen": "2026-09-25T19:05:21.203038",
+      "last_seen": "2026-10-03T13:29:51.534408",
+      "times_seen": 2
+    },
+    {
+      "hash": "bfc2e51f2068d1b2c939473c94b77786",
+      "title": "Platform Engineer",
+      "company": "Fyld",
+      "first_seen": "2026-09-25T19:05:21.210982",
+      "last_seen": "2026-10-03T13:29:51.536662",
+      "times_seen": 2
+    },
+    {
+      "hash": "160737d5bb8b2d3e0f6a11db161cf783",
+      "title": "System Adminstrator",
+      "company": "team.it",
+      "first_seen": "2026-09-25T19:05:21.213524",
+      "last_seen": "2026-09-25T19:05:21.213524",
+      "times_seen": 1
+    },
+    {
+      "hash": "89ee58d73e9b25fb44f3767392f70141",
+      "title": "TUBISTA ISO  AÇO CARBONO E/OU INOX  qualificado -Suiça",
+      "company": "Chablais Emploi SA",
+      "first_seen": "2026-09-25T19:05:21.214049",
+      "last_seen": "2026-09-25T19:05:21.214049",
+      "times_seen": 1
+    },
+    {
+      "hash": "b5d5d5b014941e960667065e4d002f75",
+      "title": "Comercial de Vendas",
+      "company": "BF TO WOMAN, LDA",
+      "first_seen": "2026-09-25T19:05:21.214583",
+      "last_seen": "2026-09-25T19:05:21.214583",
+      "times_seen": 1
+    },
+    {
+      "hash": "121b175c96980c69b45df1448e2150bb",
+      "title": "Gestor Imobiliario/Frota Lagoa",
+      "company": "JUBILANT WEEKEND - UNIPESSOAL LDA",
+      "first_seen": "2026-09-25T19:05:21.217187",
+      "last_seen": "2026-09-25T19:05:21.217187",
+      "times_seen": 1
+    },
+    {
+      "hash": "0fb6b3e4ff473a15414f4b151a9b2ae9",
+      "title": "COMERCIAL - Equipamentos",
+      "company": "Bigtower, Lda.",
+      "first_seen": "2026-09-25T19:05:21.217730",
+      "last_seen": "2026-09-25T19:05:21.217730",
+      "times_seen": 1
+    },
+    {
+      "hash": "63812ed0311f628047772ba1ee55679f",
+      "title": "Estagio em design artes gráficas.",
+      "company": "9imagem",
+      "first_seen": "2026-09-25T19:05:21.218240",
+      "last_seen": "2026-09-25T19:05:21.218240",
+      "times_seen": 1
+    },
+    {
+      "hash": "9fb7a229ef46742fa48ea775c42f89ad",
+      "title": "Assistente de Direção",
+      "company": "LUSOCOTUR LDA",
+      "first_seen": "2026-09-25T19:05:21.218793",
+      "last_seen": "2026-09-25T19:05:21.218793",
+      "times_seen": 1
+    },
+    {
+      "hash": "4ab7c5eadf877e2a27e604927b31f360",
+      "title": "Enfermeiro(a) para Geriatria em hospital de Bruxelas - 1º mês alojamento gratuito + apoio",
+      "company": "North Health Recruitment",
+      "first_seen": "2026-09-25T19:05:21.223171",
+      "last_seen": "2026-09-25T19:05:21.223171",
+      "times_seen": 1
+    },
+    {
+      "hash": "d35a56c7a5a143f9c6b4164d10afb6fc",
+      "title": "Instalador de Mobiliário",
+      "company": "CONCEITOS TRANQUILOS - LDA",
+      "first_seen": "2026-09-25T19:05:21.223708",
+      "last_seen": "2026-09-25T19:05:21.223708",
+      "times_seen": 1
+    },
+    {
+      "hash": "7c664514fc871fde2c48cbac09754b76",
+      "title": "Eng Geógrafo/Técnico(a) de Topografia",
+      "company": "UpMS - Upgrade Mining Solutions, Lda",
+      "first_seen": "2026-09-25T19:05:21.224242",
+      "last_seen": "2026-09-25T19:05:21.224242",
+      "times_seen": 1
+    },
+    {
+      "hash": "908268fb48580195c67e9f4c0023c0f5",
+      "title": "Educador(a) de Infância",
+      "company": "Centro Social Paroquial de Santa Margarida de Abrã",
+      "first_seen": "2026-09-25T19:05:21.225395",
+      "last_seen": "2026-09-25T19:05:21.225395",
+      "times_seen": 1
+    },
+    {
+      "hash": "37a995888e1c26979a62e87f04d7cee4",
+      "title": "Técnico ajudante de AVAC",
+      "company": "KLIVOLT",
+      "first_seen": "2026-09-25T19:05:21.225927",
+      "last_seen": "2026-09-25T19:05:21.225927",
+      "times_seen": 1
+    },
+    {
+      "hash": "a7cb4b81847fe957e0d046b1961216e4",
+      "title": "Médico(a) Dentista Periodontologia",
+      "company": "Madeira&Almeida Clinicas Médico Dentárias",
+      "first_seen": "2026-09-25T19:05:21.227009",
+      "last_seen": "2026-09-25T19:05:21.227009",
+      "times_seen": 1
+    },
+    {
+      "hash": "f9366861d592cb4a7753931b909b5ecd",
+      "title": "Técnico de Manutenção (m/f) - Part-Time Manhãs + Passagem a Full-Time em 3 Meses c/ contrato",
+      "company": "CLEAN PADEL - EMPRESA DE LIMPEZA UNIPESSOAL LDA",
+      "first_seen": "2026-09-25T19:05:21.228118",
+      "last_seen": "2026-09-25T19:05:21.228118",
+      "times_seen": 1
+    },
+    {
+      "hash": "7c6612f88d0d8dd9e5674c19b2560250",
+      "title": "Junior SecDevOps - PDMFC - Lisbon, Portugal",
+      "company": "PDMFC",
+      "first_seen": "2026-09-25T19:05:21.229795",
+      "last_seen": "2026-09-25T19:05:21.229795",
+      "times_seen": 1
+    },
+    {
+      "hash": "ff1da1fe14358a7544b180a73b883bcc",
+      "title": "Lead Application & Solutions Architecture",
+      "company": "Interlog Group",
+      "first_seen": "2026-09-25T19:05:21.230386",
+      "last_seen": "2026-10-03T13:29:51.557953",
+      "times_seen": 2
+    },
+    {
+      "hash": "4ea69adeac5896963373f9976c27b3d0",
+      "title": "Cybersecurity Control Officer",
+      "company": "We are META",
+      "first_seen": "2026-09-25T19:05:21.231280",
+      "last_seen": "2026-09-25T19:05:21.231280",
+      "times_seen": 1
+    },
+    {
+      "hash": "6c260c7f890f4d22260ea78b5ed42915",
+      "title": "Head of Digital Workplace - Vet-Pharma",
+      "company": "Michael Page",
+      "first_seen": "2026-09-25T19:05:21.233256",
+      "last_seen": "2026-09-25T19:05:21.233256",
+      "times_seen": 1
+    },
+    {
+      "hash": "1d7d841b84d8df489bebb67807a77477",
+      "title": "Senior SecDevOps - PDMFC - Lisbon, Portugal",
+      "company": "PDMFC",
+      "first_seen": "2026-09-25T19:05:21.233794",
+      "last_seen": "2026-10-03T13:29:51.550067",
+      "times_seen": 2
+    },
+    {
+      "hash": "ecab7d98aa150bb6f154734bdd3387d3",
+      "title": "Head of Recover",
+      "company": "Michael Page",
+      "first_seen": "2026-09-25T19:05:21.234302",
+      "last_seen": "2026-09-25T19:05:21.234302",
+      "times_seen": 1
+    },
+    {
+      "hash": "61ce9fc64c71ce75ba6b166ca8c310a9",
+      "title": "Head of Detect & Respond",
+      "company": "Michael Page",
+      "first_seen": "2026-09-25T19:05:21.234833",
+      "last_seen": "2026-09-25T19:05:21.234833",
+      "times_seen": 1
+    },
+    {
+      "hash": "02015618214361bab4da2a1bf0aad421",
+      "title": "DevOps Engineer Lead Expert - Lisbon (M/F)",
+      "company": "Sysmatch IT Consulting",
+      "first_seen": "2026-09-25T19:05:21.236134",
+      "last_seen": "2026-10-18T17:48:19.134565",
+      "times_seen": 11
+    },
+    {
+      "hash": "2ee79706d592faaacee7fd9130468105",
+      "title": "Technical Support Engineer (shift 9 PM - 4 AM Eastern Time)",
+      "company": "Dellent",
+      "first_seen": "2026-09-25T19:05:21.236851",
+      "last_seen": "2026-10-03T13:29:51.554812",
+      "times_seen": 2
+    },
+    {
+      "hash": "1b2f68b03b0f9e2a3a4aa5e4acc9165f",
+      "title": "Cybersecurity Expert",
+      "company": "We are META",
+      "first_seen": "2026-09-25T19:05:21.237421",
+      "last_seen": "2026-10-03T13:29:51.551070",
+      "times_seen": 2
+    },
+    {
+      "hash": "df32d03ae93ffc64cfa7f52133501cd2",
+      "title": "Change Manager IS - Bruxelles",
+      "company": "Menyong Song Porugal",
+      "first_seen": "2026-09-25T19:05:21.237941",
+      "last_seen": "2026-10-03T13:29:51.552774",
+      "times_seen": 2
+    },
+    {
+      "hash": "7630e08b621717777aa652faf1f715a7",
+      "title": "Estamos a contratar Empregado (m/f) de mesa/ bar para M'AR de AR Hotels - Évora",
+      "company": "Sociedade Hoteleira do Arez SA",
+      "first_seen": "2026-09-25T19:05:21.244836",
+      "last_seen": "2026-10-03T13:29:51.568418",
+      "times_seen": 2
+    },
+    {
+      "hash": "a4ce69d5dc665b6d487ddef846eacc60",
+      "title": "Gestor de Projecto - Controlador(a) de Custos (M/F) - Maia",
+      "company": "Socigui S.A",
+      "first_seen": "2026-09-25T19:05:21.245466",
+      "last_seen": "2026-10-03T13:29:51.567265",
+      "times_seen": 2
+    },
+    {
+      "hash": "26effef6b55a87e486b52e712fc02d53",
+      "title": "Colaborador/a Limpeza",
+      "company": "SOCIEDADE AGRICOLA HERDADE DAS CASAS VELHAS LDA",
+      "first_seen": "2026-09-25T19:05:21.246118",
+      "last_seen": "2026-09-25T19:05:21.246118",
+      "times_seen": 1
+    },
+    {
+      "hash": "366ee28af79e39dc8b13610ae76681df",
+      "title": "Cozinheiro",
+      "company": "SOCIEDADE AGRICOLA HERDADE DAS CASAS VELHAS LDA",
+      "first_seen": "2026-09-25T19:05:21.246886",
+      "last_seen": "2026-10-03T13:29:51.564954",
+      "times_seen": 2
+    },
+    {
+      "hash": "f94d7d716f52251b73eade996605afdb",
+      "title": "Pedreiro",
+      "company": "SOCOTAVI SOC CONSTRUÇÕES TAVIRA LDA",
+      "first_seen": "2026-09-25T19:05:21.247550",
+      "last_seen": "2026-10-03T13:29:51.564597",
+      "times_seen": 2
+    },
+    {
+      "hash": "132a0e8353153d175a17c9983cb31f77",
+      "title": "Part Time Oeiras Festival Francesinhas",
+      "company": "Sociedade Planet Sereia, Lda",
+      "first_seen": "2026-09-25T19:05:21.248720",
+      "last_seen": "2026-09-25T19:05:21.248720",
+      "times_seen": 1
+    },
+    {
+      "hash": "0e52ec8a5df85c31468eed062de9d5b6",
+      "title": "Técnico de colheita de amostras/ Assistente técnico de laboratório - Santiago do Cacém",
+      "company": "SOCLABREPORT - ANALISES LABORATORIAIS LDA",
+      "first_seen": "2026-09-25T19:05:21.249660",
+      "last_seen": "2026-10-03T13:29:51.566867",
+      "times_seen": 2
+    },
+    {
+      "hash": "0a2247bd7fd930b753ed0f1f7bd18cf1",
+      "title": "Diretor/a de Qualidade",
+      "company": "SVP - SOCIEDADE VINICOLA DE PALMELA, S.A.",
+      "first_seen": "2026-09-25T19:05:21.250468",
+      "last_seen": "2026-10-03T13:29:51.567631",
+      "times_seen": 2
+    },
+    {
+      "hash": "62918bef542ade394adf942db72c3987",
+      "title": "Relationship & Events Manager",
+      "company": "WARPCOM SERVICES S A",
+      "first_seen": "2026-09-25T19:05:21.253701",
+      "last_seen": "2026-10-03T13:29:51.569593",
+      "times_seen": 2
+    },
+    {
+      "hash": "042fe5ff8b7e1788226ab1f2d852bf90",
+      "title": "Advogado(a) - Coordenador(a) para Departamento Laboral",
+      "company": "Sociedade de Advogados",
+      "first_seen": "2026-09-25T19:05:21.254239",
+      "last_seen": "2026-09-25T19:05:21.254239",
+      "times_seen": 1
+    },
+    {
+      "hash": "6b025b87749089026b10936896227010",
+      "title": "ADVOGADO/A - Coordenador para  Departamento Corporate M&A",
+      "company": "Sociedade de Advogados",
+      "first_seen": "2026-09-25T19:05:21.254839",
+      "last_seen": "2026-09-25T19:05:21.254839",
+      "times_seen": 1
+    },
+    {
+      "hash": "28feef9d63d1c6aa54af7f341689b65b",
+      "title": "Subchefe de Cozinha (M/F) - Penina Hotel & Golf Resort, Alvor",
+      "company": "SOC TURISTICA PENINA SA",
+      "first_seen": "2026-09-25T19:05:21.257553",
+      "last_seen": "2026-09-25T19:05:21.257553",
+      "times_seen": 1
+    },
+    {
+      "hash": "7e5e42f4b2924f2f42cc592adb7ab93b",
+      "title": "Operário Polivalente (M/F) - Penina Hotel & Golf Resort, Alvor",
+      "company": "SOC TURISTICA PENINA SA",
+      "first_seen": "2026-09-25T19:05:21.258788",
+      "last_seen": "2026-09-25T19:05:21.258788",
+      "times_seen": 1
+    },
+    {
+      "hash": "b9e8cbfee3dbf42e124aa911ca3a6abc",
+      "title": "Chefe de Cozinha (M/F) - Penina Hotel & Golf Resort - Alvor",
+      "company": "SOC TURISTICA PENINA SA",
+      "first_seen": "2026-09-25T19:05:21.259877",
+      "last_seen": "2026-09-25T19:05:21.259877",
+      "times_seen": 1
+    },
+    {
+      "hash": "89cdd873ccbc720e6ddd58c5773a7cc7",
+      "title": "Copeiro (M/F) - Penina Hotel & Golf Resort, Alvor",
+      "company": "SOC TURISTICA PENINA SA",
+      "first_seen": "2026-09-25T19:05:21.260459",
+      "last_seen": "2026-09-25T19:05:21.260459",
+      "times_seen": 1
+    },
+    {
+      "hash": "1d9156148a84831a287997c1969c091b",
+      "title": "Cozinheiro de 3ª (M/F) - Penina Hotel & Golf Resort, Alvor",
+      "company": "SOC TURISTICA PENINA SA",
+      "first_seen": "2026-09-25T19:05:21.260995",
+      "last_seen": "2026-09-25T19:05:21.260995",
+      "times_seen": 1
+    },
+    {
+      "hash": "c3df371fbfd36750f41addc6231bd830",
+      "title": "Cozinheiro de 1ª  (M/F) - Penina Hotel & Golf Resort, Alvor",
+      "company": "SOC TURISTICA PENINA SA",
+      "first_seen": "2026-09-25T19:05:21.262182",
+      "last_seen": "2026-09-25T19:05:21.262182",
+      "times_seen": 1
+    },
+    {
+      "hash": "02213690af2e213e10ba33f92d762727",
+      "title": "Pintor (M/F) - Penina Hotel & Golf Resort, Alvor",
+      "company": "SOC TURISTICA PENINA SA",
+      "first_seen": "2026-09-25T19:05:21.263411",
+      "last_seen": "2026-09-25T19:05:21.263411",
+      "times_seen": 1
+    },
+    {
+      "hash": "05872e2c19a6b9b04ecdbbf1c56434df",
+      "title": "Junior Power BI Consultant (Cascais - Hybrid)",
+      "company": "CLARANET",
+      "first_seen": "2026-09-25T19:05:21.264516",
+      "last_seen": "2026-10-03T13:29:51.571422",
+      "times_seen": 2
+    },
+    {
+      "hash": "af756fba250f3f472fdd4ec262512ce3",
+      "title": "Data Platform Engineering Lead",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-09-25T19:05:21.267202",
+      "last_seen": "2026-09-25T19:05:21.267202",
+      "times_seen": 1
+    },
+    {
+      "hash": "f3560050a55e4a7acca36bd6878aa161",
+      "title": "Salesforce Technical Lead",
+      "company": "Adecco Recruitment",
+      "first_seen": "2026-09-25T19:05:21.267776",
+      "last_seen": "2026-09-25T19:05:21.267776",
+      "times_seen": 1
+    },
+    {
+      "hash": "7cd1150af2591d32f247bcb8ccd574a6",
+      "title": "IT Standards Engineering & Integration Lead - Vet-Pharma",
+      "company": "Michael Page",
+      "first_seen": "2026-09-25T19:05:21.269545",
+      "last_seen": "2026-09-25T19:05:21.269545",
+      "times_seen": 1
+    },
+    {
+      "hash": "fd43c4e9f79c8966f07952f26a7c6137",
+      "title": "Data Governance Specialist  (m/f/x)",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-09-25T19:05:21.272137",
+      "last_seen": "2026-09-25T19:05:21.272137",
+      "times_seen": 1
+    },
+    {
+      "hash": "1d4a6729e67e6f4c4a362a3d3bb0c6e3",
+      "title": "Lead Security Engineer",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-09-25T19:05:21.272774",
+      "last_seen": "2026-09-25T19:05:21.272774",
+      "times_seen": 1
+    },
+    {
+      "hash": "435b1e343bc9ea7936513d7b7053b4da",
+      "title": "Executive Support Specialist",
+      "company": "Michael Page",
+      "first_seen": "2026-09-25T19:05:21.273295",
+      "last_seen": "2026-09-25T19:05:21.273295",
+      "times_seen": 1
+    },
+    {
+      "hash": "20adb6223c622ae22eee38fccd635232",
+      "title": "Consultor Sénior de Firewall & IPS",
+      "company": "Kept People",
+      "first_seen": "2026-09-25T19:05:21.273856",
+      "last_seen": "2026-10-03T13:29:51.571067",
+      "times_seen": 2
+    },
+    {
+      "hash": "66b2ffe8b802886fb8d7013d070f282e",
+      "title": "IT Risk Analyst",
+      "company": "We are META",
+      "first_seen": "2026-09-25T19:05:21.276781",
+      "last_seen": "2026-09-25T19:05:21.276781",
+      "times_seen": 1
+    },
+    {
+      "hash": "300a5774af57af981281e0aaab333d9e",
+      "title": "Dynamics 365",
+      "company": "Damia",
+      "first_seen": "2026-09-25T19:05:21.277246",
+      "last_seen": "2026-10-18T17:48:19.143080",
+      "times_seen": 11
+    },
+    {
+      "hash": "39c3772a89f9e5fe6b27fe695afa140e",
+      "title": "iOS Developer",
+      "company": "INSCALE",
+      "first_seen": "2026-09-25T19:05:21.278888",
+      "last_seen": "2026-10-09T21:48:02.744887",
+      "times_seen": 8
+    },
+    {
+      "hash": "d6928a96b5ccbe64ebb8cd400629970b",
+      "title": "SAP SuccessFactors/ HCM",
+      "company": "Damia",
+      "first_seen": "2026-09-25T19:05:21.279451",
+      "last_seen": "2026-09-25T19:05:21.279451",
+      "times_seen": 1
+    },
+    {
+      "hash": "c00922e5f7cae9108c9ceead5e7894bd",
+      "title": "SAP Consultant SCM",
+      "company": "Damia",
+      "first_seen": "2026-09-25T19:05:21.281631",
+      "last_seen": "2026-09-25T19:05:21.281631",
+      "times_seen": 1
+    },
+    {
+      "hash": "ed44f59cd91dc34b9a56e512011539b8",
+      "title": "Application Integration Consultant",
+      "company": "Damia",
+      "first_seen": "2026-09-25T19:05:21.284946",
+      "last_seen": "2026-09-25T19:05:21.284946",
+      "times_seen": 1
+    },
+    {
+      "hash": "6f0c74af55bbcbff27471746272e5ea1",
+      "title": "Salesforce Technical Developer",
+      "company": "Damia",
+      "first_seen": "2026-09-25T19:05:21.285494",
+      "last_seen": "2026-09-25T19:05:21.285494",
+      "times_seen": 1
+    },
+    {
+      "hash": "0d55cf121652af8338dd3af3dd22e3d3",
+      "title": "Senior DevOps Engineer, Observability (Elastic Stack)",
+      "company": "Accenture",
+      "first_seen": "2026-09-25T19:05:21.288219",
+      "last_seen": "2026-10-09T21:48:02.742537",
+      "times_seen": 7
+    },
+    {
+      "hash": "b3b0042d16e849e944536933c20167cf",
+      "title": "Gestión de Identidades y Accesos",
+      "company": "OpenSpring",
+      "first_seen": "2026-10-03T13:29:51.470345",
+      "last_seen": "2026-10-03T13:29:51.470345",
+      "times_seen": 1
+    },
+    {
+      "hash": "12734d8ebc349203c6e17c158fc1d37a",
+      "title": "Gestión de Identidades y Accesos",
+      "company": "Tieto",
+      "first_seen": "2026-10-03T13:29:51.470738",
+      "last_seen": "2026-10-03T13:29:51.470738",
+      "times_seen": 1
+    },
+    {
+      "hash": "1a306486eb82c99dd34d6b01980cb04c",
+      "title": "Consultor Iam - Remoto",
+      "company": "Integer Consulting",
+      "first_seen": "2026-10-03T13:29:51.471133",
+      "last_seen": "2026-10-03T13:29:51.471133",
+      "times_seen": 1
+    },
+    {
+      "hash": "e70862e4acddc27e5e9e42906d18ee19",
+      "title": "IAM (Identity and Access Management)",
+      "company": "LUZA Group",
+      "first_seen": "2026-10-03T13:29:51.471502",
+      "last_seen": "2026-10-03T13:29:51.471502",
+      "times_seen": 1
+    },
+    {
+      "hash": "a0ebe5d73b991aa09952ab9017d88ef6",
+      "title": "Identity & Access Management (IAM) Specialist",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-10-03T13:29:51.471877",
+      "last_seen": "2026-10-03T13:29:51.471877",
+      "times_seen": 1
+    },
+    {
+      "hash": "0228ebb23487e18f1571a9d5e8c052d9",
+      "title": "Engineering Manager - Authentication & Authorisation",
+      "company": "Pleo",
+      "first_seen": "2026-10-03T13:29:51.472241",
+      "last_seen": "2026-10-03T13:29:51.472636",
+      "times_seen": 2
+    },
+    {
+      "hash": "ee2fa0f2ef09589196e31de98cb62c74",
+      "title": "Consultor IAM",
+      "company": "IRIUM",
+      "first_seen": "2026-10-03T13:29:51.473714",
+      "last_seen": "2026-10-03T13:29:51.473714",
+      "times_seen": 1
+    },
+    {
+      "hash": "70dff0df3fcedb2913e0c5656c5a9368",
+      "title": "IAM Manager (M/F/D)",
+      "company": "Hays",
+      "first_seen": "2026-10-03T13:29:51.474160",
+      "last_seen": "2026-10-03T13:29:51.474160",
+      "times_seen": 1
+    },
+    {
+      "hash": "00a4f6c29aad60ef5dffd7dcd13dd513",
+      "title": "Global Platform Team Lead & Senior Director – Identity Security",
+      "company": "Boston Consulting Group (BCG)",
+      "first_seen": "2026-10-03T13:29:51.474939",
+      "last_seen": "2026-10-03T13:29:51.474939",
+      "times_seen": 1
+    },
+    {
+      "hash": "29e16f9281697ab9426049b4fdd07738",
+      "title": "Identity & Access Management Service Owner",
+      "company": "Siemens Energy",
+      "first_seen": "2026-10-03T13:29:51.475354",
+      "last_seen": "2026-10-03T13:29:51.475354",
+      "times_seen": 1
+    },
+    {
+      "hash": "50ce1bc3e3ae05cf5cd38c7abb4fbe41",
+      "title": "IT Architect (f/m/d) Active Directory & Identity Security",
+      "company": "emagine",
+      "first_seen": "2026-10-03T13:29:51.475721",
+      "last_seen": "2026-10-03T13:29:51.475721",
+      "times_seen": 1
+    },
+    {
+      "hash": "c3379626a91a3736ab30bd0bd57eeb13",
+      "title": "Identity and Access Engineering Manager",
+      "company": "Blip.pt",
+      "first_seen": "2026-10-03T13:29:51.476502",
+      "last_seen": "2026-10-03T13:29:51.476502",
+      "times_seen": 1
+    },
+    {
+      "hash": "bd039de5faf5f1f5f2443fb522ce75e6",
+      "title": "Senior IAM Consultant",
+      "company": "Adentis Portugal",
+      "first_seen": "2026-10-03T13:29:51.476855",
+      "last_seen": "2026-10-03T13:29:51.476855",
+      "times_seen": 1
+    },
+    {
+      "hash": "d6a5adb8df241cada64fb6252509abb6",
+      "title": "IAM Consultant (Mid-Level)",
+      "company": "Adentis Portugal",
+      "first_seen": "2026-10-03T13:29:51.477230",
+      "last_seen": "2026-10-03T13:29:51.477230",
+      "times_seen": 1
+    },
+    {
+      "hash": "88a8f63693f00c551ed7a84bb3a6d9c8",
+      "title": "Workplace Services Senior Engineer",
+      "company": "Claranet Portugal",
+      "first_seen": "2026-10-03T13:29:51.477606",
+      "last_seen": "2026-10-03T13:29:51.477606",
+      "times_seen": 1
+    },
+    {
+      "hash": "d53d7b6499b0ac28b37b323a8814ad06",
+      "title": "Security Operation",
+      "company": "Adentis Portugal",
+      "first_seen": "2026-10-03T13:29:51.477969",
+      "last_seen": "2026-10-03T13:29:51.477969",
+      "times_seen": 1
+    },
+    {
+      "hash": "f9d3002ed2130d50491489897a5a7f39",
+      "title": "Senior Systems Engineer, MCP Server Portals",
+      "company": "Cloudflare",
+      "first_seen": "2026-10-03T13:29:51.478681",
+      "last_seen": "2026-10-03T13:29:51.478681",
+      "times_seen": 1
+    },
+    {
+      "hash": "c5681a0b7f84630364a66d9e0d711079",
+      "title": "Cloud Security Specialist",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-10-03T13:29:51.479065",
+      "last_seen": "2026-10-03T13:29:51.479065",
+      "times_seen": 1
+    },
+    {
+      "hash": "b5f40c7baa486dd913bbeb29b488c0ff",
+      "title": "Retail Sector | Cyber Security Engineer",
+      "company": "Devoteam",
+      "first_seen": "2026-10-03T13:29:51.479449",
+      "last_seen": "2026-10-03T13:29:51.479449",
+      "times_seen": 1
+    },
+    {
+      "hash": "b4362ccd9b48d526d5a92441ba2c60f4",
+      "title": "Estágio de Cibersegurança",
+      "company": "Portway - Handling de Portugal S. A.",
+      "first_seen": "2026-10-03T13:29:51.480195",
+      "last_seen": "2026-10-03T13:29:51.480195",
+      "times_seen": 1
+    },
+    {
+      "hash": "f579ab736e29675272212360beba731b",
+      "title": "SIEM Engineer",
+      "company": "Amgen",
+      "first_seen": "2026-10-03T13:29:51.480603",
+      "last_seen": "2026-10-03T13:29:51.480603",
+      "times_seen": 1
+    },
+    {
+      "hash": "96a899ae1b9fef08b58a5b01ac3f6ce8",
+      "title": "IT Security & Privacy Consultant",
+      "company": "Axians Portugal",
+      "first_seen": "2026-10-03T13:29:51.480985",
+      "last_seen": "2026-10-03T13:29:51.480985",
+      "times_seen": 1
+    },
+    {
+      "hash": "2e48f191a17be67351d6b05269eb8421",
+      "title": "IT Security Engineer - Lisboa (Híbrido)",
+      "company": "SHORE",
+      "first_seen": "2026-10-03T13:29:51.481796",
+      "last_seen": "2026-10-03T13:29:51.481796",
+      "times_seen": 1
+    },
+    {
+      "hash": "8dfaa31452508f7b9d6530e42bc74fd0",
+      "title": "Senior IT Security Officer",
+      "company": "Capgemini",
+      "first_seen": "2026-10-03T13:29:51.482190",
+      "last_seen": "2026-10-03T13:29:51.482190",
+      "times_seen": 1
+    },
+    {
+      "hash": "56da377ad7bf91d7b64b1b56352b6cfa",
+      "title": "Senior Application  Security Engineer",
+      "company": "Thought Machine",
+      "first_seen": "2026-10-03T13:29:51.482532",
+      "last_seen": "2026-10-03T13:29:51.482532",
+      "times_seen": 1
+    },
+    {
+      "hash": "cbfa118106c593e978d37e7958b31a93",
+      "title": "Devoteam Cyber Trust | Cybersecurity Analyst",
+      "company": "Devoteam | Cyber Trust",
+      "first_seen": "2026-10-03T13:29:51.482893",
+      "last_seen": "2026-10-03T13:29:51.482893",
+      "times_seen": 1
+    },
+    {
+      "hash": "e6c5eb4927bc93b8893789205284a0ac",
+      "title": "Network & Security Engineer",
+      "company": "Extia",
+      "first_seen": "2026-10-03T13:29:51.483278",
+      "last_seen": "2026-10-03T13:29:51.483278",
+      "times_seen": 1
+    },
+    {
+      "hash": "e659adddabf57e04b02ab1b9cdaf7138",
+      "title": "Network Security Engineer",
+      "company": "All jobs",
+      "first_seen": "2026-10-03T13:29:51.483628",
+      "last_seen": "2026-10-03T13:29:51.483628",
+      "times_seen": 1
+    },
+    {
+      "hash": "792453909f75fadc3611f477d2f0c7c2",
+      "title": "Cyber Operational Resilience Officer",
+      "company": "AXA Group Operations",
+      "first_seen": "2026-10-03T13:29:51.483994",
+      "last_seen": "2026-10-03T13:29:51.483994",
+      "times_seen": 1
+    },
+    {
+      "hash": "3cacd23df37bb3950926c4c3bfc29b03",
+      "title": "Cybersecurity Expert",
+      "company": "Inetum",
+      "first_seen": "2026-10-03T13:29:51.484337",
+      "last_seen": "2026-10-03T13:29:51.484337",
+      "times_seen": 1
+    },
+    {
+      "hash": "7fa6cf57e57c3cc6edd89dd6d857294d",
+      "title": "CyberProgram Analyst",
+      "company": "Inetum",
+      "first_seen": "2026-10-03T13:29:51.484670",
+      "last_seen": "2026-10-03T13:29:51.484670",
+      "times_seen": 1
+    },
+    {
+      "hash": "eb3b04a82c881e6c5e28eecc18c83f71",
+      "title": "Security Engineer (French Speaker) | BPCE-SI",
+      "company": "Natixis in Portugal",
+      "first_seen": "2026-10-03T13:29:51.485083",
+      "last_seen": "2026-10-03T13:29:51.485083",
+      "times_seen": 1
+    },
+    {
+      "hash": "5b88b595a7a03da674142f4626385e2c",
+      "title": "SOAR Developer",
+      "company": "Vodafone",
+      "first_seen": "2026-10-03T13:29:51.485502",
+      "last_seen": "2026-10-03T13:29:51.485502",
+      "times_seen": 1
+    },
+    {
+      "hash": "13908337ff182db08c2e1da4c13d26f9",
+      "title": "TECH Senior Consultant IT Audit - Lisboa",
+      "company": "Deloitte",
+      "first_seen": "2026-10-03T13:29:51.485877",
+      "last_seen": "2026-10-03T13:29:51.485877",
+      "times_seen": 1
+    },
+    {
+      "hash": "4951fa1f77393efbb01ff0cab4abb796",
+      "title": "Team Lead – Network & Security Operations",
+      "company": "Euronext",
+      "first_seen": "2026-10-03T13:29:51.486244",
+      "last_seen": "2026-10-03T13:29:51.486244",
+      "times_seen": 1
+    },
+    {
+      "hash": "cd2b35fa89b6611715d073daa0c1aac2",
+      "title": "Especialista em cibersegurança",
+      "company": "Smart Consulting",
+      "first_seen": "2026-10-03T13:29:51.487069",
+      "last_seen": "2026-10-03T13:29:51.487069",
+      "times_seen": 1
+    },
+    {
+      "hash": "c701f328917c98d04704d83788e7947e",
+      "title": "Senior Security Engineer",
+      "company": "OutSystems",
+      "first_seen": "2026-10-03T13:29:51.487409",
+      "last_seen": "2026-10-03T13:29:51.487409",
+      "times_seen": 1
+    },
+    {
+      "hash": "d62b4e690c0caed641a49c162f1af41d",
+      "title": "Cybersecurity Analyst",
+      "company": "Dellent",
+      "first_seen": "2026-10-03T13:29:51.487748",
+      "last_seen": "2026-10-03T13:29:51.556179",
+      "times_seen": 2
+    },
+    {
+      "hash": "025392b5178602d972f602cb2dd59840",
+      "title": "Senior Threat Intelligence Analyst, Hacks",
+      "company": "Jobgether",
+      "first_seen": "2026-10-03T13:29:51.488118",
+      "last_seen": "2026-10-03T13:29:51.488118",
+      "times_seen": 1
+    },
+    {
+      "hash": "7d6f9a77c0301895b159f488669ff9e8",
+      "title": "SecOps Engineer",
+      "company": "Decskill",
+      "first_seen": "2026-10-03T13:29:51.489183",
+      "last_seen": "2026-10-03T13:29:51.489183",
+      "times_seen": 1
+    },
+    {
+      "hash": "828c07bf1f499f03036891034070a92d",
+      "title": "Automation Engineer",
+      "company": "PrimeIT",
+      "first_seen": "2026-10-03T13:29:51.489746",
+      "last_seen": "2026-10-03T13:29:51.489746",
+      "times_seen": 1
+    },
+    {
+      "hash": "6d8bd0c4c6130d2ac91e2bbb0e833b38",
+      "title": "Detection Engineer",
+      "company": "Boston Consulting Group (BCG)",
+      "first_seen": "2026-10-03T13:29:51.490247",
+      "last_seen": "2026-10-03T13:29:51.490247",
+      "times_seen": 1
+    },
+    {
+      "hash": "8ca643d01a196c0ca8b64017d4af5053",
+      "title": "SOC Analyst (M/F) Lisboa",
+      "company": "Ankix",
+      "first_seen": "2026-10-03T13:29:51.490611",
+      "last_seen": "2026-10-03T13:29:51.490611",
+      "times_seen": 1
+    },
+    {
+      "hash": "3e4e8f365c8e013c16e945c27497ef8e",
+      "title": "SOC Analyst (M/F) - Lisboa",
+      "company": "Ankix",
+      "first_seen": "2026-10-03T13:29:51.491099",
+      "last_seen": "2026-10-03T13:29:51.491099",
+      "times_seen": 1
+    },
+    {
+      "hash": "14101ea1bf4728bbec0ecd37ec106d73",
+      "title": "Information Security Consultant",
+      "company": "Ivy Partners",
+      "first_seen": "2026-10-03T13:29:51.491604",
+      "last_seen": "2026-10-03T13:29:51.491604",
+      "times_seen": 1
+    },
+    {
+      "hash": "9f40752577d168323576aa4016c3932b",
+      "title": "Devoteam Cyber Trust  | SOC Analyst | Financial Sector",
+      "company": "Devoteam | Cyber Trust",
+      "first_seen": "2026-10-03T13:29:51.492102",
+      "last_seen": "2026-10-03T13:29:51.492102",
+      "times_seen": 1
+    },
+    {
+      "hash": "0f107f6d6b2190a18aa721b0748b1397",
+      "title": "Devoteam Cyber Trust  | SOC Analyst | FinTech Sector",
+      "company": "Devoteam | Cyber Trust",
+      "first_seen": "2026-10-03T13:29:51.492481",
+      "last_seen": "2026-10-03T13:29:51.492481",
+      "times_seen": 1
+    },
+    {
+      "hash": "53dcf34758412d6f767fa221ab8978a3",
+      "title": "Security Operations Center Analyst",
+      "company": "We Are META",
+      "first_seen": "2026-10-03T13:29:51.493407",
+      "last_seen": "2026-10-03T13:29:51.493407",
+      "times_seen": 1
+    },
+    {
+      "hash": "3c6e38bc8037827f64857604606e831d",
+      "title": "Responsável pelo Cumprimento Normativo (RCN) Substituto",
+      "company": "Crédito Agrícola",
+      "first_seen": "2026-10-03T13:29:51.494242",
+      "last_seen": "2026-10-03T13:29:51.494242",
+      "times_seen": 1
+    },
+    {
+      "hash": "ee65d65e0cf0d7338caee2ea86675cda",
+      "title": "Derivatives Clearing Officer",
+      "company": "BNP Paribas CIB",
+      "first_seen": "2026-10-03T13:29:51.494643",
+      "last_seen": "2026-10-03T13:29:51.494643",
+      "times_seen": 1
+    },
+    {
+      "hash": "1f3ae434e2ce492598aa5499a3c214be",
+      "title": "Corporate Coverage Trainee",
+      "company": "BNP Paribas CIB",
+      "first_seen": "2026-10-03T13:29:51.495059",
+      "last_seen": "2026-10-03T13:29:51.495059",
+      "times_seen": 1
+    },
+    {
+      "hash": "72fb09517288d8b448a8a84f342eeaf0",
+      "title": "Analista de operações",
+      "company": "Taleo Consulting",
+      "first_seen": "2026-10-03T13:29:51.495715",
+      "last_seen": "2026-10-03T13:29:51.495715",
+      "times_seen": 1
+    },
+    {
+      "hash": "3cf374cffaf336d8ef38770649a80cce",
+      "title": "ComparaJá | Intermediação de Crédito",
+      "company": "ComparaJá.pt",
+      "first_seen": "2026-10-03T13:29:51.496123",
+      "last_seen": "2026-10-03T13:29:51.496123",
+      "times_seen": 1
+    },
+    {
+      "hash": "e4d84381410260c1f909afbe4d7d97c9",
+      "title": "Técnico de Compliance",
+      "company": "Crédito Agrícola",
+      "first_seen": "2026-10-03T13:29:51.496583",
+      "last_seen": "2026-10-03T13:29:51.496583",
+      "times_seen": 1
+    },
+    {
+      "hash": "d0b996b3918af3a051ca527bafc9dc06",
+      "title": "Financial Crime Investigations Expert (EU Bank)",
+      "company": "Revolut",
+      "first_seen": "2026-10-03T13:29:51.496942",
+      "last_seen": "2026-10-03T13:29:51.496942",
+      "times_seen": 1
+    },
+    {
+      "hash": "4cfae87322a18745b47e53828ca17a24",
+      "title": "FinCrime Analyst (External Enquiries) - Italian",
+      "company": "Revolut",
+      "first_seen": "2026-10-03T13:29:51.497393",
+      "last_seen": "2026-10-03T13:29:51.497393",
+      "times_seen": 1
+    },
+    {
+      "hash": "e0081558886410b16b33d303359296f3",
+      "title": "Wealth Management Markets Back Office Senior Officer",
+      "company": "BNP Paribas Wealth Management",
+      "first_seen": "2026-10-03T13:29:51.498013",
+      "last_seen": "2026-10-03T13:29:51.498013",
+      "times_seen": 1
+    },
+    {
+      "hash": "c68a9e0becceec4a1dbe607b0bf165c2",
+      "title": "Cloud Engineer (Oracle)",
+      "company": "Neotalent Conclusion",
+      "first_seen": "2026-10-03T13:29:51.511106",
+      "last_seen": "2026-10-03T13:29:51.511106",
+      "times_seen": 1
+    },
+    {
+      "hash": "c5272088b8fae2c710e5e486669b3e48",
+      "title": "Information Security Analyst – Cybersecurity Projects",
+      "company": "ITDS Portugal",
+      "first_seen": "2026-10-03T13:29:51.521646",
+      "last_seen": "2026-10-03T13:29:51.521646",
+      "times_seen": 1
+    },
+    {
+      "hash": "cf1dd2d80657be840f74a432c45e4c6d",
+      "title": "Cybersecurity IT - OT Manager",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-10-03T13:29:51.523549",
+      "last_seen": "2026-10-03T13:29:51.523549",
+      "times_seen": 1
+    },
+    {
+      "hash": "d0525f4e74fc00c49328c441a346cba8",
+      "title": "Network Security Automation Engineer",
+      "company": "Neotalent Conclusion",
+      "first_seen": "2026-10-03T13:29:51.532249",
+      "last_seen": "2026-10-03T13:29:51.532249",
+      "times_seen": 1
+    },
+    {
+      "hash": "313f18fb17767be7856a9ec07574f2c5",
+      "title": "Senior Salesforce Developer - Marketing Cloud & Data Cloud",
+      "company": "GRiT Solutions",
+      "first_seen": "2026-10-03T13:29:51.537059",
+      "last_seen": "2026-10-03T13:29:51.537059",
+      "times_seen": 1
+    },
+    {
+      "hash": "019e1891f20d541ddcb6ed0d6960d999",
+      "title": "Assistente(a) Processual/Administrativo(a)",
+      "company": "Joana Portela Unipessoal Lda.",
+      "first_seen": "2026-10-03T13:29:51.539032",
+      "last_seen": "2026-10-03T13:29:51.539032",
+      "times_seen": 1
+    },
+    {
+      "hash": "f425257c4a61f2c2b8858d5711216728",
+      "title": "Consultor de Automação e IA",
+      "company": "Priceless Consulting Lda",
+      "first_seen": "2026-10-03T13:29:51.540376",
+      "last_seen": "2026-10-03T13:29:51.540376",
+      "times_seen": 1
+    },
+    {
+      "hash": "dfff12979c8bbfaad552c49346437649",
+      "title": "Farmacêutico - Técnico(a) de Farmácia - TAF - Projeto Diferenciador - Praia da Luz - Lagos",
+      "company": "Helena Isabel Valente Rosa Ramires",
+      "first_seen": "2026-10-03T13:29:51.540739",
+      "last_seen": "2026-10-03T13:29:51.540739",
+      "times_seen": 1
+    },
+    {
+      "hash": "622b4b98079a54af71d3281837f23aa6",
+      "title": "Operador Portuário (m/f) - Sines",
+      "company": "PSA Sines",
+      "first_seen": "2026-10-03T13:29:51.541128",
+      "last_seen": "2026-10-03T13:29:51.541128",
+      "times_seen": 1
+    },
+    {
+      "hash": "a84753022c33b94b83b754bf56f48718",
+      "title": "Embalador/a",
+      "company": "Grupo JMV",
+      "first_seen": "2026-10-03T13:29:51.541887",
+      "last_seen": "2026-10-03T13:29:51.541887",
+      "times_seen": 1
+    },
+    {
+      "hash": "bb989a80adf4d6d9c71cc806d33af2b0",
+      "title": "Técnico Júnior de Qualidade, Ambiente e Segurança (M/F)",
+      "company": "PINKPLATE IMPRESSÂO, S.A.",
+      "first_seen": "2026-10-03T13:29:51.542682",
+      "last_seen": "2026-10-03T13:29:51.542682",
+      "times_seen": 1
+    },
+    {
+      "hash": "4ee93d220670b5d2c10165ca95385fa7",
+      "title": "Designer Grafico Grijó Vila Nova de Gaia",
+      "company": "Anónimo",
+      "first_seen": "2026-10-03T13:29:51.543415",
+      "last_seen": "2026-10-03T13:29:51.543415",
+      "times_seen": 1
+    },
+    {
+      "hash": "276dc2421a2582c028574b91dee58b43",
+      "title": "Operador e/ou Programador CNC  Heidenhain - Bélgica",
+      "company": "ACCENT",
+      "first_seen": "2026-10-03T13:29:51.544461",
+      "last_seen": "2026-10-03T13:29:51.544461",
+      "times_seen": 1
+    },
+    {
+      "hash": "a2751406f5f74e041108812a3ae085b7",
+      "title": "Director Adjunto Farmacêutico(a) - Farmácia Comunitária - ODIVELAS",
+      "company": "Salus Consulting, LDA",
+      "first_seen": "2026-10-03T13:29:51.544813",
+      "last_seen": "2026-10-03T13:29:51.544813",
+      "times_seen": 1
+    },
+    {
+      "hash": "08b9e3890508a98362c9e6956691f990",
+      "title": "Farmacêutico(a) - Farmácia Comunitária - Odivelas (Famões)",
+      "company": "Salus Consulting, LDA",
+      "first_seen": "2026-10-03T13:29:51.545212",
+      "last_seen": "2026-10-03T13:29:51.545212",
+      "times_seen": 1
+    },
+    {
+      "hash": "d2a3b3a013348ea0faa6e0ddba28daf2",
+      "title": "Fisioterapeutas para SUÍÇA: Salário atrativo / Curso Início 19 Outubro / diversas localizações",
+      "company": "AMPLIA",
+      "first_seen": "2026-10-03T13:29:51.545596",
+      "last_seen": "2026-10-03T13:29:51.545596",
+      "times_seen": 1
+    },
+    {
+      "hash": "f0c3c9b3ec16fb5d93b5e0380bb38302",
+      "title": "Oficial de Montagem de Condutas e Frente de Obra  AVAC (3 vagas)",
+      "company": "ECOWORLD - SERVICOS DE ENGENHARIA, LDA",
+      "first_seen": "2026-10-03T13:29:51.546325",
+      "last_seen": "2026-10-03T13:29:51.546325",
+      "times_seen": 1
+    },
+    {
+      "hash": "11a6ea19cfb266174a6e630fda2b2b7d",
+      "title": "Formação em Ensino de Inglês para Iniciantes (Educação Pré-escolar)",
+      "company": "Incurso, Capital Humano",
+      "first_seen": "2026-10-03T13:29:51.546714",
+      "last_seen": "2026-10-03T13:29:51.546714",
+      "times_seen": 1
+    },
+    {
+      "hash": "28d293b50277e84b6e6f2e6986064a20",
+      "title": "Estágio Profissional  Eletromecânico - ESTÁGIO INICIAR - IEFP",
+      "company": "Torrecid Portugal - Vidrados e Corantes Ceramicos",
+      "first_seen": "2026-10-03T13:29:51.547090",
+      "last_seen": "2026-10-03T13:29:51.547090",
+      "times_seen": 1
+    },
+    {
+      "hash": "f745e7928d7cd6f8ee3085414fddfd2e",
+      "title": "Técnico de Manutenção",
+      "company": "FASTPELICAN, LDA",
+      "first_seen": "2026-10-03T13:29:51.547435",
+      "last_seen": "2026-10-03T13:29:51.547435",
+      "times_seen": 1
+    },
+    {
+      "hash": "814d79c3e110451ad8c4559ee4b21d31",
+      "title": "Técnico de Automação Industrial",
+      "company": "MACHSERV Unipessoal, Lda.",
+      "first_seen": "2026-10-03T13:29:51.547774",
+      "last_seen": "2026-10-03T13:29:51.547774",
+      "times_seen": 1
+    },
+    {
+      "hash": "b8d2c693db8d57afb271a40778415309",
+      "title": "ADVOGADO(A) | OPORTUNIDADE INTERNACIONAL",
+      "company": "Stairs - People Advisors, Lda",
+      "first_seen": "2026-10-03T13:29:51.548207",
+      "last_seen": "2026-10-03T13:29:51.548207",
+      "times_seen": 1
+    },
+    {
+      "hash": "a92a32b1aa23d78158840a8728bc4298",
+      "title": "Técnico/a Polivalente de Construção Civil - Entrada Imediata (Apenas candidatos em Portugal)",
+      "company": "MC ARKHE LDA",
+      "first_seen": "2026-10-03T13:29:51.548563",
+      "last_seen": "2026-10-03T13:29:51.548563",
+      "times_seen": 1
+    },
+    {
+      "hash": "a4f07b4c296523aa01488edc40d010db",
+      "title": "ARQUITECTO/A Assistente",
+      "company": "PONTO i",
+      "first_seen": "2026-10-03T13:29:51.548956",
+      "last_seen": "2026-10-03T13:29:51.548956",
+      "times_seen": 1
+    },
+    {
+      "hash": "f35433a5ea46fd51d57f10ba6c6ee846",
+      "title": "Ajudante Ação Direta (m/f) para Lar em Barcarena (37h/semanais) - contrato de substituição (Out26)",
+      "company": "CERCIOEIRAS",
+      "first_seen": "2026-10-03T13:29:51.549337",
+      "last_seen": "2026-10-03T13:29:51.549337",
+      "times_seen": 1
+    },
+    {
+      "hash": "12042852ae96035e3b3b600044079c7f",
+      "title": "Técnico de Manutenção Industrial (m/f)",
+      "company": "AGRIMOTA - SOCIEDADE AGRICOLA E FLORESTAL S AAgrim",
+      "first_seen": "2026-10-03T13:29:51.549694",
+      "last_seen": "2026-10-03T13:29:51.549694",
+      "times_seen": 1
+    },
+    {
+      "hash": "b29e02f44a82191aba273dcefad35842",
+      "title": "Especialista Comercial - IOT & ICT",
+      "company": "Wondercom, Lda",
+      "first_seen": "2026-10-03T13:29:51.550709",
+      "last_seen": "2026-10-03T13:29:51.550709",
+      "times_seen": 1
+    },
+    {
+      "hash": "143c0ab669c18cc75304817ce24a8636",
+      "title": "Public Cloud Security Engineer",
+      "company": "Olisipo",
+      "first_seen": "2026-10-03T13:29:51.553131",
+      "last_seen": "2026-10-03T13:29:51.553131",
+      "times_seen": 1
+    },
+    {
+      "hash": "a406c4b346cc007cfb00ec4a176bc68e",
+      "title": "Product Owner Data",
+      "company": "Olisipo",
+      "first_seen": "2026-10-03T13:29:51.553789",
+      "last_seen": "2026-10-03T13:29:51.553789",
+      "times_seen": 1
+    },
+    {
+      "hash": "ca908ceb5deef7a231e0a4724dbc48a2",
+      "title": "Security Operations Center Lead",
+      "company": "Michael Page",
+      "first_seen": "2026-10-03T13:29:51.555484",
+      "last_seen": "2026-10-03T13:29:51.555484",
+      "times_seen": 1
+    },
+    {
+      "hash": "99376dbd2d0e158e0b801b25c2d58294",
+      "title": "IT Network Manager (mfx)",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-10-03T13:29:51.556524",
+      "last_seen": "2026-10-03T13:29:51.556524",
+      "times_seen": 1
+    },
+    {
+      "hash": "49564d8934214d99677c2d25c05b65c1",
+      "title": "Cybersecurity IT_OT Manager",
+      "company": "Randstad Portugal",
+      "first_seen": "2026-10-03T13:29:51.556909",
+      "last_seen": "2026-10-03T13:29:51.556909",
+      "times_seen": 1
+    },
+    {
+      "hash": "aa807302678bdaf8736af8ffd9807ccd",
+      "title": "IT Operations Specialist",
+      "company": "Adecco Recruitment",
+      "first_seen": "2026-10-03T13:29:51.557253",
+      "last_seen": "2026-10-03T13:29:51.557253",
+      "times_seen": 1
+    },
+    {
+      "hash": "724d0fca6d89ef31a96e6d28cd1af5d5",
+      "title": "Cybersecurity Strategist for Application Security & AI",
+      "company": "Michael Page",
+      "first_seen": "2026-10-03T13:29:51.558298",
+      "last_seen": "2026-10-03T13:29:51.558298",
+      "times_seen": 1
+    },
+    {
+      "hash": "065f0e34a3f050c7ad52626939935628",
+      "title": "Terapeuta para Gabinete de Marca Portuguesa de Skincare (TRATAMENTOS FACIAIS E CORPORAIS)",
+      "company": "SOC PERFUMARIAS NALLY LDA",
+      "first_seen": "2026-10-03T13:29:51.561305",
+      "last_seen": "2026-10-03T13:29:51.561305",
+      "times_seen": 1
+    },
+    {
+      "hash": "a89fd93f64c6f33c95ee072ebf7bafc8",
+      "title": "Precisa-se Ajudante de Ação Direta",
+      "company": "SOCRESA - Casa de Saúde e Repouso de Montemor",
+      "first_seen": "2026-10-03T13:29:51.561654",
+      "last_seen": "2026-10-03T13:29:51.561654",
+      "times_seen": 1
+    },
+    {
+      "hash": "d8b7eb464514b454002e677e38cdbc35",
+      "title": "Supervisora de Andares",
+      "company": "SOCIEDADE HOTELEIRA SILVAR, LDA,",
+      "first_seen": "2026-10-03T13:29:51.562021",
+      "last_seen": "2026-10-03T13:29:51.562021",
+      "times_seen": 1
+    },
+    {
+      "hash": "08d87f6ec676a3c5afec88df8b81e132",
+      "title": "Auxiliar de Produção para adega localizada em Évora",
+      "company": "Sociedade Agrícola da Fonte Coberta",
+      "first_seen": "2026-10-03T13:29:51.562373",
+      "last_seen": "2026-10-03T13:29:51.562373",
+      "times_seen": 1
+    },
+    {
+      "hash": "078e28c94d63db5e7b807b4444a96e26",
+      "title": "Técnico de Segurança (M/F) - Açores",
+      "company": "Socidias, Lda",
+      "first_seen": "2026-10-03T13:29:51.562726",
+      "last_seen": "2026-10-03T13:29:51.562726",
+      "times_seen": 1
+    },
+    {
+      "hash": "9472f616d4220423059c5fadfa59c027",
+      "title": "Técnico de Electrónica, Automação e Comando",
+      "company": "SOCILUX, LDA",
+      "first_seen": "2026-10-03T13:29:51.563112",
+      "last_seen": "2026-10-03T13:29:51.563112",
+      "times_seen": 1
+    },
+    {
+      "hash": "90ae734c237baba474d462c36fe65dc9",
+      "title": "Trolhas e Serventes - Obras em Portugal e França",
+      "company": "SOCOMENDES - SOCIEDADE DE CONSTRUÇÕES LDA",
+      "first_seen": "2026-10-03T13:29:51.563467",
+      "last_seen": "2026-10-03T13:29:51.563467",
+      "times_seen": 1
+    },
+    {
+      "hash": "b3c5d51a0b3362066b9fe505dfe936e2",
+      "title": "Fisioterapeuta (M/F) - Unidade de Neurorreabilitação em Lisboa",
+      "company": "SOCIEDADE PORTUGUESA DE ESCLEROSE MULTIPLA",
+      "first_seen": "2026-10-03T13:29:51.563846",
+      "last_seen": "2026-10-03T13:29:51.563846",
+      "times_seen": 1
+    },
+    {
+      "hash": "e513869f74fe11edad52cbc034c8c667",
+      "title": "Motorista de Pesados (Betão Pronto)",
+      "company": "SOCIBEIRAL - BETÃO PRONTO, LDA",
+      "first_seen": "2026-10-03T13:29:51.564246",
+      "last_seen": "2026-10-03T13:29:51.564246",
+      "times_seen": 1
+    },
+    {
+      "hash": "eeb3efc4c9af113a82b30bced5da09fa",
+      "title": "Empregado/a de Mesa- Quinta Grande",
+      "company": "SOCIEDADE AGRICOLA FAJA DOS PADRES LDA",
+      "first_seen": "2026-10-03T13:29:51.565324",
+      "last_seen": "2026-10-03T13:29:51.565324",
+      "times_seen": 1
+    },
+    {
+      "hash": "fbb78d9075912a9ee2627ae3b7849a2f",
+      "title": "Técnico Superior de IT - Infraestruturas (M/F)",
+      "company": "Sociedade de Advogados",
+      "first_seen": "2026-10-03T13:29:51.565702",
+      "last_seen": "2026-10-03T13:29:51.565702",
+      "times_seen": 1
+    },
+    {
+      "hash": "59e59a73b95eea0aed164b8cc3494713",
+      "title": "Técnico Superior de IT - Desenvolvimento de Software (M/F)",
+      "company": "Sociedade de Advogados",
+      "first_seen": "2026-10-03T13:29:51.566125",
+      "last_seen": "2026-10-03T13:29:51.566125",
+      "times_seen": 1
+    },
+    {
+      "hash": "82aada90118961076b1de6ad50d8b349",
+      "title": "Empregado/a Mesa 2ª",
+      "company": "SOC CONCESSIONARIA HOTEL ROMA SA",
+      "first_seen": "2026-10-03T13:29:51.566472",
+      "last_seen": "2026-10-03T13:29:51.566472",
+      "times_seen": 1
+    },
+    {
+      "hash": "9b863f21b8ba79b5ea246b158e0ba3f8",
+      "title": "Engenheiro de Processo  Injeção de Polímeros (M/F/D)",
+      "company": "Sociedade Anónima",
+      "first_seen": "2026-10-03T13:29:51.568030",
+      "last_seen": "2026-10-03T13:29:51.568030",
+      "times_seen": 1
+    },
+    {
+      "hash": "a61c999e80a3b85ea7a79789dc265d98",
+      "title": "Técnico de SOC (M/F) - Alfragide",
+      "company": "Heading® Recursos Humanos Portugal",
+      "first_seen": "2026-10-03T13:29:51.570325",
+      "last_seen": "2026-10-03T13:29:51.570325",
+      "times_seen": 1
+    },
+    {
+      "hash": "d665a4ff6841ce230ddea7961aa06561",
+      "title": "Certified Lawyer",
+      "company": "Universalkraft, lda",
+      "first_seen": "2026-10-03T13:29:51.570673",
+      "last_seen": "2026-10-03T13:29:51.570673",
+      "times_seen": 1
+    },
+    {
+      "hash": "3d49418d6e94635561cf668379be64bd",
+      "title": "Salesforce developer",
+      "company": "KCS IT",
+      "first_seen": "2026-10-03T13:29:51.572569",
+      "last_seen": "2026-10-03T13:29:51.572569",
+      "times_seen": 1
+    },
+    {
+      "hash": "1afca07e691be86dfd91b97882cc3033",
+      "title": "Senior Salesforce Developer",
+      "company": "Olisipo",
+      "first_seen": "2026-10-03T13:29:51.574323",
+      "last_seen": "2026-10-03T13:29:51.574323",
+      "times_seen": 1
+    },
+    {
+      "hash": "43cb64ab48eb41d28b2ae7f1a34f1580",
+      "title": "Lead Java Developer",
+      "company": "Dellent",
+      "first_seen": "2026-10-03T13:29:51.574999",
+      "last_seen": "2026-10-03T13:29:51.574999",
+      "times_seen": 1
+    },
+    {
+      "hash": "a0b4deeef579ecaedb8005efffd99246",
+      "title": "Senior Linux System Administrator (m/f)  Lisbon",
+      "company": "ChaseUp",
+      "first_seen": "2026-10-03T13:29:51.575355",
+      "last_seen": "2026-10-03T13:29:51.575355",
+      "times_seen": 1
+    },
+    {
+      "hash": "0cd02df2fd80eb2c1f3e27fe0ffb3699",
+      "title": "Data Engineer",
+      "company": "We are META",
+      "first_seen": "2026-10-03T13:29:51.576084",
+      "last_seen": "2026-10-03T13:29:51.576084",
+      "times_seen": 1
+    },
+    {
+      "hash": "409dbf69571b6c80fe7b9ca4b6eea69f",
+      "title": "Hebrew Content Reviewer  Remote Position in Portugal",
+      "company": "365 Recruitment",
+      "first_seen": "2026-10-03T13:29:51.577438",
+      "last_seen": "2026-10-03T13:29:51.577438",
+      "times_seen": 1
+    },
+    {
+      "hash": "0fb6774fdb92b6b461fdb2362616a16d",
+      "title": "Salesforce Developer",
+      "company": "Adecco Recruitment",
+      "first_seen": "2026-10-03T13:29:51.578756",
+      "last_seen": "2026-10-03T13:29:51.578756",
+      "times_seen": 1
+    },
+    {
+      "hash": "cabda9f1f47514eac2ac7806b5541f06",
+      "title": "Global Director of HRIS & Transformation",
+      "company": "Sodexo",
+      "first_seen": "2026-10-03T13:29:51.579154",
+      "last_seen": "2026-10-09T21:48:02.739999",
+      "times_seen": 7
+    },
+    {
+      "hash": "3493f06f0024aed163af55ef8402030b",
+      "title": "Analytics Engineer",
+      "company": "Dashlane",
+      "first_seen": "2026-10-03T13:29:51.579839",
+      "last_seen": "2026-10-18T17:48:19.149375",
+      "times_seen": 10
+    },
+    {
+      "hash": "b4c566ac8230c26ee24ef5df5b1cce1c",
+      "title": "Global Director of HRIS & Transformation",
+      "company": "Damia",
+      "first_seen": "2026-10-03T13:29:51.580845",
+      "last_seen": "2026-10-06T18:39:05.771621",
+      "times_seen": 6
+    },
+    {
+      "hash": "44b4744125be5c193e83ad156097d0f0",
+      "title": "Application Security Architect",
+      "company": "Damia",
+      "first_seen": "2026-10-03T13:29:51.582556",
+      "last_seen": "2026-10-03T13:29:51.582556",
+      "times_seen": 1
+    },
+    {
+      "hash": "dacabdbb4e6240cf658afecf4d7a4ceb",
+      "title": "Senior Platform Engineer",
+      "company": "UpHill Health",
+      "first_seen": "2026-10-03T13:29:51.583246",
+      "last_seen": "2026-10-09T21:48:02.736014",
+      "times_seen": 2
+    },
+    {
+      "hash": "6ed6658fced64ef9ecc467502951212b",
+      "title": "Principal Cloud Security Engineer",
+      "company": "Damia",
+      "first_seen": "2026-10-03T13:29:51.586893",
+      "last_seen": "2026-10-18T17:48:19.149814",
+      "times_seen": 10
+    },
+    {
+      "hash": "b4160a5a0ffdea85aaff290dbabecbcd",
+      "title": "SAP Logistics Manager/Consultant",
+      "company": "Accenture",
+      "first_seen": "2026-10-03T13:29:51.587921",
+      "last_seen": "2026-10-18T17:48:19.146550",
+      "times_seen": 10
+    },
+    {
+      "hash": "699d73052409a45d2593091a10a8ebfd",
+      "title": "Project Manager - Strategic Facility & Technology Planning",
+      "company": "ZEISS Group",
+      "first_seen": "2026-10-06T18:16:58.500101",
+      "last_seen": "2026-10-09T21:48:02.694706",
+      "times_seen": 6
+    },
+    {
+      "hash": "339ccf0d630506e97a926c536091d3e5",
+      "title": "Artwork Coordinator",
+      "company": "Viatris",
+      "first_seen": "2026-10-06T18:16:58.500957",
+      "last_seen": "2026-10-09T21:48:02.695182",
+      "times_seen": 6
+    },
+    {
+      "hash": "c43a96ec1bfd2069474bfbc71a04a2a1",
+      "title": "PMO (A)",
+      "company": "Philips",
+      "first_seen": "2026-10-06T18:16:58.501367",
+      "last_seen": "2026-10-09T21:48:02.700778",
+      "times_seen": 6
+    },
+    {
+      "hash": "5cff9d0818a4f2ce2aaa6ae1040f92da",
+      "title": "Project Coordinator - Full time remote (based in Portugal)",
+      "company": "Alphanumeric Systems",
+      "first_seen": "2026-10-06T18:16:58.501743",
+      "last_seen": "2026-10-09T21:48:02.692657",
+      "times_seen": 6
+    },
+    {
+      "hash": "516d8337a1d20af361f3126c0fdada44",
+      "title": "Clinical Trial Project Manager Assistant (M/F)",
+      "company": "Tecnimede Group",
+      "first_seen": "2026-10-06T18:16:58.502147",
+      "last_seen": "2026-10-09T21:48:02.684093",
+      "times_seen": 6
+    },
+    {
+      "hash": "26624c00b5ea6c2422eb601876abe646",
+      "title": "Associate Project Manager, Fittings",
+      "company": "Waterworks",
+      "first_seen": "2026-10-06T18:16:58.502525",
+      "last_seen": "2026-10-06T18:39:05.737989",
+      "times_seen": 5
+    },
+    {
+      "hash": "2df3c692a0bba7366dd88e119ca92ae9",
+      "title": "Project Coordinator",
+      "company": "Scandinavian Tobacco Group",
+      "first_seen": "2026-10-06T18:16:58.502873",
+      "last_seen": "2026-10-06T18:39:05.738343",
+      "times_seen": 5
+    },
+    {
+      "hash": "ea935b9b124f4c713ada753f7950cfd4",
+      "title": "IT EDI Integration Project Coordinator",
+      "company": "Continental",
+      "first_seen": "2026-10-06T18:16:58.503218",
+      "last_seen": "2026-10-09T21:48:02.685807",
+      "times_seen": 6
+    },
+    {
+      "hash": "4c0d9e48a1a2db21ee42c141524ed6ea",
+      "title": "Environmental Sustainability Engineer",
+      "company": "Amgen",
+      "first_seen": "2026-10-06T18:16:58.503576",
+      "last_seen": "2026-10-09T21:48:02.686362",
+      "times_seen": 6
+    },
+    {
+      "hash": "fadbc824b5f513e1a195c6424310afac",
+      "title": "Technical Operations Analyst",
+      "company": "CTI Clinical Trial and Consulting Services",
+      "first_seen": "2026-10-06T18:16:58.503920",
+      "last_seen": "2026-10-06T18:39:05.739402",
+      "times_seen": 5
+    },
+    {
+      "hash": "f44937a7b2771eccc98b8cd0aaa56f4b",
+      "title": "Proposal & Bid Management Analyst",
+      "company": "Marsh",
+      "first_seen": "2026-10-06T18:16:58.504272",
+      "last_seen": "2026-10-06T18:39:05.739848",
+      "times_seen": 5
+    },
+    {
+      "hash": "57558a06e1c17d4721f719acccdf165c",
+      "title": "Site Selection Specialist",
+      "company": "Indero (formerly Innovaderm)",
+      "first_seen": "2026-10-06T18:16:58.504646",
+      "last_seen": "2026-10-06T18:39:05.740275",
+      "times_seen": 5
+    },
+    {
+      "hash": "477b828b6bc233f61b5a746ad2dcc22b",
+      "title": "Senior Associate Scrum Master",
+      "company": "Amgen",
+      "first_seen": "2026-10-06T18:16:58.505039",
+      "last_seen": "2026-10-06T18:39:05.740617",
+      "times_seen": 5
+    },
+    {
+      "hash": "c8f5bdf3390973802520220620dbea6c",
+      "title": "Global Artworks Coordinator - Pharma (m/f/d)",
+      "company": "Hays",
+      "first_seen": "2026-10-06T18:16:58.505473",
+      "last_seen": "2026-10-06T18:39:05.740953",
+      "times_seen": 5
+    },
+    {
+      "hash": "64a7198e08e62d7c5725f177b57ad290",
+      "title": "Junior IT Project Manager",
+      "company": "Decskill",
+      "first_seen": "2026-10-06T18:16:58.505822",
+      "last_seen": "2026-10-06T18:39:05.741284",
+      "times_seen": 5
+    },
+    {
+      "hash": "fba83a70711b1b071d1ae4782bc797b7",
+      "title": "ODR PMO Consultant - Lisboa",
+      "company": "Noesis",
+      "first_seen": "2026-10-06T18:16:58.506176",
+      "last_seen": "2026-10-06T18:39:05.742281",
+      "times_seen": 10
+    },
+    {
+      "hash": "0752cafcb81d525da31e8223b5431cb8",
+      "title": "Country Approval Specialist - FSP - Portugal",
+      "company": "Thermo Fisher Scientific",
+      "first_seen": "2026-10-06T18:16:58.506548",
+      "last_seen": "2026-10-06T18:39:05.741937",
+      "times_seen": 5
+    },
+    {
+      "hash": "f5fda6b124b877b52d26c2e0046b03bd",
+      "title": "Analyst – Primary Market Research",
+      "company": "IQVIA",
+      "first_seen": "2026-10-06T18:16:58.507281",
+      "last_seen": "2026-10-06T18:39:05.742618",
+      "times_seen": 5
+    },
+    {
+      "hash": "dd23fcfca81bde1327f0b988b0d598bc",
+      "title": "Client Readiness Coordinator (VIE)",
+      "company": "Euronext",
+      "first_seen": "2026-10-06T18:16:58.507635",
+      "last_seen": "2026-10-06T18:39:05.742948",
+      "times_seen": 5
+    },
+    {
+      "hash": "0cc9e3d93943a10997609e349a4bd3c0",
+      "title": "FSP Program Manager Medical Writing EMEA",
+      "company": "Thermo Fisher Scientific",
+      "first_seen": "2026-10-06T18:16:58.507995",
+      "last_seen": "2026-10-09T21:48:02.697862",
+      "times_seen": 6
+    },
+    {
+      "hash": "6ebdf1fa651adf8cab2edd5a30ec9173",
+      "title": "Senior Research Associate - Epidemiology",
+      "company": "Thermo Fisher Scientific",
+      "first_seen": "2026-10-06T18:16:58.508378",
+      "last_seen": "2026-10-06T18:39:05.743667",
+      "times_seen": 5
+    },
+    {
+      "hash": "d3afe47265861b0d3f29fce74004f1d9",
+      "title": "📣 Estamos a Recrutar | Gestor de Soluções em Saúde",
+      "company": "ANF - Associação Nacional das Farmácias",
+      "first_seen": "2026-10-06T18:16:58.508780",
+      "last_seen": "2026-10-09T21:48:02.697376",
+      "times_seen": 6
+    },
+    {
+      "hash": "374baa2be61dc1f0529a4099c0240b7b",
+      "title": "CBS Project Manager",
+      "company": "Convatec",
+      "first_seen": "2026-10-06T18:16:58.509133",
+      "last_seen": "2026-10-09T21:48:02.699719",
+      "times_seen": 6
+    },
+    {
+      "hash": "70705b1bc548722f884eeb64436a3a34",
+      "title": "Responsável de Projeto - Home Wellness",
+      "company": "Sinais do Tempo",
+      "first_seen": "2026-10-06T18:16:58.509527",
+      "last_seen": "2026-10-09T21:48:02.700264",
+      "times_seen": 6
+    },
+    {
+      "hash": "447784adbd22630543838ba98c561889",
+      "title": "Senior Project Manager - Dermatology/Rheumatology",
+      "company": "Indero (formerly Innovaderm)",
+      "first_seen": "2026-10-06T18:16:58.509898",
+      "last_seen": "2026-10-06T18:39:05.745112",
+      "times_seen": 5
+    },
+    {
+      "hash": "7086eb35428c9b04bbc59a28a6ba9856",
+      "title": "IT Project Manager Quality Systems (eQMS) in Pharma",
+      "company": "Fusion Consulting",
+      "first_seen": "2026-10-06T18:16:58.510259",
+      "last_seen": "2026-10-06T18:39:05.745458",
+      "times_seen": 5
+    },
+    {
+      "hash": "8b45cf29522b4c7e16b0207ee90720ae",
+      "title": "Clinical Project Manager III/ Senior CPM (level dependent on experience)",
+      "company": "CTI Clinical Trial and Consulting Services",
+      "first_seen": "2026-10-06T18:16:58.510631",
+      "last_seen": "2026-10-06T18:39:05.745799",
+      "times_seen": 5
+    },
+    {
+      "hash": "c4292fd714ff227ceb2becdc5bffed52",
+      "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
+      "company": "PrimeVigilance",
+      "first_seen": "2026-10-06T18:16:58.511040",
+      "last_seen": "2026-10-06T18:39:05.746132",
+      "times_seen": 5
+    },
+    {
+      "hash": "19b9b37a64f62d2f81a9a6d5b524b883",
+      "title": "Arquiteto/a - Gestor/a de Projeto",
+      "company": "Glintt Global",
+      "first_seen": "2026-10-06T18:16:58.511420",
+      "last_seen": "2026-10-06T18:39:05.746860",
+      "times_seen": 10
+    },
+    {
+      "hash": "0382ece1f1399ab4b4d537b33017ea5b",
+      "title": "Software Project Manager (Healthcare)",
+      "company": "Capgemini Engineering",
+      "first_seen": "2026-10-06T18:16:58.512123",
+      "last_seen": "2026-10-18T17:48:19.109818",
+      "times_seen": 8
+    },
+    {
+      "hash": "79c1e956840fc1120f526711a6f07a2a",
+      "title": "Production Shift Coordinator",
+      "company": "Coloplast",
+      "first_seen": "2026-10-06T18:16:58.512480",
+      "last_seen": "2026-10-09T21:48:02.708519",
+      "times_seen": 6
+    },
+    {
+      "hash": "cc306d4f3e6cd7bce26c38b24101e928",
+      "title": "Assistente de Logística e Otimização de Processos - Algoz",
+      "company": "Veolia",
+      "first_seen": "2026-10-06T18:16:58.512837",
+      "last_seen": "2026-10-06T18:39:05.747891",
+      "times_seen": 5
+    },
+    {
+      "hash": "af202716b3710f88df4093abba882ff0",
+      "title": "Officer, Documentation - Planning & Support Office",
+      "company": "Hikma Pharmaceuticals",
+      "first_seen": "2026-10-06T18:16:58.513344",
+      "last_seen": "2026-10-09T21:48:02.726550",
+      "times_seen": 6
+    },
+    {
+      "hash": "8d408a6a6110b09ce97aaf66474fb41e",
+      "title": "Application Specialist PCS",
+      "company": "GE HealthCare",
+      "first_seen": "2026-10-06T18:16:58.513754",
+      "last_seen": "2026-10-06T18:39:05.748568",
+      "times_seen": 5
+    },
+    {
+      "hash": "d148ceb9eeb0bfced6e6277810ec58b5",
+      "title": "ADMINISTRATIVO DE DELEGAÇÃO",
+      "company": "VitalAire",
+      "first_seen": "2026-10-06T18:16:58.514192",
+      "last_seen": "2026-10-06T18:39:05.748929",
+      "times_seen": 5
+    },
+    {
+      "hash": "bc88701ceab76d4ba77885f587ff1c6c",
+      "title": "Sales Support Associate",
+      "company": "IDEXX",
+      "first_seen": "2026-10-06T18:16:58.514557",
+      "last_seen": "2026-10-06T18:39:05.749262",
+      "times_seen": 5
+    },
+    {
+      "hash": "93979db7188e5915e98b19940caaaef5",
+      "title": "International Logistics Coordinator",
+      "company": "MyPeople Human Resources",
+      "first_seen": "2026-10-06T18:16:58.514905",
+      "last_seen": "2026-10-06T18:39:05.749588",
+      "times_seen": 5
+    },
+    {
+      "hash": "9e3441743d510269ed44a8e704a36423",
+      "title": "Senior Regulatory Operations Specialist",
+      "company": "MiniMed",
+      "first_seen": "2026-10-06T18:16:58.515264",
+      "last_seen": "2026-10-09T21:48:02.725996",
+      "times_seen": 6
+    },
+    {
+      "hash": "c00bfb69d24ac379b8c43507db691798",
+      "title": "Port Delivery Agent",
+      "company": "TUI",
+      "first_seen": "2026-10-06T18:16:58.515606",
+      "last_seen": "2026-10-06T18:39:05.750218",
+      "times_seen": 5
+    },
+    {
+      "hash": "26eaa12acb837c275f39d1946bb483a8",
+      "title": "Hotel Operations Coordinator - Lisbon (m/f/d)",
+      "company": "Numa",
+      "first_seen": "2026-10-06T18:16:58.515957",
+      "last_seen": "2026-10-06T18:39:05.750930",
+      "times_seen": 5
+    },
+    {
+      "hash": "9977d1039cb5ea43fe9b50a69b4a479c",
+      "title": "Operations Specialist Mgr",
+      "company": "IQVIA",
+      "first_seen": "2026-10-06T18:16:58.516309",
+      "last_seen": "2026-10-06T18:39:05.751550",
+      "times_seen": 5
+    },
+    {
+      "hash": "a2384dc137e361cf2183359442ebaaae",
+      "title": "Customer Service Specialist - Export Sales Operations - Spanish and English",
+      "company": "Enovis",
+      "first_seen": "2026-10-06T18:16:58.516677",
+      "last_seen": "2026-10-06T18:39:05.752000",
+      "times_seen": 5
+    },
+    {
+      "hash": "97e5e74c1049eae2a76b1f47428e0157",
+      "title": "Coordenador(a) de Agência / Gestor(a) Processual",
+      "company": "Vida Living Spaces",
+      "first_seen": "2026-10-06T18:16:58.517069",
+      "last_seen": "2026-10-06T18:39:05.752448",
+      "times_seen": 5
+    },
+    {
+      "hash": "b6346e989342312d6c6e05b7ade4f42c",
+      "title": "Técnico Implementação Operacional (m/f) - Movimento - Famalicão/Povoa de Varzim",
+      "company": "Transdev Portugal",
+      "first_seen": "2026-10-06T18:16:58.517459",
+      "last_seen": "2026-10-06T18:39:05.752968",
+      "times_seen": 5
+    },
+    {
+      "hash": "7eacaa936b33842dcafd8d10b33fa296",
+      "title": "Operacional de Tráfego Terrestre",
+      "company": "DSV - Global Transport and Logistics",
+      "first_seen": "2026-10-06T18:16:58.517815",
+      "last_seen": "2026-10-06T18:39:05.753650",
+      "times_seen": 5
+    },
+    {
+      "hash": "f859b3b0f2269cd3f2644372322e62f8",
+      "title": "Strategic Operations Specialist",
+      "company": "Jobgether",
+      "first_seen": "2026-10-06T18:16:58.518153",
+      "last_seen": "2026-10-06T18:39:05.754211",
+      "times_seen": 5
+    },
+    {
+      "hash": "bc4eec35e7edc9e7cc50bab310570cee",
+      "title": "Operacional de Eventos (M/F)",
+      "company": "Quinta do Lago",
+      "first_seen": "2026-10-06T18:16:58.518589",
+      "last_seen": "2026-10-06T18:39:05.754750",
+      "times_seen": 5
+    },
+    {
+      "hash": "0761b5e9b1ddf989d2daf99d5797b243",
+      "title": "Senior Clinical Trial Manager - IQVIA Biotech",
+      "company": "IQVIA",
+      "first_seen": "2026-10-06T18:16:58.518995",
+      "last_seen": "2026-10-09T21:48:02.698400",
+      "times_seen": 6
+    },
+    {
+      "hash": "1a2d15b247d95b540b7b68c4a4188c02",
+      "title": "Gestor(a) de Produção",
+      "company": "Hospital de Cascais",
+      "first_seen": "2026-10-06T18:16:58.519363",
+      "last_seen": "2026-10-09T21:48:02.713642",
+      "times_seen": 6
+    },
+    {
+      "hash": "674a6cc4f1cfc3fe08d64aff047bb3d8",
+      "title": "Clinical Research Associate II - FSP Team - Portugal",
+      "company": "Fortrea",
+      "first_seen": "2026-10-06T18:16:58.519774",
+      "last_seen": "2026-10-09T21:48:02.714128",
+      "times_seen": 6
+    },
+    {
+      "hash": "0f6af6b2599169c6b754a1499b70c266",
+      "title": "Enfermeiro/a Responsável Unidade de Internamento Cirúrgico",
+      "company": "SANFIL MEDICINA",
+      "first_seen": "2026-10-06T18:16:58.520172",
+      "last_seen": "2026-10-09T21:48:02.714692",
+      "times_seen": 6
+    },
+    {
+      "hash": "2b73a3b95e29fc65b09078de436c6c9e",
+      "title": "Sr. Associate, Clinical Applications Services & Support",
+      "company": "Alcon",
+      "first_seen": "2026-10-06T18:16:58.520579",
+      "last_seen": "2026-10-09T21:48:02.716000",
+      "times_seen": 6
+    },
+    {
+      "hash": "ad6447d8c20e323f6a478aef493b7393",
+      "title": "Associate Director_cFSP RSU_EMEA",
+      "company": "IQVIA",
+      "first_seen": "2026-10-06T18:16:58.520967",
+      "last_seen": "2026-10-06T18:39:05.756913",
+      "times_seen": 5
+    },
+    {
+      "hash": "8ff8c36afd0fa3132eef069135b18736",
+      "title": "Director Técnico Farmácia",
+      "company": "PHARMABSC",
+      "first_seen": "2026-10-06T18:16:58.521336",
+      "last_seen": "2026-10-18T17:48:19.120800",
+      "times_seen": 9
+    },
+    {
+      "hash": "5f90a65a9423fe67265097e3392b75f9",
+      "title": "Clinical Study Manager",
+      "company": "Alignerr",
+      "first_seen": "2026-10-06T18:16:58.521717",
+      "last_seen": "2026-10-09T21:48:02.699104",
+      "times_seen": 6
+    },
+    {
+      "hash": "fffcc700b03b004a9515b4f0f7d90f0b",
+      "title": "Enfermeiro Veterinário (M/F) - Hospital Veterinário Cão De Ló - Caldas Da Rainha",
+      "company": "IVC Evidensia España",
+      "first_seen": "2026-10-06T18:16:58.522106",
+      "last_seen": "2026-10-06T18:39:05.759797",
+      "times_seen": 10
+    },
+    {
+      "hash": "bdb844a0b5a7dc005b90cbca2c47edbc",
+      "title": "Senior Director, Operational Strategy - Oncology",
+      "company": "ERGOMED",
+      "first_seen": "2026-10-06T18:16:58.522578",
+      "last_seen": "2026-10-06T18:39:05.758337",
+      "times_seen": 5
+    },
+    {
+      "hash": "f93e5eaa582a728f8961e846cda6480c",
+      "title": "Médico (M/F) – Direção Clínica- DISTRITO DE SETÚBAL",
+      "company": "Human First",
+      "first_seen": "2026-10-06T18:16:58.523059",
+      "last_seen": "2026-10-18T17:48:19.115717",
+      "times_seen": 8
+    },
+    {
+      "hash": "8ca996ebf1e7c57e6ee553be90f80cc4",
+      "title": "Médico Patologista Clínico (M/F)",
+      "company": "Grupo Germano de Sousa",
+      "first_seen": "2026-10-06T18:16:58.523471",
+      "last_seen": "2026-10-06T18:39:05.759046",
+      "times_seen": 5
+    },
+    {
+      "hash": "0553d5341754dc48f36deffc2a05fadb",
+      "title": "Clinical Scientist Director, Early Development Oncology",
+      "company": "Amgen",
+      "first_seen": "2026-10-06T18:16:58.523847",
+      "last_seen": "2026-10-06T18:39:05.759419",
+      "times_seen": 5
+    },
+    {
+      "hash": "84b7a089dc4d89a33fd8f1535b7beb31",
+      "title": "Associate Lead - OpenData",
+      "company": "Veeva Systems",
+      "first_seen": "2026-10-06T18:16:58.524621",
+      "last_seen": "2026-10-06T18:39:05.760127",
+      "times_seen": 5
+    },
+    {
+      "hash": "7f244f88125ff3da89a34e9d6ed52de6",
+      "title": "Consultant SAP PP/QM",
+      "company": "Fresenius Medical Care",
+      "first_seen": "2026-10-06T18:16:58.524974",
+      "last_seen": "2026-10-06T18:39:05.760474",
+      "times_seen": 5
+    },
+    {
+      "hash": "ae57dc181a22b041e51ecdb66e67fa92",
+      "title": "Director, AI Transformation",
+      "company": "Emerald Clinical",
+      "first_seen": "2026-10-06T18:16:58.525337",
+      "last_seen": "2026-10-09T21:48:02.724471",
+      "times_seen": 6
+    },
+    {
+      "hash": "36573b2b445cdbb45266e64ef5ab9720",
+      "title": "Senior Clinical Supply Chain Manager",
+      "company": "IQVIA",
+      "first_seen": "2026-10-06T18:16:58.525685",
+      "last_seen": "2026-10-09T21:48:02.713091",
+      "times_seen": 6
+    },
+    {
+      "hash": "5131edb97cc79ff33217e21702d7e203",
+      "title": "Global HR Process and Case Management Expert",
+      "company": "Siemens Healthineers",
+      "first_seen": "2026-10-06T18:16:58.526052",
+      "last_seen": "2026-10-06T18:39:05.761441",
+      "times_seen": 5
+    },
+    {
+      "hash": "dfe69c371c0248c444879ab7f017608b",
+      "title": "📣Estamos a Recrutar l Especialista de Controlo de Gestão",
+      "company": "ANF - Associação Nacional das Farmácias",
+      "first_seen": "2026-10-06T18:16:58.526468",
+      "last_seen": "2026-10-06T18:39:05.761794",
+      "times_seen": 5
+    },
+    {
+      "hash": "c49462d4eae948b781e98366786a5726",
+      "title": "Global Process Owner, Production Planning & Manufacturing Execution",
+      "company": "Convatec",
+      "first_seen": "2026-10-06T18:16:58.526830",
+      "last_seen": "2026-10-06T18:39:05.762132",
+      "times_seen": 5
+    },
+    {
+      "hash": "f07b5d801e6a2e954321ad00faa6504c",
+      "title": "Process Control Specialist",
+      "company": "Coloplast",
+      "first_seen": "2026-10-06T18:16:58.527172",
+      "last_seen": "2026-10-06T18:39:05.762468",
+      "times_seen": 5
+    },
+    {
+      "hash": "118fa563fb0000d4976ade655d441330",
+      "title": "Senior Quality Systems Specialist",
+      "company": "Hovione",
+      "first_seen": "2026-10-06T18:16:58.527526",
+      "last_seen": "2026-10-06T18:39:05.762786",
+      "times_seen": 5
+    },
+    {
+      "hash": "839a17e9e03efcd74d4eba5f25248d26",
+      "title": "Analista de Estratégia | Recursos Humanos",
+      "company": "Luz Saúde",
+      "first_seen": "2026-10-06T18:16:58.527904",
+      "last_seen": "2026-10-06T18:39:05.763114",
+      "times_seen": 5
+    },
+    {
+      "hash": "a3300308855d68312dcd1fd298b85c9e",
+      "title": "Director Quality Transformation & Site Excellence",
+      "company": "Grünenthal Group",
+      "first_seen": "2026-10-06T18:16:58.528287",
+      "last_seen": "2026-10-09T21:48:02.719055",
+      "times_seen": 6
+    },
+    {
+      "hash": "dcb660e854e49a165a31926bda4b2c23",
+      "title": "Business Analyst – Área da Saúde (Farmácia)",
+      "company": "Adentis Portugal",
+      "first_seen": "2026-10-06T18:16:58.528664",
+      "last_seen": "2026-10-06T18:39:05.763877",
+      "times_seen": 5
+    },
+    {
+      "hash": "79b07d22a0acc86b1c5460c5837a3085",
+      "title": "Consultor Sifarma (Sul de Lisboa)",
+      "company": "Glintt Global",
+      "first_seen": "2026-10-06T18:16:58.529022",
+      "last_seen": "2026-10-06T18:39:05.764205",
+      "times_seen": 5
+    },
+    {
+      "hash": "a20f9925a405e3b599edae8ad7464480",
+      "title": "Lab Operations Excellence Manager",
+      "company": "Unilabs",
+      "first_seen": "2026-10-06T18:16:58.529382",
+      "last_seen": "2026-10-09T21:48:02.717627",
+      "times_seen": 6
+    },
+    {
+      "hash": "c818e0ec73a99ce1f7c6fe31d74aeb00",
+      "title": "Gestor de Melhoria Contínua (M/F)",
+      "company": "Forte Store®",
+      "first_seen": "2026-10-06T18:16:58.529738",
+      "last_seen": "2026-10-06T18:39:05.764868",
+      "times_seen": 5
+    },
+    {
+      "hash": "9f47955ea6f552bceccef81a8ef4494a",
+      "title": "Project Coordinator - Lisboa",
+      "company": "Inizio Engage",
+      "first_seen": "2026-10-06T18:16:58.530081",
+      "last_seen": "2026-10-18T17:48:19.131822",
+      "times_seen": 9
+    },
+    {
+      "hash": "42d0659565488c959cf27d4b5ca284ce",
+      "title": "ServiceNow L3 developer",
+      "company": "FOX IT",
+      "first_seen": "2026-10-06T18:16:58.530432",
+      "last_seen": "2026-10-18T17:48:19.132399",
+      "times_seen": 9
+    },
+    {
+      "hash": "29908212d7f979f20f799193885e174a",
+      "title": "Head Veterinary Nurse  Full Time  North Dublin Ireland",
+      "company": "Synchronised Solutions",
+      "first_seen": "2026-10-06T18:16:58.530787",
+      "last_seen": "2026-10-18T17:48:19.132983",
+      "times_seen": 8
+    },
+    {
+      "hash": "775d361f003b658b4eb200d07e4cc1af",
+      "title": "Web Developer",
+      "company": "GLOBESTAR SYSTEMS, UNIPESSOAL LDA",
+      "first_seen": "2026-10-06T18:16:58.531454",
+      "last_seen": "2026-10-18T17:48:19.135101",
+      "times_seen": 9
+    },
+    {
+      "hash": "797966b27f173fa425c537cd289011cb",
+      "title": "General Ledger Accountant",
+      "company": "Michael Page",
+      "first_seen": "2026-10-06T18:16:58.531789",
+      "last_seen": "2026-10-09T21:48:02.730124",
+      "times_seen": 6
+    },
+    {
+      "hash": "3b90975a105e6ef8ca230cba98a4dcba",
+      "title": "Quality Expert Reviewer  Hebrew Speaker - Dublin, Ireland - October/November 2026",
+      "company": "Elityora",
+      "first_seen": "2026-10-06T18:16:58.532168",
+      "last_seen": "2026-10-09T21:48:02.730673",
+      "times_seen": 6
+    },
+    {
+      "hash": "a4cb06593b96aef073fd03d5514df9c9",
+      "title": "AI/ML Data Scientist",
+      "company": "Volkswagen Group Digital Solutions [Portugal]",
+      "first_seen": "2026-10-06T18:16:58.532551",
+      "last_seen": "2026-10-18T17:48:19.142130",
+      "times_seen": 9
+    },
+    {
+      "hash": "49a8fcc4c2d608cefac343c0d5b7b54c",
+      "title": "Senior Data Engineer",
+      "company": "Indicium AI",
+      "first_seen": "2026-10-06T18:16:58.533196",
+      "last_seen": "2026-10-18T17:48:19.137782",
+      "times_seen": 9
+    },
+    {
+      "hash": "76fc4c888cc897a77949b185e7c78ddb",
+      "title": "Cybersecurity (IAM Specialist)",
+      "company": "Volkswagen Group Digital Solutions [Portugal]",
+      "first_seen": "2026-10-06T18:16:58.533912",
+      "last_seen": "2026-10-18T17:48:19.141119",
+      "times_seen": 9
+    },
+    {
+      "hash": "81cb6d1d230003ce41a4c71cf41da16f",
+      "title": "Senior SQL Server DBA",
+      "company": "Accenture",
+      "first_seen": "2026-10-06T18:16:58.534838",
+      "last_seen": "2026-10-18T17:48:19.143606",
+      "times_seen": 9
+    },
+    {
+      "hash": "3e6a8136e17de909e653b0ec430e2b21",
+      "title": "SQL Bridge Engineer",
+      "company": "OralPro LLC",
+      "first_seen": "2026-10-06T18:16:58.535800",
+      "last_seen": "2026-10-18T17:48:19.142597",
+      "times_seen": 9
+    },
+    {
+      "hash": "6e69f17292ffe5ce7deafb1112ded2be",
+      "title": "Principal Data Engineer",
+      "company": "Indicium AI",
+      "first_seen": "2026-10-06T18:16:58.536124",
+      "last_seen": "2026-10-18T17:48:19.144179",
+      "times_seen": 9
+    },
+    {
+      "hash": "776771fe68dc21176819bc51f4441ef0",
+      "title": "Senior AI Engineer (Forward Deployed)",
+      "company": "KI performance",
+      "first_seen": "2026-10-06T18:16:58.536811",
+      "last_seen": "2026-10-18T17:48:19.145120",
+      "times_seen": 9
+    },
+    {
+      "hash": "71b80aa56e2671ac8b6f980fd37c4e92",
+      "title": "Software Engineer - Backend",
+      "company": "Dashlane",
+      "first_seen": "2026-10-06T18:16:58.537781",
+      "last_seen": "2026-10-18T17:48:19.148379",
+      "times_seen": 9
+    },
+    {
+      "hash": "7eaad7c335d8a8f517071783a10dd953",
+      "title": "Oracle DBA",
+      "company": "Accenture",
+      "first_seen": "2026-10-06T18:16:58.538468",
+      "last_seen": "2026-10-18T17:48:19.147889",
+      "times_seen": 9
+    },
+    {
+      "hash": "e935572add04c4755af2492e25e94b40",
+      "title": "Senior Java Developer",
+      "company": "Accenture",
+      "first_seen": "2026-10-06T18:16:58.538820",
+      "last_seen": "2026-10-18T17:48:19.145586",
+      "times_seen": 9
+    },
+    {
+      "hash": "b4da73bd30cdd5db910bb23c45eccc83",
+      "title": "Intermediate Java Developer",
+      "company": "Accenture",
+      "first_seen": "2026-10-06T18:16:58.540473",
+      "last_seen": "2026-10-18T17:48:19.146087",
+      "times_seen": 9
+    },
+    {
+      "hash": "8e16e127e34c211debc2d416ff55e743",
+      "title": "SAP Functional for Purchasing (MM/SRM)",
+      "company": "Volkswagen Group Digital Solutions [Portugal]",
+      "first_seen": "2026-10-06T18:16:58.540817",
+      "last_seen": "2026-10-06T18:39:05.775918",
+      "times_seen": 5
+    },
+    {
+      "hash": "0c84cc4c31a31b02c1c0ddc751b004ef",
+      "title": "SAP FI/CO Manager/Consultant",
+      "company": "Accenture",
+      "first_seen": "2026-10-06T18:16:58.541477",
+      "last_seen": "2026-10-06T18:39:05.776625",
+      "times_seen": 5
+    },
+    {
+      "hash": "f2bd08a5ac5eec27aeaa51dd1cda681c",
+      "title": "Systems Administration - DBA Oracle",
+      "company": "Kyndryl",
+      "first_seen": "2026-10-06T18:16:58.541821",
+      "last_seen": "2026-10-09T21:48:02.746357",
+      "times_seen": 6
+    },
+    {
+      "hash": "207f32c8a375155dfcd88e405e9a4fe4",
+      "title": "Senior Frontend Developer (React)",
+      "company": "INSCALE",
+      "first_seen": "2026-10-06T18:28:01.893282",
+      "last_seen": "2026-10-17T13:26:10.496630",
+      "times_seen": 6
+    },
+    {
+      "hash": "af541e9c812c371c8217185d66257266",
+      "title": "SAP MM Consultant",
+      "company": "Volkswagen Group Digital Solutions [Portugal]",
+      "first_seen": "2026-10-06T18:28:01.897262",
+      "last_seen": "2026-10-18T17:48:19.139167",
+      "times_seen": 7
+    },
+    {
+      "hash": "7cc08b4c44a1434c47830059d5742c57",
+      "title": "Private Label & Product Development Coordinator - Health & Wellness",
+      "company": "MC",
+      "first_seen": "2026-10-09T21:48:02.685227",
+      "last_seen": "2026-10-09T21:48:02.685227",
+      "times_seen": 1
+    },
+    {
+      "hash": "b75328defb619ec1840ae8d0779d290c",
+      "title": "Gestor de projetos, Maia, Porto",
+      "company": "Trivalor SGPS, SA",
+      "first_seen": "2026-10-09T21:48:02.686933",
+      "last_seen": "2026-10-09T21:48:02.686933",
+      "times_seen": 1
+    },
+    {
+      "hash": "e2448553376467b1352048fde8886e22",
+      "title": "Project Manager / Pension Administration Specialist - Ireland",
+      "company": "Marsh",
+      "first_seen": "2026-10-09T21:48:02.687663",
+      "last_seen": "2026-10-09T21:48:02.687663",
+      "times_seen": 1
+    },
+    {
+      "hash": "8783fedf8e2b7c503980bcbcd8e56aee",
+      "title": "Coordenador(a) Apoio Domiciliário - PORTO",
+      "company": "Puro Cuidado - Apoio Domiciliário",
+      "first_seen": "2026-10-09T21:48:02.688227",
+      "last_seen": "2026-10-09T21:48:02.688227",
+      "times_seen": 1
+    },
+    {
+      "hash": "07b47194f67aab3bb4d897e91d21bdf2",
+      "title": "Prototype Build Coordinator (Automotive)",
+      "company": "LUZA Group",
+      "first_seen": "2026-10-09T21:48:02.688785",
+      "last_seen": "2026-10-09T21:48:02.688785",
+      "times_seen": 1
+    },
+    {
+      "hash": "1ecb7e1c7fcddf6d64153a037c73d085",
+      "title": "Project Manager, Implementation",
+      "company": "Syndigo",
+      "first_seen": "2026-10-09T21:48:02.689318",
+      "last_seen": "2026-10-09T21:48:02.689318",
+      "times_seen": 1
+    },
+    {
+      "hash": "ecee6181a980b8ecd73124b780c7b37d",
+      "title": "PMO / Client Relationship Coordinator",
+      "company": "Aubay Portugal",
+      "first_seen": "2026-10-09T21:48:02.689894",
+      "last_seen": "2026-10-09T21:48:02.689894",
+      "times_seen": 1
+    },
+    {
+      "hash": "92e6ab91050c021eb873fb6f7f3d2121",
+      "title": "Gestor/a de Projetos Europeus (Horizon Europe): dois lugares na área da saúde",
+      "company": "Egas Moniz School of Health & Science",
+      "first_seen": "2026-10-09T21:48:02.690510",
+      "last_seen": "2026-10-09T21:48:02.690510",
+      "times_seen": 1
+    },
+    {
+      "hash": "1de902335cff1b42243124e9cc666552",
+      "title": "Perfil Técnico para Controlo, Gestão e Registo de Projetos",
+      "company": "Neptune Yacht Refit Services",
+      "first_seen": "2026-10-09T21:48:02.691044",
+      "last_seen": "2026-10-09T21:48:02.691044",
+      "times_seen": 1
+    },
+    {
+      "hash": "f545eabce16c4315bc9ddf8407b94d67",
+      "title": "Técnico(a) de Controlo, Gestão e Registo de Projetos",
+      "company": "Neptune Yacht Refit Services",
+      "first_seen": "2026-10-09T21:48:02.691601",
+      "last_seen": "2026-10-09T21:48:02.691601",
+      "times_seen": 1
+    },
+    {
+      "hash": "738acceb89e8e704d9206055be125f4d",
+      "title": "Portfolio & Project Specialist (m/f/d)",
+      "company": "Hays",
+      "first_seen": "2026-10-09T21:48:02.692093",
+      "last_seen": "2026-10-09T21:48:02.692093",
+      "times_seen": 1
+    },
+    {
+      "hash": "e5fa2136c731de0792acd4a0c7378eac",
+      "title": "Coordenador do Centro de Simulação CUF (m/f)",
+      "company": "CUF - Hospitais e Clínicas",
+      "first_seen": "2026-10-09T21:48:02.693168",
+      "last_seen": "2026-10-09T21:48:02.693168",
+      "times_seen": 1
+    },
+    {
+      "hash": "e693f4ad138f56d46ca209702924b738",
+      "title": "Service & Project Support Coordinator",
+      "company": "EPTA GROUP",
+      "first_seen": "2026-10-09T21:48:02.693687",
+      "last_seen": "2026-10-09T21:48:02.693687",
+      "times_seen": 1
+    },
+    {
+      "hash": "29575213f33bb08e8c15ec6fc012cac8",
+      "title": "Junior Digital Project Manager",
+      "company": "LUZA Group",
+      "first_seen": "2026-10-09T21:48:02.694183",
+      "last_seen": "2026-10-09T21:48:02.694183",
+      "times_seen": 1
+    },
+    {
+      "hash": "35c6a243af2e9888a5991a4c298cea5a",
+      "title": "Senior Technical Project Manager, E-commerce (Shopify)",
+      "company": "Mira",
+      "first_seen": "2026-10-09T21:48:02.695689",
+      "last_seen": "2026-10-09T21:48:02.695689",
+      "times_seen": 1
+    },
+    {
+      "hash": "b2b2475391dadd37a66237d1c9dab71f",
+      "title": "Senior IT Project Manager – Laboratory Systems in Pharma",
+      "company": "Fusion Consulting",
+      "first_seen": "2026-10-09T21:48:02.696275",
+      "last_seen": "2026-10-09T21:48:02.696275",
+      "times_seen": 1
+    },
+    {
+      "hash": "d8048752dd98de6549360f6775f32a4e",
+      "title": "(Senior) Project Manager - Neuroscience",
+      "company": "Thermo Fisher Scientific",
+      "first_seen": "2026-10-09T21:48:02.696810",
+      "last_seen": "2026-10-09T21:48:02.696810",
+      "times_seen": 1
+    },
+    {
+      "hash": "ac05680a3fd96a6f947aad9d837375b0",
+      "title": "Gestor(a) de Pacientes - Lisboa",
+      "company": "Michael Page",
+      "first_seen": "2026-10-09T21:48:02.701279",
+      "last_seen": "2026-10-09T21:48:02.701279",
+      "times_seen": 1
+    },
+    {
+      "hash": "c6a3cef5ad035871be18c72b26669052",
+      "title": "Pets Coordinator - Coordenação de Importação e Exportação de Animais",
+      "company": "Global International Relocation",
+      "first_seen": "2026-10-09T21:48:02.701799",
+      "last_seen": "2026-10-09T21:48:02.701799",
+      "times_seen": 1
+    },
+    {
+      "hash": "2949123ca6736b6ca09748941801baea",
+      "title": "Operador Chefe de Turno",
+      "company": "Alliance Healthcare Portugal",
+      "first_seen": "2026-10-09T21:48:02.702614",
+      "last_seen": "2026-10-09T21:48:02.702614",
+      "times_seen": 1
+    },
+    {
+      "hash": "83fdba768b58ebce98debeaf1a40b24f",
+      "title": "Coordenação Unidade Clínica | OralMED Torres Vedras",
+      "company": "OralMED Saúde",
+      "first_seen": "2026-10-09T21:48:02.703643",
+      "last_seen": "2026-10-18T17:41:53.013482",
+      "times_seen": 3
+    },
+    {
+      "hash": "026ed47a264fc08358f59bcc4a35de53",
+      "title": "Fleet Specialist",
+      "company": "Waters Corporation",
+      "first_seen": "2026-10-09T21:48:02.704302",
+      "last_seen": "2026-10-18T17:41:53.020308",
+      "times_seen": 2
+    },
+    {
+      "hash": "97a61546d3c0ce09e596d4c4cbfc8d17",
+      "title": "Operacional de Infraestruturas",
+      "company": "Agronomia Rugby",
+      "first_seen": "2026-10-09T21:48:02.704808",
+      "last_seen": "2026-10-09T21:48:02.704808",
+      "times_seen": 1
+    },
+    {
+      "hash": "5ccacc8b0fdb04771b0e7fef4179f0a2",
+      "title": "Técnico Expedição",
+      "company": "Equipleva",
+      "first_seen": "2026-10-09T21:48:02.705397",
+      "last_seen": "2026-10-09T21:48:02.705397",
+      "times_seen": 1
+    },
+    {
+      "hash": "844c177714d7911f42983edeb0491d2a",
+      "title": "Técnico de Implementação Operacional – Movimento (m/f) – Almada",
+      "company": "Transdev Portugal",
+      "first_seen": "2026-10-09T21:48:02.706030",
+      "last_seen": "2026-10-09T21:48:02.706030",
+      "times_seen": 1
+    },
+    {
+      "hash": "2736469c2e19c42fbb6706c1ba330388",
+      "title": "Técnico de Implementação Operacional – Movimento (m/f) – Setúbal",
+      "company": "Transdev Portugal",
+      "first_seen": "2026-10-09T21:48:02.706619",
+      "last_seen": "2026-10-09T21:48:02.706619",
+      "times_seen": 1
+    },
+    {
+      "hash": "cedb86be9ead834d226d6384e31d03d3",
+      "title": "Event Operations Coordinator - Associate",
+      "company": "iCapital",
+      "first_seen": "2026-10-09T21:48:02.707268",
+      "last_seen": "2026-10-09T21:48:02.707268",
+      "times_seen": 1
+    },
+    {
+      "hash": "3953ecacf5157e3b7552b5b9da503402",
+      "title": "Operations Specialist, Aerospace & Defense (Portugal)",
+      "company": "Airspace",
+      "first_seen": "2026-10-09T21:48:02.707884",
+      "last_seen": "2026-10-09T21:48:02.707884",
+      "times_seen": 1
+    },
+    {
+      "hash": "f662694657c1018bd7dfc06f6a3af6fc",
+      "title": "Operacional de Exportação",
+      "company": "CLASQUIN",
+      "first_seen": "2026-10-09T21:48:02.709025",
+      "last_seen": "2026-10-09T21:48:02.709025",
+      "times_seen": 1
+    },
+    {
+      "hash": "97f1668b13be8aaa6ab32f39b0485a49",
+      "title": "Técnico de Transportes (M/F) | Alenquer",
+      "company": "STEF",
+      "first_seen": "2026-10-09T21:48:02.709621",
+      "last_seen": "2026-10-09T21:48:02.709621",
+      "times_seen": 1
+    },
+    {
+      "hash": "7b4f6e864c23561e3b321f57c348a477",
+      "title": "Diretor/a Técnica Apoio Domiciliário",
+      "company": "NatyCare",
+      "first_seen": "2026-10-09T21:48:02.710196",
+      "last_seen": "2026-10-09T21:48:02.710196",
+      "times_seen": 1
+    },
+    {
+      "hash": "ac139c709b46379e15d46e4ae19d4840",
+      "title": "Enfermeiro veterinário",
+      "company": "IVC Evidensia Portugal",
+      "first_seen": "2026-10-09T21:48:02.710805",
+      "last_seen": "2026-10-09T21:48:02.710805",
+      "times_seen": 1
+    },
+    {
+      "hash": "982e3b69663c0c3f722312d3fb336817",
+      "title": "Clinical Scientist Director – Late Development Oncology",
+      "company": "Amgen",
+      "first_seen": "2026-10-09T21:48:02.711445",
+      "last_seen": "2026-10-09T21:48:02.711445",
+      "times_seen": 1
+    },
+    {
+      "hash": "22861ab4bee3e1c699ca093a2f0170de",
+      "title": "Urologist / General surgeon for the Centre of Clinical Evaluation (f/m/d)",
+      "company": "TÜV SÜD",
+      "first_seen": "2026-10-09T21:48:02.711994",
+      "last_seen": "2026-10-09T21:48:02.711994",
+      "times_seen": 1
+    },
+    {
+      "hash": "7fe757f77fbdf7bf5e24b3e51aff9c07",
+      "title": "Médico Veterinário (M/F) - Cirurgia - HV Bom Jesus",
+      "company": "IVC Evidensia España",
+      "first_seen": "2026-10-09T21:48:02.712602",
+      "last_seen": "2026-10-09T21:48:02.712602",
+      "times_seen": 1
+    },
+    {
+      "hash": "57330c37e2b246e2cb0bf856ef8d8f40",
+      "title": "Oportunidade: Enfermeiro/a Veterinário/a Sénior",
+      "company": "ULHT",
+      "first_seen": "2026-10-09T21:48:02.715378",
+      "last_seen": "2026-10-09T21:48:02.715378",
+      "times_seen": 1
+    },
+    {
+      "hash": "61c0b45ec792f329c89b1ea6029e0b67",
+      "title": "Principal RASSU Specialist (global RASSU lead)",
+      "company": "CTI Clinical Trial and Consulting Services",
+      "first_seen": "2026-10-09T21:48:02.716565",
+      "last_seen": "2026-10-09T21:48:02.716565",
+      "times_seen": 1
+    },
+    {
+      "hash": "6b5695fedd10332b769dd5cde2373311",
+      "title": "Global HR Process and Case Management Expert (m/f/d)",
+      "company": "Siemens Healthineers",
+      "first_seen": "2026-10-09T21:48:02.718274",
+      "last_seen": "2026-10-09T21:48:02.718274",
+      "times_seen": 1
+    },
+    {
+      "hash": "1adcf8567596409950982e3077eadec1",
+      "title": "Manager Distribution Compliance",
+      "company": "Ferring Pharmaceuticals",
+      "first_seen": "2026-10-09T21:48:02.719942",
+      "last_seen": "2026-10-09T21:48:02.719942",
+      "times_seen": 1
+    },
+    {
+      "hash": "eab9f7d6e1204833e445d93e26adf897",
+      "title": "Business Process Consultant",
+      "company": "Experis Portugal",
+      "first_seen": "2026-10-09T21:48:02.720599",
+      "last_seen": "2026-10-09T21:48:02.720599",
+      "times_seen": 1
+    },
+    {
+      "hash": "f1a410f92e046ef38f4b4e49ca07181e",
+      "title": "Business Analyst (Data & Pharma)",
+      "company": "CodeWin",
+      "first_seen": "2026-10-09T21:48:02.721106",
+      "last_seen": "2026-10-09T21:48:02.721106",
+      "times_seen": 1
+    },
+    {
+      "hash": "72387076e7b6ff1b4dec30bf501e12d1",
+      "title": "Analista de Processos e Automação",
+      "company": "NOS SGPS",
+      "first_seen": "2026-10-09T21:48:02.721660",
+      "last_seen": "2026-10-09T21:48:02.721660",
+      "times_seen": 1
+    },
+    {
+      "hash": "ca377f621d4295b34bcae3c3e9f25ae2",
+      "title": "Senior Software Engineer - Automation",
+      "company": "Future Healthcare Group",
+      "first_seen": "2026-10-09T21:48:02.722175",
+      "last_seen": "2026-10-09T21:48:02.722175",
+      "times_seen": 1
+    },
+    {
+      "hash": "ee3900a89e8b65842b4f48207aa8ec10",
+      "title": "HR Global Process Owner - Total Rewards (f/m/d)",
+      "company": "Siemens Healthineers",
+      "first_seen": "2026-10-09T21:48:02.722714",
+      "last_seen": "2026-10-09T21:48:02.722714",
+      "times_seen": 1
+    },
+    {
+      "hash": "2403f4c4a9597e77c9e4075ebd271725",
+      "title": "📣 Estagiário/a Desenvolvimento e Melhoria Contínua das Farmácias - Estágio Profissional IEFP",
+      "company": "ANF - Associação Nacional das Farmácias",
+      "first_seen": "2026-10-09T21:48:02.723349",
+      "last_seen": "2026-10-09T21:48:02.723349",
+      "times_seen": 1
+    },
+    {
+      "hash": "cc1dd0dea44b518bf9c846de392d308d",
+      "title": "Assistente de Sistemas de Gestão da Qualidade e Ambiente (M/F) | Maia",
+      "company": "OCP Portugal",
+      "first_seen": "2026-10-09T21:48:02.723884",
+      "last_seen": "2026-10-09T21:48:02.723884",
+      "times_seen": 1
+    },
+    {
+      "hash": "73008c8306b7f99b77d6b4980fc5942f",
+      "title": "Director Quality Operations",
+      "company": "Inflow Partnership",
+      "first_seen": "2026-10-09T21:48:02.724958",
+      "last_seen": "2026-10-09T21:48:02.724958",
+      "times_seen": 1
+    },
+    {
+      "hash": "88d8eaf064da38290895f6372126b570",
+      "title": "Release Manager Reporting & Analytics",
+      "company": "Johnson & Johnson Innovative Medicine",
+      "first_seen": "2026-10-09T21:48:02.725515",
+      "last_seen": "2026-10-09T21:48:02.725515",
+      "times_seen": 1
+    },
+    {
+      "hash": "b9ed1b66bf89faff7d5a3481e5613360",
+      "title": "Logistics Services Representative | Porto [327-000288-1]",
+      "company": "Adecco - Recursos Humanos",
+      "first_seen": "2026-10-09T21:48:02.728661",
+      "last_seen": "2026-10-18T17:48:19.134109",
+      "times_seen": 4
+    },
+    {
+      "hash": "14466801a72c52010be12d5d07d9995e",
+      "title": "SAP SuccessFactors Consultant - EC Payroll",
+      "company": "Volkswagen Group Digital Solutions [Portugal]",
+      "first_seen": "2026-10-09T21:48:02.731193",
+      "last_seen": "2026-10-18T17:48:19.140199",
+      "times_seen": 4
+    },
+    {
+      "hash": "c6c64de0b25406445dcb03aeeb67621a",
+      "title": "Senior Software Engineer, Backend/Infrastructure",
+      "company": "SimplicityDX",
+      "first_seen": "2026-10-09T21:48:02.731776",
+      "last_seen": "2026-10-18T17:48:19.135591",
+      "times_seen": 4
+    },
+    {
+      "hash": "3db2cf627a74f69e72b048c96ac12e5c",
+      "title": "IT Service Analyst",
+      "company": "Volkswagen Group Digital Solutions [Portugal]",
+      "first_seen": "2026-10-09T21:48:02.733014",
+      "last_seen": "2026-10-18T17:48:19.141608",
+      "times_seen": 4
+    },
+    {
+      "hash": "1b102db1cf82dd75bf5f739e9ec30363",
+      "title": "AI Solutions Consultant",
+      "company": "Damia",
+      "first_seen": "2026-10-09T21:48:02.743440",
+      "last_seen": "2026-10-18T17:48:19.147414",
+      "times_seen": 4
+    },
+    {
+      "hash": "3875b5e6423640470134633ca4152aa3",
+      "title": "Global Artwork Coordinator (Launches)",
+      "company": "Viatris",
+      "first_seen": "2026-10-17T13:26:10.448085",
+      "last_seen": "2026-10-18T17:48:19.091352",
+      "times_seen": 3
+    },
+    {
+      "hash": "7a9e230e3bae61978589fa43023fb4f2",
+      "title": "D2D E2E Junior Coordinator",
+      "company": "Nestlé",
+      "first_seen": "2026-10-17T13:26:10.449034",
+      "last_seen": "2026-10-18T17:48:19.092735",
+      "times_seen": 3
+    },
+    {
+      "hash": "427099272213b2ff05d2f7badfc3bf0a",
+      "title": "D2D E2E Coordinator",
+      "company": "Nestlé",
+      "first_seen": "2026-10-17T13:26:10.449566",
+      "last_seen": "2026-10-18T17:48:19.093467",
+      "times_seen": 3
+    },
+    {
+      "hash": "d6f57fec0688e5ad39281fc9d5a693e0",
+      "title": "Project Coordinator",
+      "company": "Air Apps",
+      "first_seen": "2026-10-17T13:26:10.450023",
+      "last_seen": "2026-10-18T17:48:19.096085",
+      "times_seen": 6
+    },
+    {
+      "hash": "bcc7499606d7f5b03293dc52319ace5f",
+      "title": "Técnico do Centro de Simulação CUF (m/f)",
+      "company": "CUF - Hospitais e Clínicas",
+      "first_seen": "2026-10-17T13:26:10.451006",
+      "last_seen": "2026-10-18T17:48:19.096640",
+      "times_seen": 3
+    },
+    {
+      "hash": "40cf9168f3fc40784d39ee69f204ea88",
+      "title": "PMO Analyst",
+      "company": "Bruker",
+      "first_seen": "2026-10-17T13:26:10.451494",
+      "last_seen": "2026-10-18T17:48:19.097780",
+      "times_seen": 3
+    },
+    {
+      "hash": "8e042e3a704bf804fafbb03d1c3009f4",
+      "title": "Ensaios Clínicos - Coordenação de Estudos (Junior)",
+      "company": "Winning",
+      "first_seen": "2026-10-17T13:26:10.451976",
+      "last_seen": "2026-10-18T17:48:19.100070",
+      "times_seen": 6
+    },
+    {
+      "hash": "71b0aee47cc51f9397d11a718c0a96cd",
+      "title": "PMO | Hub Data Mesh & Governance Support (Lisbon- Hybrid)",
+      "company": "Claranet Portugal",
+      "first_seen": "2026-10-17T13:26:10.452940",
+      "last_seen": "2026-10-18T17:48:19.100598",
+      "times_seen": 3
+    },
+    {
+      "hash": "7c001fb6b8fa3733a8e6591d6521be60",
+      "title": "Clinical Project Manager - IQVIA Biotech - Oncology",
+      "company": "IQVIA",
+      "first_seen": "2026-10-17T13:26:10.453382",
+      "last_seen": "2026-10-18T17:48:19.104174",
+      "times_seen": 3
+    },
+    {
+      "hash": "98def044082bd8204161398f293f07c4",
+      "title": "CPM/Senior Clinical Project Manager (Oncology), IQVIA Biotech - Oncology",
+      "company": "IQVIA",
+      "first_seen": "2026-10-17T13:26:10.453967",
+      "last_seen": "2026-10-18T17:48:19.104745",
+      "times_seen": 3
+    },
+    {
+      "hash": "570e9aa2a60751805947414dd4c555b7",
+      "title": "Healthcare IT Project Manager",
+      "company": "Axians Portugal",
+      "first_seen": "2026-10-17T13:26:10.454544",
+      "last_seen": "2026-10-18T17:48:19.105465",
+      "times_seen": 3
+    },
+    {
+      "hash": "0e734fb10e5288d2c74be6ed8889f4c6",
+      "title": "Business Transformation & Program Manager (m/f)",
+      "company": "MedicineOne, Life Sciences Computing",
+      "first_seen": "2026-10-17T13:26:10.455003",
+      "last_seen": "2026-10-18T17:48:19.106207",
+      "times_seen": 3
+    },
+    {
+      "hash": "8a760bf214a54e18b8555c7dbaf08853",
+      "title": "Consultant SAP LEx",
+      "company": "Fresenius Medical Care",
+      "first_seen": "2026-10-17T13:26:10.455459",
+      "last_seen": "2026-10-18T17:48:19.106721",
+      "times_seen": 3
+    },
+    {
+      "hash": "49b79e56a69680bd9660127fe341696a",
+      "title": "ENGENHEIRO/A",
+      "company": "Instituto S. João de Deus",
+      "first_seen": "2026-10-17T13:26:10.455926",
+      "last_seen": "2026-10-18T17:48:19.108131",
+      "times_seen": 3
+    },
+    {
+      "hash": "44e24c302b323abad2136b84809b4f5d",
+      "title": "Engineer, Infrastructure",
+      "company": "Hikma Pharmaceuticals",
+      "first_seen": "2026-10-17T13:26:10.456371",
+      "last_seen": "2026-10-18T17:48:19.098916",
+      "times_seen": 3
+    },
+    {
+      "hash": "92ba20a91d7700a7c26c1c1c3fecd4f7",
+      "title": "Consultor / Implementador de Soluções para a área da saúde (ref. 16.CISS1026)",
+      "company": "BIQ Health Solutions",
+      "first_seen": "2026-10-17T13:26:10.456870",
+      "last_seen": "2026-10-18T17:48:19.101219",
+      "times_seen": 3
+    },
+    {
+      "hash": "be69a9dfa546d052154b48124dcf2266",
+      "title": "Senior Project Manager",
+      "company": "P95",
+      "first_seen": "2026-10-17T13:26:10.457298",
+      "last_seen": "2026-10-18T17:48:19.108751",
+      "times_seen": 3
+    },
+    {
+      "hash": "40016e9b7fab8af279d0ef7cab09c13f",
+      "title": "Chefe do Projeto - AVAC",
+      "company": "Valtria",
+      "first_seen": "2026-10-17T13:26:10.457883",
+      "last_seen": "2026-10-18T17:48:19.109328",
+      "times_seen": 3
+    },
+    {
+      "hash": "52befc3934641862de07af087fdbfe94",
+      "title": "Construction & Infrastructure Engineer (m/f)",
+      "company": "Unilabs",
+      "first_seen": "2026-10-17T13:26:10.458846",
+      "last_seen": "2026-10-18T17:48:19.110448",
+      "times_seen": 3
+    },
+    {
+      "hash": "62e8f1015459169202432576493d1485",
+      "title": "Project Manager",
+      "company": "Hikma Pharmaceuticals",
+      "first_seen": "2026-10-17T13:26:10.459269",
+      "last_seen": "2026-10-18T17:48:19.107416",
+      "times_seen": 3
+    },
+    {
+      "hash": "049b9101e394fe77e39cab4fdd11f205",
+      "title": "Mechanical & Maintenance Engineer",
+      "company": "ALTEN",
+      "first_seen": "2026-10-17T13:26:10.459803",
+      "last_seen": "2026-10-18T17:48:19.103564",
+      "times_seen": 3
+    },
+    {
+      "hash": "317cb817d8eac242e78f550e0c48cef4",
+      "title": "Sales Operations & Enablement Specialist",
+      "company": "Smartness",
+      "first_seen": "2026-10-17T13:26:10.460916",
+      "last_seen": "2026-10-18T17:41:53.014088",
+      "times_seen": 2
+    },
+    {
+      "hash": "425de4bd408c4d50dc5d634330e08aca",
+      "title": "CRM Operations Specialist",
+      "company": "Amgen",
+      "first_seen": "2026-10-17T13:26:10.461348",
+      "last_seen": "2026-10-18T17:41:53.014622",
+      "times_seen": 2
+    },
+    {
+      "hash": "a0458d4c4ab549eb9fb84535f07fa618",
+      "title": "Administrativo Operacional Lisboa",
+      "company": "Medyglobal Medical Device",
+      "first_seen": "2026-10-17T13:26:10.461862",
+      "last_seen": "2026-10-18T17:48:19.111744",
+      "times_seen": 3
+    },
+    {
+      "hash": "bd991cef177292a4eb602610556d89fa",
+      "title": "Técnico Especialista de Planeamento e Logística (M/F)",
+      "company": "Tecnimede Group",
+      "first_seen": "2026-10-17T13:26:10.462381",
+      "last_seen": "2026-10-18T17:48:19.112362",
+      "times_seen": 3
+    },
+    {
+      "hash": "0e6b1e24c86cd27ee85c19159effbbdf",
+      "title": "Customs Transport Coordinator",
+      "company": "Capgemini Engineering",
+      "first_seen": "2026-10-17T13:26:10.462989",
+      "last_seen": "2026-10-18T17:41:53.016937",
+      "times_seen": 2
+    },
+    {
+      "hash": "5abce97db39d3a2760917c485961c67b",
+      "title": "Technical Operations Coordinator",
+      "company": "Air Apps",
+      "first_seen": "2026-10-17T13:26:10.463514",
+      "last_seen": "2026-10-18T17:48:19.113422",
+      "times_seen": 6
+    },
+    {
+      "hash": "07255da3e9f13d4d5b01350304f58abc",
+      "title": "Assistente de Planeamento",
+      "company": "PSA Sines, S.A.",
+      "first_seen": "2026-10-17T13:26:10.464709",
+      "last_seen": "2026-10-18T17:41:53.018602",
+      "times_seen": 2
+    },
+    {
+      "hash": "65a1ab988f702548e916314957faf2f3",
+      "title": "Post-Sales (Remote)",
+      "company": "BIZAY",
+      "first_seen": "2026-10-17T13:26:10.465227",
+      "last_seen": "2026-10-18T17:41:53.019174",
+      "times_seen": 2
+    },
+    {
+      "hash": "ba38f33ee743497a698fc9347ebf004a",
+      "title": "Order Management Coordinator",
+      "company": "Nokia",
+      "first_seen": "2026-10-17T13:26:10.465788",
+      "last_seen": "2026-10-18T17:48:19.113977",
+      "times_seen": 3
+    },
+    {
+      "hash": "f2e6e92fdc80a3d5d1af70fac226856a",
+      "title": "Assistente de Operações e Apoio ao Cliente",
+      "company": "ImportHub",
+      "first_seen": "2026-10-17T13:26:10.466350",
+      "last_seen": "2026-10-17T13:26:10.466350",
+      "times_seen": 1
+    },
+    {
+      "hash": "3e6df58cb01e955ba0e5c67293f47a40",
+      "title": "Senior Specialist Regulatory Operations and System Support",
+      "company": "Viatris",
+      "first_seen": "2026-10-17T13:26:10.466930",
+      "last_seen": "2026-10-18T17:48:19.103003",
+      "times_seen": 3
+    },
+    {
+      "hash": "40a9a9d713946a78d2d0f0ac022dbf26",
+      "title": "Coordenação Unidade Clínica | Grupo OralMED Norte",
+      "company": "OralMED Saúde",
+      "first_seen": "2026-10-17T13:26:10.467515",
+      "last_seen": "2026-10-18T17:41:53.021532",
+      "times_seen": 2
+    },
+    {
+      "hash": "7c870ef3f595716ec570e072f1a76c61",
+      "title": "GMS Growth Executive Ap",
+      "company": "Publicis Groupe Portugal",
+      "first_seen": "2026-10-17T13:26:10.468029",
+      "last_seen": "2026-10-18T17:41:53.022115",
+      "times_seen": 2
+    },
+    {
+      "hash": "89c32d3c9b6faab7871e5713efba0ab3",
+      "title": "Global Study Associate Director - Single Sponsor dedicated",
+      "company": "IQVIA",
+      "first_seen": "2026-10-17T13:26:10.468605",
+      "last_seen": "2026-10-18T17:48:19.115074",
+      "times_seen": 3
+    },
+    {
+      "hash": "568e92263463ff0b1af47535cc3820f7",
+      "title": "Site Activation Manager, Sponsor Facing",
+      "company": "IQVIA",
+      "first_seen": "2026-10-17T13:26:10.469855",
+      "last_seen": "2026-10-18T17:48:19.116301",
+      "times_seen": 3
+    },
+    {
+      "hash": "0f63aac926e8645a833bf12cbbf812e9",
+      "title": "Diretor/a de Serviços Clínicos",
+      "company": "Santa Casa da Misericórdia do Entroncamento",
+      "first_seen": "2026-10-17T13:26:10.470427",
+      "last_seen": "2026-10-18T17:48:19.116828",
+      "times_seen": 3
+    },
+    {
+      "hash": "8156b4dee590bd219537e843b18e3775",
+      "title": "Hospital Director - AniCura +Ani+ Hospital Veterinário",
+      "company": "AniCura Portugal",
+      "first_seen": "2026-10-17T13:26:10.470964",
+      "last_seen": "2026-10-18T17:48:19.117429",
+      "times_seen": 3
+    },
+    {
+      "hash": "48adee7fae95ed01b5f21c971b4bed9f",
+      "title": "Senior Clinical Data Manager - sponsor dedicated - oncology",
+      "company": "Fortrea",
+      "first_seen": "2026-10-17T13:26:10.471428",
+      "last_seen": "2026-10-18T17:48:19.118000",
+      "times_seen": 3
+    },
+    {
+      "hash": "edc9d23d649cb78c9197487a5b17eb03",
+      "title": "Senior Director of ICSR",
+      "company": "PrimeVigilance",
+      "first_seen": "2026-10-17T13:26:10.471884",
+      "last_seen": "2026-10-18T17:48:19.118522",
+      "times_seen": 3
+    },
+    {
+      "hash": "06c8dd6992506f44583a5e0ef2e2855a",
+      "title": "Coordenador de clínica (M/F)",
+      "company": "Dental Light",
+      "first_seen": "2026-10-17T13:26:10.472321",
+      "last_seen": "2026-10-18T17:48:19.119113",
+      "times_seen": 3
+    },
+    {
+      "hash": "84164044b1eb2a8fd147479dc1828f77",
+      "title": "Gestor de Produção Hospitalar Sénior",
+      "company": "Grafton Recruitment",
+      "first_seen": "2026-10-17T13:26:10.472853",
+      "last_seen": "2026-10-18T17:48:19.119685",
+      "times_seen": 3
+    },
+    {
+      "hash": "44a4a7f86878bbe37b4f1b2d265b28fc",
+      "title": "Hospital Director - AniCura +Ani+ Hospital Veterinário",
+      "company": "AniCura",
+      "first_seen": "2026-10-17T13:26:10.473300",
+      "last_seen": "2026-10-18T17:48:19.120298",
+      "times_seen": 3
+    },
+    {
+      "hash": "7346853789f92987680df9fc0b438f0b",
+      "title": "Senior Medical Director",
+      "company": "TFS HealthScience",
+      "first_seen": "2026-10-17T13:26:10.474410",
+      "last_seen": "2026-10-17T13:26:10.474410",
+      "times_seen": 1
+    },
+    {
+      "hash": "44cc320e040dc2896d7822eaf52ba45d",
+      "title": "Senior Clinical Data Manager - FSO",
+      "company": "Fortrea",
+      "first_seen": "2026-10-17T13:26:10.474980",
+      "last_seen": "2026-10-18T17:48:19.121388",
+      "times_seen": 3
+    },
+    {
+      "hash": "f828cdc9620a55af81b5e68e08505c3e",
+      "title": "Contract Management Specialist",
+      "company": "AbbVie",
+      "first_seen": "2026-10-17T13:26:10.475500",
+      "last_seen": "2026-10-18T17:48:19.122073",
+      "times_seen": 3
+    },
+    {
+      "hash": "b37a4e68131066b62249e82f410e7824",
+      "title": "Diretor Técnico de Apoio Domiciliário (FARO)",
+      "company": "Grupo Timing",
+      "first_seen": "2026-10-17T13:26:10.476033",
+      "last_seen": "2026-10-18T17:48:19.122699",
+      "times_seen": 3
+    },
+    {
+      "hash": "8b3e016a9c62b15b40207e8df85c5f3f",
+      "title": "CTM/Sr CTM - FSP - EMEA",
+      "company": "Thermo Fisher Scientific",
+      "first_seen": "2026-10-17T13:26:10.476613",
+      "last_seen": "2026-10-17T13:26:10.476613",
+      "times_seen": 1
+    },
+    {
+      "hash": "04eeef54952a424188ecbb73fdd448d0",
+      "title": "German-Speaking Senior Order-to-Cash Specialist - Porto, Portugal",
+      "company": "365 Recruitment",
+      "first_seen": "2026-10-17T13:26:10.478350",
+      "last_seen": "2026-10-18T17:48:19.133519",
+      "times_seen": 3
+    },
+    {
+      "hash": "a8d20c3783d254359fb63b45decf7135",
+      "title": "Junior AI Engineer (React Native)",
+      "company": "Damia",
+      "first_seen": "2026-10-17T13:26:10.481239",
+      "last_seen": "2026-10-18T17:48:19.136722",
+      "times_seen": 3
+    },
+    {
+      "hash": "ba75bb39ed4311c53951c6b00d7c1421",
+      "title": "Junior Full-Stack / Generalist Software Engineer (f/m/x)",
+      "company": "ANNEA",
+      "first_seen": "2026-10-17T13:26:10.481749",
+      "last_seen": "2026-10-18T17:48:19.136182",
+      "times_seen": 3
+    },
+    {
+      "hash": "798494d64b1bf357777e8ab3f011e1ef",
+      "title": "Data Solutions Consultant",
+      "company": "Damia",
+      "first_seen": "2026-10-17T13:26:10.482200",
+      "last_seen": "2026-10-18T17:48:19.137271",
+      "times_seen": 3
+    },
+    {
+      "hash": "2ee4d117e280ef8dc7b5ad83c4c2cab9",
+      "title": "Lead Platform Engineer (AWS)",
+      "company": "Wyden",
+      "first_seen": "2026-10-17T13:26:10.485301",
+      "last_seen": "2026-10-18T17:48:19.139656",
+      "times_seen": 3
+    },
+    {
+      "hash": "3a3aa65cc943c59afa53afd3a7583d85",
+      "title": "Junior Project Manager (STDA)",
+      "company": "Inetum",
+      "first_seen": "2026-10-18T17:41:52.995676",
+      "last_seen": "2026-10-18T17:48:19.094214",
+      "times_seen": 2
+    },
+    {
+      "hash": "1d4534646f82d996f652e6df9d05d231",
+      "title": "Project Management Associate",
+      "company": "Metyis",
+      "first_seen": "2026-10-18T17:41:52.996667",
+      "last_seen": "2026-10-18T17:48:19.094964",
+      "times_seen": 2
+    },
+    {
+      "hash": "8ab88b75140dbce3098992578354d1bf",
+      "title": "Branded Content Project Manager",
+      "company": "dentsu",
+      "first_seen": "2026-10-18T17:41:52.999224",
+      "last_seen": "2026-10-18T17:48:19.097223",
+      "times_seen": 2
+    },
+    {
+      "hash": "ba25b96427953cbc38f504407d696c5a",
+      "title": "Digital Workplace - Service Coordinator - Security & Governance",
+      "company": "Siemens Energy",
+      "first_seen": "2026-10-18T17:41:53.000359",
+      "last_seen": "2026-10-18T17:48:19.098372",
+      "times_seen": 2
+    },
+    {
+      "hash": "5721aea88311a4a9178af85a8ab6626e",
+      "title": "Junior Project Manager",
+      "company": "NoeXa - IT Solutions",
+      "first_seen": "2026-10-18T17:41:53.003853",
+      "last_seen": "2026-10-18T17:48:19.101771",
+      "times_seen": 2
+    },
+    {
+      "hash": "14024aea92014ec96f6374b0375f2771",
+      "title": "Project Assistant (m/f)",
+      "company": "CJR Renewables",
+      "first_seen": "2026-10-18T17:41:53.004483",
+      "last_seen": "2026-10-18T17:48:19.102358",
+      "times_seen": 2
+    },
+    {
+      "hash": "7980bb81066a8f3ab05a83d9fba6e61b",
+      "title": "Coordenador (a) Clínica",
+      "company": "GSD Dental Clinics",
+      "first_seen": "2026-10-18T17:41:53.015219",
+      "last_seen": "2026-10-18T17:48:19.111124",
+      "times_seen": 2
+    },
+    {
+      "hash": "fa696b0b5a187f8e89db4076cb7064b7",
+      "title": "Customer Service & Operations (M/F) | Porto",
+      "company": "Pinto Basto",
+      "first_seen": "2026-10-18T17:41:53.019722",
+      "last_seen": "2026-10-18T17:41:53.019722",
+      "times_seen": 1
+    },
+    {
+      "hash": "50a81c020a7445fef64b02cc85cd33cc",
+      "title": "CRA Levels II/Sr - FSP - Portugal",
+      "company": "Thermo Fisher Scientific",
+      "first_seen": "2026-10-18T17:41:53.022657",
+      "last_seen": "2026-10-18T17:48:19.114514",
+      "times_seen": 2
+    },
+    {
+      "hash": "5e6a0282b4d1be290154ad6f4aaf4f09",
+      "title": "Quality Manager",
+      "company": "STERIS",
+      "first_seen": "2026-10-18T17:41:53.031204",
+      "last_seen": "2026-10-18T17:48:19.123294",
+      "times_seen": 2
+    },
+    {
+      "hash": "8e666f374da2884f7dc98515493307b1",
+      "title": "Digital Learning & AI Specialist",
+      "company": "Amgen",
+      "first_seen": "2026-10-18T17:41:53.031731",
+      "last_seen": "2026-10-18T17:48:19.123806",
+      "times_seen": 2
+    },
+    {
+      "hash": "8a7a4c99125fcb7f882be2c1d984fed0",
+      "title": "Data & Operations Performance Specialist",
+      "company": "VitalAire",
+      "first_seen": "2026-10-18T17:41:53.032284",
+      "last_seen": "2026-10-18T17:48:19.124413",
+      "times_seen": 2
+    },
+    {
+      "hash": "5d2c7e8fbe209c9eece4ceaa1151cba5",
+      "title": "Global Business Operations Manager",
+      "company": "Siemens Healthineers",
+      "first_seen": "2026-10-18T17:41:53.032907",
+      "last_seen": "2026-10-18T17:48:19.125552",
+      "times_seen": 4
+    },
+    {
+      "hash": "3ea2776f8bfd78e97c8fd6e23f9ce882",
+      "title": "Commercial Analytics and Operations Lead, Business Development Unit",
+      "company": "FairJourney Bio",
+      "first_seen": "2026-10-18T17:41:53.034039",
+      "last_seen": "2026-10-18T17:48:19.126124",
+      "times_seen": 2
+    },
+    {
+      "hash": "51230aacaeebb14bf033f594afa78612",
+      "title": "Senior Manager, GBS Process & Analytics Services - Commercial",
+      "company": "AstraZeneca",
+      "first_seen": "2026-10-18T17:41:53.034600",
+      "last_seen": "2026-10-18T17:48:19.126652",
+      "times_seen": 2
+    },
+    {
+      "hash": "6474db1d2738126d9c87af13ea34b24d",
+      "title": "Process Optimisation Senior Analyst",
+      "company": "Decskill",
+      "first_seen": "2026-10-18T17:41:53.035162",
+      "last_seen": "2026-10-18T17:48:19.127278",
+      "times_seen": 2
+    },
+    {
+      "hash": "ccb5d6617e0662445b8e73c0302d1671",
+      "title": "Senior Process Optimisation Analyst",
+      "company": "Decskill",
+      "first_seen": "2026-10-18T17:41:53.035737",
+      "last_seen": "2026-10-18T17:48:19.127906",
+      "times_seen": 2
+    },
+    {
+      "hash": "ea4f8cf9d245013f202463deba7ded49",
+      "title": "IT Business Analyst (M/F)",
+      "company": "Tecnimede Group",
+      "first_seen": "2026-10-18T17:41:53.036305",
+      "last_seen": "2026-10-18T17:48:19.128542",
+      "times_seen": 2
+    },
+    {
+      "hash": "f9cd0e4fb4a35c667a4df40a5fe88db8",
+      "title": "Manager, Manufacturing",
+      "company": "Hikma Pharmaceuticals",
+      "first_seen": "2026-10-18T17:41:53.036851",
+      "last_seen": "2026-10-18T17:48:19.129121",
+      "times_seen": 2
+    },
+    {
+      "hash": "86a3fd8cc5a039853ce3b8838cf44197",
+      "title": "Team Leader - CRM Operations, Governance & Reporting",
+      "company": "Convatec",
+      "first_seen": "2026-10-18T17:41:53.037429",
+      "last_seen": "2026-10-18T17:48:19.129647",
+      "times_seen": 2
+    },
+    {
+      "hash": "c81b9fea52977f4b9a037ce1e304305f",
+      "title": "Business Analyst, Operations",
+      "company": "Hikma Pharmaceuticals",
+      "first_seen": "2026-10-18T17:41:53.038028",
+      "last_seen": "2026-10-18T17:48:19.130200",
+      "times_seen": 2
+    },
+    {
+      "hash": "c65b35a98041598efa80c81fe549cb18",
+      "title": "Transcend IM: Senior Manager, Logistics Network & Orchestration",
+      "company": "Johnson & Johnson MedTech",
+      "first_seen": "2026-10-18T17:41:53.038640",
+      "last_seen": "2026-10-18T17:48:19.130725",
+      "times_seen": 2
+    },
+    {
+      "hash": "b895b9ef876fe664ad498f614309ef94",
+      "title": "Enterprise Process Expert – Order to Invoice",
+      "company": "AstraZeneca",
+      "first_seen": "2026-10-18T17:41:53.039257",
+      "last_seen": "2026-10-18T17:48:19.131325",
+      "times_seen": 2
+    },
+    {
+      "hash": "bd5a8085566e03ba6551f73e02f465da",
+      "title": "Senior Java Software Developer",
+      "company": "INSCALE",
+      "first_seen": "2026-10-18T17:41:53.058941",
+      "last_seen": "2026-10-18T17:48:19.148881",
+      "times_seen": 2
+    }
+  ]
+}
